@@ -9,7 +9,7 @@
 
 ## Installation
 
-*Option 1.*
+### Option 1
 
 This option allows authors to specify personal preferences for a language and allows you to change the system language in your system preferences through the administration panel.
 
@@ -17,7 +17,7 @@ Download the [Localisation Manager](http://github.com/nilshoerrmann/localisation
 
 After installing Localisation Manager successfully, you'll find a new setting in your preferences allowing you to switch the system language. Authors can override this global preference with a custom setting in their profiles.
 
-*Option 2.*
+### Option 2
 
 This option works without the [Localisation Manager](http://github.com/nilshoerrmann/localisationmanager) and is less flexible. It only allows you to set the system language manually in the configuration file, and does not allow authors to specify a personal preference for a language.
 
