@@ -8,7 +8,7 @@ Deutsche Übersetzung für [Symphony](http://www.symphony-cms.com).
 - Requirements: Symphony 2.0.3 or greater
 - Author: Symphony Localisation Team, team@symphony-cms.com
 - Constributors: [A list of contributors can be found in the commit history](http://github.com/nilshoerrmann/symphony_german/commits/master)
-- GitHub Repository: <http://github.com/nilshoerrmann/symphony_germa>
+- GitHub Repository: <http://github.com/nilshoerrmann/symphony_german>
 
 ## Installation & Updating
 
