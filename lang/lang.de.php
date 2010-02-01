@@ -6,7 +6,7 @@
 			'name' => 'Nils Hörrmann',
 			'email' => 'post@nilshoerrmann.de',
 		),
-		'release-date' => '2009-09-19',
+		'release-date' => '2010-02-01',
 	);
 	
 	
@@ -33,10 +33,10 @@
 		'%s Ausgabe HTML-konform kodieren.',
 
 		'%s Hide this section from the Publish menu' => 
-		'%s Diesen Bereich im Menü ausblenden.',
+		'%s Diesen Bereich nicht im Menü anzeigen.',
 
 		'%s Pre-populate this field with today\'s date' => 
-		'%s Dieses Feld mit dem heutigen Datum vorausfüllen.',
+		'%s Dieses Feld mit dem heutigen Datum vorbelegen.',
 
 		'%s Make this a required field' => 
 		'%s Dieses Feld verpflichtend machen.',
@@ -93,7 +93,7 @@
 		'Aktiviert',
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
-		'Alle diese Felder können dynamisch befüllt werden, indem Sie den genauen Feldnamen eines anderen Feldes des Formulares verwenden, wie das beigefügte Beispiel zeigt:',
+		'Alle diese Felder können dynamisch befüllt werden, indem Sie den genauen Feldnamen eines anderen Feldes des Formulares verwenden, wie das nachfolgende Beispiel zeigt:',
 
 		'General' => 
 		'Allgemein',
@@ -102,7 +102,7 @@
 		'Altes Passwort',
 
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		'An diesem Ort konnte kein Verzeichnis <code>/symphony</code> gefunden weren. Bitte laden Sie den Inhalt des Symphony-Installationspakets hierher hoch.',
+		'An diesem Ort konnte kein Verzeichnis <code>/symphony</code> gefunden werden. Bitte laden Sie den Inhalt des Symphony-Installationspakets hierher hoch.',
 
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
 		'An diesem Ort wurde ein bereits existierendes <code>/workspace</code>-Verzeichnis gefunden. Symphony wird diesen Workspace verwenden.',
@@ -171,7 +171,7 @@
 		'Beim Speichern sind unbekannte Fehler aufgetreten.',
 
 		'Some errors were encountered while attempting to save.' => 
-		'Beim Versucht zu speichern sind Fehler aufgetreten.',
+		'Beim Versuch zu speichern sind Fehler aufgetreten.',
 
 		'Example Front-end Form Markup' => 
 		'Beispiel-Frontend-Formular',
@@ -213,7 +213,7 @@
 		'Beschreibung',
 
 		'Please add the following personal details for this user.' => 
-		'Bitte ergänzen Sie die nachfolgenden persönlichen Informationen dieses Nutzers.',
+		'Bitte ergänzen Sie die nachfolgenden persönlichen Informationen des Nutzers.',
 
 		'Please provide Symphony with access to a database.' => 
 		'Bitte räumen Sie Symphony einen Datenbankzugang ein.',
@@ -228,16 +228,16 @@
 		'Das Hochladen von \'%s\' ist fehlgeschlagen. Der Vorgang wurde von einer Erweiterung unterbrochen.',
 
 		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
-		'Das Hochladen von \'%s\' ist fehlgeschlagen. Temporäre Datei konnte nicht gespeichert werden.',
+		'Das Hochladen von \'%s\' ist fehlgeschlagen. Die temporäre Datei konnte nicht gespeichert werden.',
 
 		'Password is required' => 
 		'Das Passwort ist eine Pflichtangabe',
 
 		'The password and confirmation did not match. Please retype your password.' => 
-		'Das Passwort und seine Wiederholung stimmten nicht überein. Bitte geben Sie Ihr Passwort erneut ein.',
+		'Das Passwort und dessen Wiederholung stimmten nicht überein. Bitte geben Sie Ihr Passwort erneut ein.',
 
 		'Destination folder, <code>%s</code>, is not writable. Please check permissions.' => 
-		'Das Zielverzeichnis <code>%s</code> ist nicht schreibbar. Bitte überprüfen Sie die Zugriffsrechte.',
+		'Das Zielverzeichnis <code>%s</code> ist nicht beschreibbar. Bitte überprüfen Sie die Zugriffsrechte.',
 
 		'Can\'t open file %s' => 
 		'Datei %s konnte nicht geöffnet werden',
@@ -324,7 +324,7 @@
 		'Die E-Mail-Adresse ist eine Pflichtangabe',
 
 		'E-mail address entered is invalid' => 
-		'Die eigegebene E-Mail-adresse ist ungültig',
+		'Die eingegebene E-Mail-Adresse ist ungültig',
 
 		'Could not find extension at location %s' => 
 		'Die Erweiterung konnte nicht unter %s gefunden werden.',
@@ -339,7 +339,7 @@
 		'Die Seite, die Sie bearbeiten möchten, existiert nicht.',
 
 		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
-		'Die Symphony-Konfigurationsdatei <code>/manifest/config.php</code> ist nicht lesbar. Sie werden keine Änderungen der Voreinstellungen speichern können.',
+		'Die Symphony-Konfigurationsdatei <code>/manifest/config.php</code> ist nicht lesbar. Die Änderungen der Voreinstellungen werden nicht gespeichert.',
 
 		'This is an example of the form markup you can use on your frontend:' => 
 		'Dies ist ein Beispiel, dass Sie für Ihr Frontend-Formular nutzen können:',
@@ -414,10 +414,10 @@
 		'Ein Feld mit diesem Elementnamen existiert bereits. Bitte wählen Sie einen anderen.',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
-		'Ein neues Passwort wurden für Ihren Zugang angefordert. Sie können sich anmelden, indem Sie nachfolgendem Link folgen, und dann Ihr Passwort im Autorenbereich ändern:',
+		'Ein neues Passwort wurde für Ihren Zugang angefordert. Sie können sich anmelden, indem Sie nachfolgendem Link folgen, und dann Ihr Passwort im Autorenbereich ändern:',
 
 		'A file with the name %1$s already exists in %2$s. Please rename the file first, or choose another.' => 
-		'Eine Datei mit de mNamen %1$s existiert bereits in %2$s. Bitte benennen Sie die Datei zuerst um oder wähle Sie eine andere.',
+		'Eine Datei mit dem Namen %1$s existiert bereits in %2$s. Bitte benennen Sie die Datei zuerst um oder wähle Sie eine andere.',
 
 		'A Data source with the name <code>%s</code> name already exists' => 
 		'Eine Datenquelle mit dem Namen <code>%s</code> existiert bereits',
@@ -525,7 +525,7 @@
 		'Es scheint bereits eine <code>.htaccess</code>-Datei innerhalb des Verzeichnisses <code>/symphony</code> zu existieren.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the Symphony install location. To avoid name clashes, you will need to delete or rename this file.' => 
-		'Es scheint bereits eine <code>.htaccess</code>-Datei innerhalb Ihrer Symphony-Installation zu existieren. Um Missverständnisse zu vermeiden, müssen Sie diese löschen oder umbenennen.',
+		'Es scheint bereits eine <code>.htaccess</code>-Datei innerhalb Ihrer Symphony-Installation zu existieren. Um Überschneidungen zu vermeiden, müssen Sie diese löschen oder umbenennen.',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Es wird in zwei Stunden ablaufen. Falls Sie kein neues Passwort angefordert haben, ignorieren Sie bitte diese Nachricht.',
@@ -858,13 +858,13 @@
 		'Symphony benötigt Lese- und Schreibrechte für Dateien und Verzeichnisse.',
 
 		'Symphony does not have write permission to the <code>/manifest</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		'Symphony hat keine Schreibrechte das Verzeichnis <code>/manifest</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses und seiner Inhalte an, zum Beispiel mit einen rekursiven <code>chmod -R</code> Kommando.',
+		'Symphony hat keine Schreibrechte für das Verzeichnis <code>/manifest</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses und seiner Inhalte an, zum Beispiel mit einen rekursiven <code>chmod -R</code> Kommando.',
 
 		'Symphony does not have write permission to the <code>/symphony</code> directory. Please modify permission settings on this directory. This is necessary only during installation, and can be reverted once installation is complete.' => 
-		'Symphony hat keine Schreibrechte das Verzeichnis <code>/symphony</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses an. Diese Änderung ist nur während der Installation nötig und kann danach rückgängig gemacht werden.',
+		'Symphony hat keine Schreibrechte für das Verzeichnis <code>/symphony</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses an. Diese Änderung ist nur während der Installation nötig und kann danach rückgängig gemacht werden.',
 
 		'Symphony does not have write permission to the existing <code>/workspace</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		'Symphony hat keine Schreibrechte das Verzeichnis <code>/workspace</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses und seiner Inhalte an, zum Beispiel mit einen rekursiven <code>chmod -R</code> Kommando.',
+		'Symphony hat keine Schreibrechte für das Verzeichnis <code>/workspace</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses und seiner Inhalte an, zum Beispiel mit einen rekursiven <code>chmod -R</code> Kommando.',
 
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
 		'Symphony hat keine Schreibrechte für die temporäre <code>.htaccess</code>-Datei. Bitte passen Sie die Zugriffsrechte dieser Datei so an, dass sie umbenannt und beschrieben werden kann.',
@@ -879,7 +879,7 @@
 		'Symphony ist bereit für die Installation an nachfolgendem Ort.',
 
 		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		'Symphony verwendet normalerweise UTF-8-Zeichenkodierung für Datenbankeinträge. Im Kompatibilitätsmodus verwendet Symphony anstelle dessen die Standardzeichenkodierung ihrer Datenbank.',
+		'Symphony verwendet normalerweise UTF-8-Zeichenkodierung für Datenbankeinträge. Im Kompatibilitätsmodus verwendet Symphony anstelle die Standardzeichenkodierung ihrer Datenbank.',
 
 		'Symphony was unable to connect to the specified database. You may need to modify host or port settings.' => 
 		'Symphony war nicht in der Lage eine Verbindung zur angegebenen Datenbank aufzubauen. Möglicherweise müssen Sie Ihre Host- oder Port-Einstellungen anpassen.',
@@ -1071,7 +1071,7 @@
 		'Ergebnisgruppierung für Datenquellen wird vom Feld <code>%s</code> nicht unterstützt',
 
 		'Enter your email address to be sent a remote login link with further instructions for logging in.' => 
-		'Geben Sie Ihre E-Mail-Adresse an, um einen Link mit weiteren Erläuterungen zur Anmeldung zugesandt zubekommen.',
+		'Geben Sie Ihre E-Mail-Adresse an, um einen Link mit weiteren Erläuterungen zur Anmeldung zugesandt zu bekommen.',
 
 		'File chosen in \'%s\' does not match allowable file types for that field.' => 
 		'Die in \'%s\' ausgewählte Datei entspricht keinem erlaubten Dateityp für dieses Feld.',
@@ -1155,7 +1155,7 @@
 		'Formatierung',
 
 		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
-		'Wenn dieser Parameter keinen Wert hat, wird ein leeres Ergebnis ausgegeben. Umschließen Sie das Parameter nicht mit geschweiften Klammern.',
+		'Wenn dieser Parameter keinen Wert hat, wird ein leeres Ergebnis ausgegeben. Umschließen Sie den Parameter nicht mit geschweiften Klammern.',
 
 		'Template' => 
 		'Vorlage',
@@ -1215,7 +1215,7 @@
 		'Der Zielordner <code>%s</code> existiert nicht.',
 
 		'Directory <code>%s</code> does not exists.' => 
-		'Der ordner <code>%s</code> existiert nicht.',
+		'Der Ordner <code>%s</code> existiert nicht.',
 
 		'Blueprints' => 
 		'Blaupausen',
@@ -1224,7 +1224,7 @@
 		'%1$s Remotezugriff über <a href="%2$s">%2$s</a> erlauben',
 
 		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
-		'Beim verarbeiten dieses Formulars ist ein Fehler aufgetreten. <a href="#error">Details siehe unten.</a>',
+		'Beim Verarbeiten dieses Formulars ist ein Fehler aufgetreten. <a href="#error">Details siehe unten.</a>',
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%2$s">View all Data sources</a>' => 
 		'Diese Datenquelle wurde um %1$s aktualisiert. <a href="%2$s">Eine neue erstellen?</a> <a href="%2$s">Alle Datenquellen anzeigen.</a>',
@@ -1260,7 +1260,7 @@
 		'%s %s um %s. <a href="%s">Eine(n) neue(n) erstellen?</a> <a href="%s">Alle %s anzeigen.</a>',
 
 		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
-		'Ein unbekannter Fehler ist beim Speichern aufgetraten. Bitte überprüfen Sie Ihr <a href="%s">Systemlogbuch</a>.',
+		'Ein unbekannter Fehler ist beim Speichern aufgetreten. Bitte überprüfen Sie Ihr <a href="%s">Systemlogbuch</a>.',
 
 		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
 		'Das übermittelte Passwort wurde nicht akzeptiert. <a href="%s">Ein neues anfordern?</a>',
@@ -1317,7 +1317,7 @@
 		'Die gewählte Datei überschreitet die für Symphony festgelegte maximale Uploadgröße von %2$s.',
 
 		'The send email filter, upon the event successfully saving the entry, takes input from the form and send an email to the desired recipient. <b>This filter currently does not work with the "Allow Multiple" option.</b> The following are the recognised fields:' => 
-		'Der Filter zum Versenden von E-Mail schickt, sofern das Ereignis erfolgreich gespeichert werden konnte, alle Eingaben des Formulars an den gewünschten Empfänger. <b>Diese Filter funktioniert derzeit nicht, wenn Sie die Erstellung mehrerer Einträge zulassen.</b> Folgende Felder werden vom Filter erkannt:',
+		'Der Filter zum Versenden von E-Mail schickt, sofern das Ereignis erfolgreich gespeichert werden konnte, alle Eingaben des Formulars an den gewünschten Empfänger. <b>Dieser Filter funktioniert derzeit nicht, wenn Sie die Erstellung mehrerer Einträge zulassen.</b> Folgende Felder werden vom Filter erkannt:',
 
 		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
 		'Der Bereich wurde um %1$s aktualisiert. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Bereiche anzeigen.</a>',
@@ -1403,265 +1403,6 @@
 
 		'about {$hours} hours ago' => 
 		'vor etwa {$hours} Stunden',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: Debug DevKit
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'XML' => 
-		'XML',
-
-		'Debug' => 
-		'Debug',
-
-		'Params' => 
-		'Parameter',
-
-		'Result' => 
-		'Ergebnis',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: Export Ensemble
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'Existing Installation' => 
-		'Existierende Installation',
-
-		'Install Symphony <em>Version %s</em>' => 
-		'Installiere Symphony, <em>Version %s</em>',
-
-		'It appears that Symphony has already been installed at this location.' => 
-		'Anscheinend ist Symphony bereits an diesem Ort installiert.',
-
-		'Export Ensemble' => 
-		'Ensemble-Export',
-
-		'Create' => 
-		'Erstellen',
-
-		'Packages entire site as a <code>.zip</code> archive for download.' => 
-		'Stellt die gesamte Seite als <code>Zip</code>-Archiv zur Verfügung.',
-
-		'Export Ensemble cannot be installed, since the "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" class is not available. Ensure that PHP was compiled with the <code>--enable-zip</code> flag.' => 
-		'Ensemble-Export kann nicht installiert werden, weil die Klasse "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" nicht verfügbar ist. Stellen Sie sicher, dass PHP mit <code>--enable-zip</code> kompiliert wurde.',
-
-		'Warning: It appears you do not have the "ZipArchive" class available. Ensure that PHP was compiled with <code>--enable-zip</code>' => 
-		'Warnung: Anscheinend ist die Klasse "ZipArchive" nicht verfügbar. Stellen Sie sicher, dass PHP mit <code>--enable-zip</code> kompiliert wurde.',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: JIT Image Manipulation
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'Error reading external image <code>%s</code>. Please check the URI.' => 
-		'Fehler beim Lesen des externen Bildes <code>%s</code>. Bitte überprüfen Sie die URI.',
-
-		'Error writing to temporary file <code>%s</code>.' => 
-		'Fehler beim Schreiben der temporären Daten <code>%s</code>.',
-
-		'Error loading image <code>%s</code>. Check it exists and is readable.' => 
-		'Fehler beim Laden des Bildes <code>%s</code>. Überprüfen Sie, ob es tatsächlich exisitiert und lesbar ist.',
-
-		'Cannot load CMYK JPG Images' => 
-		'JPG-Bilder in CMYK können nicht geladen werden',
-
-		'Unsupported image type. Supported types: GIF, JPEG and PNG' => 
-		'Bildtyp nicht unterstützt. Unterstützte Typen: GIF, JPEG und PNG',
-
-		'Invalid image resource supplied' => 
-		'Diese Bilddatei ist ungültig',
-
-		'Error: Connecting to that external site is not permitted.' => 
-		'Fehler: Eine Verbindung mit dieser externen Seite ist nicht gestattet.',
-
-		'Image <code>%s</code> could not be found.' => 
-		'Das Bild <code>%s</code> konnte nicht gefunden werden.',
-
-		'Error generating image' => 
-		'Fehler bei Erzeugen des Bildes',
-
-		'JIT Image Manipulation' => 
-		'JIT-Bildmanipulation',
-
-		'Trusted Sites' => 
-		'Vertrauenswürdige Seiten',
-
-		'Leave empty to disable external linking. Single rule per line. Add * at end for wild card matching.' => 
-		'Lassen Sie dieses Feld frei, wenn Sie externe Verweise unterbinden wollen. Eine Regel pro Zeile. Verwenden Sie * als Maskenzeichen.',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: Localisation Manager
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'%1$s &ndash; %2$s' => 
-		'%1$s &ndash; %2$s',
-
-		'Symphony' => 
-		'Symphony',
-
-		'Language Manager' => 
-		'Sprachverwaltung',
-
-		'Export Settings' => 
-		'Exporteinstellungen',
-
-		'Language' => 
-		'Sprache',
-
-		'e. g. Deutsch, Français' => 
-		'z. B. Deutsch, Français',
-
-		'Language Code' => 
-		'Sprachcode',
-
-		'e. g. de, fr' => 
-		'z. B. de, fr',
-
-		'If you enter details of an already existing language, your download will contain all current strings highlighting missing ones. <br />If you leave all fields blank, a clean, untranslated language file will be returned.' => 
-		'Wenn Sie eine bereits existierende Sprache auswählen, wird Ihr Download alle derzeit verfügbaren Übersetzungen beinhalten und die fehlenden hervorheben. <br />Wenn Sie alle Felder leer lassen, erhalten Sie eine leere, nicht übersetzte Sprachdatei.',
-
-		'Download Language File' => 
-		'Sprachdatei herunterladen',
-
-		'System Language' => 
-		'Systemsprache',
-
-		'Authors can set up a differing language in their profiles.' => 
-		'Autoren können in Ihren Profilen abweichende Spracheinstellungen vornehmen.',
-
-		'Custom Preferences' => 
-		'Benutzereinstellungen',
-
-		'System Standard' => 
-		'Systemstandard',
-
-		'Localisation Manager' => 
-		'Localisation Manager',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: Maintenance Mode
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'Maintenance Mode' => 
-		'Wartungsmodus',
-
-		'Enable maintenance mode' => 
-		'Wartungsmodus aktivieren',
-
-		'Maintenance mode will redirect all visitors, other than developers, to the specified maintenance page.' => 
-		'Der Wartungsmodus leitet alle Besucher, die nicht als Entwickler registriert sind, auf eine festgelegte Wartungsseite um (Seitentyp: <code>maintenance</code>).',
-
-		'This site is currently in maintenance mode. <a href="%s/symphony/system/preferences/?action=toggle-maintenance-mode&amp;redirect=%s">Restore?</a>' => 
-		'Diese Seite ist derzeit im Wartungsmodus. <a href="%s/symphony/system/preferences/?action=toggle-maintenance-mode&amp;redirect=%s">Seite freischalten?</a>',
-
-		'Website Offline' => 
-		'Webseite offline',
-
-		'This site is currently in maintenance. Please check back at a later date.' => 
-		'Diese Seite ist derzeit im Wartungsmodus. Bitte versuchen Sie es später noch einmal.',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: Profile DevKit
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'Profile' => 
-		'Profil',
-
-		'General Details' => 
-		'Allgemeine Details',
-
-		'Datasource Execution' => 
-		'Datenquellenausführung',
-
-		'Event Execution' => 
-		'Ereignisausführung',
-
-		'Full Page Render Statistics' => 
-		'Gesamtstatistik der Seiteneinstellung',
-
-		'Slow Query Details' => 
-		'Details zu langsamen Abfragen',
-
-		'Total Database Queries' => 
-		'Gesamtzahl der Datenbankabfragen',
-
-		'Slow Queries (> 0.09s)' => 
-		'Langsame Abfragen (> 0,09 Sek.)',
-
-		'Total Time Spent on Queries' => 
-		'Gesamtabfragezeit',
-
-		'Time Triggering All Events' => 
-		'Ausführzeit aller Ereignisse',
-
-		'Time Running All Data Sources' => 
-		'Ausführzeit aller Datenquellen',
-
-		'XML Generation Function' => 
-		'Funktion zur XML-Erzeugung',
-
-		'XSLT Generation' => 
-		'XSLT-Erzeugung',
-
-		'Output Creation Time' => 
-		'Gesamtausgabezeit',
-
-	);
-	
-	
-	/*
-	 * EXTENSION: Field: Select Box Link
-	 * Localisation strings
-	 */
-
-	$dictionary += array(
-	
-		'Select Box Link' => 
-		'Auswahlfeldverknüpfung',
-
-		'Options' => 
-		'Optionen',
-
-		'Limit to the %s most recent entries' => 
-		'Auf die %s neusten Einträge begrenzen.',
-
-		'Allow selection of multiple options' => 
-		'Erlaube Mehrfachauswahl.',
 
 	);
 	
