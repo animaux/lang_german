@@ -1,6 +1,6 @@
 <?php
 
-	Class extension_mediathek extends Extension {
+	Class extension_Symphony_German extends Extension {
 
 		/**
 		 * Extension information
