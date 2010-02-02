@@ -1,6 +1,6 @@
 <?php
 
-	Class extension_Symphony_German extends Extension {
+	Class extension_lang_german extends Extension {
 
 		/**
 		 * Extension information
@@ -8,8 +8,8 @@
 
 		public function about() {
 			return array(
-				'name' => 'German Localisation',
-				'type' => 'Interface',
+				'name' => 'Language: German',
+				'type' => 'Localisation',
 				'version' => '1.1',
 				'release-date' => '2010-02-01',
 				'author' => array(
@@ -17,7 +17,7 @@
 					'website' => 'http://www.nilshoerrmann.de',
 					'email' => 'post@nilshoerrmann.de'
 				),
-				'description' => 'German translation for the Symphony backend',
+				'description' => 'Official German translation for the Symphony backend',
 				'compatibility' => array(
 					'2.0.0' => false,
 					'2.0.1' => false,
