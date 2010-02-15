@@ -1394,7 +1394,7 @@
 		'An diesem Ort konnte kein Verzeichnis <code>/symphony</code> gefunden werden. Bitte laden Sie den Inhalt des Symphony-Installationspakets hierher hoch.',
 
 		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Diese Seiten wurdeu m%1$s erstellt. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Seiten anzeigen</a>',
+		'Diese Seiten wurde um %1$s erstellt. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Seiten anzeigen</a>',
 
 		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
 		'Diese Seite wurde um %1$s aktualisiert. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Seiten anzeigen</a>',
