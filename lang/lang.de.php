@@ -296,7 +296,7 @@
 		'Das Feld <code>%1$s</code> konnte nicht unter <code>%2$s</code> gefunden werden. Wenn dieses Feld von einer Erweiterung bereitgestellt wurde, überprüfen Sie, dass diese installiert und aktiviert ist.',
 
 		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Der Textformatierer <code>%s</code> konnte nicht gefunden werden. Wenn dieser Textformatierer von einer Erweiterung bereitgestellt wurde, überprüfen Sie, dass diese installiert und aktiviert ist.',
+		'Der Textformatierer <code>%s</code> konnte nicht gefunden werden. Wenn der Textformatierer von einer Erweiterung bereitgestellt wurde, überprüfen Sie, dass diese installiert und aktiviert ist.',
 
 		'Create a new data source' => 
 		'Neue Datenquelle erstellen',
@@ -1419,6 +1419,9 @@
 
 		'User Type' => 
 		'Benutzertyp',
+		
+		'Text Formatter' =>
+		'Textformatierung',
 
 	);
 
