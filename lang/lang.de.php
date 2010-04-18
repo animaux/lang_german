@@ -1427,7 +1427,7 @@
 		'Beispiel-XML',
 
 		'released on' =>
-		'veröffentlich am',
+		'veröffentlicht am',
 		
 	);
 
