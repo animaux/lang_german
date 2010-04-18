@@ -1426,7 +1426,7 @@
 		'Example XML' =>
 		'Beispiel-XML',
 
-		'release on' =>
+		'released on' =>
 		'veröffentlich am',
 		
 	);
