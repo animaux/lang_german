@@ -1424,11 +1424,11 @@
 		'Textformatierung',
 		
 		'Example XML' =>
-		'Beispiel-XML';
+		'Beispiel-XML',
 
 		'release on' =>
-		'veröffentlich am';
-
+		'veröffentlich am',
+		
 	);
 
 
