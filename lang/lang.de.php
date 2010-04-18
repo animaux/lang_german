@@ -1422,6 +1422,12 @@
 		
 		'Text Formatter' =>
 		'Textformatierung',
+		
+		'Example XML' =>
+		'Beispiel-XML';
+
+		'release on' =>
+		'veröffentlich am';
 
 	);
 
