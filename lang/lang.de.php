@@ -1355,10 +1355,10 @@
 		'Benutzerdefinierte Einstellungen',
 
 		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Diese Datenquelle wurde um %1$s erstellt. <a href="%2$s">Eine neue erstellen?</a> <a href="%2$s">Alle Datenquellen anzeigen.</a>',
+		'Diese Datenquelle wurde um %1$s erstellt. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Datenquellen anzeigen.</a>',
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Diese Datenquelle wurde um %1$s aktualisiert. <a href="%2$s">Eine neue erstellen?</a> <a href="%2$s">Alle Datenquellen anzeigen.</a>',	
+		'Diese Datenquelle wurde um %1$s aktualisiert. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Datenquellen anzeigen.</a>',	
 
 		'Daylight savings time' => 
 		'Sommerzeit',
