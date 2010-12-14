@@ -208,8 +208,8 @@
 		'Author' => 
 		'Autor',
 
-		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Der Autor wurde um %1$s erstellt. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Autoren anzeigen.</a>',
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Der Autor wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Autoren anzeigen.</a>',
 
 		'Author ID' => 
 		'Autor-ID',
@@ -220,8 +220,8 @@
 		'authors' => 
 		'autoren',
 
-		'Author updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Der Autor wurde um %1$s aktualisiert. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Autoren anzeigen.</a>',
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Der Autor wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Autoren anzeigen.</a>',
 
 		'A Utility with that name already exists. Please choose another.' => 
 		'Es existiert bereits ein Baustein mit dem namen <code>%s</code>.',
@@ -469,8 +469,8 @@
 		'Entries' => 
 		'Einträge',
 
-		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Der Eintrag wurde um %1$s erstellt. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Einträge anzeigen.</a>',
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Der Eintrag wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Einträge anzeigen.</a>',
 
 		'Entry created successfully.' => 
 		'Eintrag erfolgreich erstellt.',
@@ -484,8 +484,8 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Die festgelegte Obergrenze entspricht keinem gültigen Typ. String oder Integer erwartet. ',
 
-		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Dieser Eintrag wurde um %1$s aktualisiert. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Einträge anzeigen.</a>',
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Dieser Eintrag wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Einträge anzeigen.</a>',
 
 		'Entry [created | edited] successfully.' => 
 		'Eintrag erfolgreich [erstellt | bearbeitet].',
@@ -499,14 +499,14 @@
 		'Essentials' => 
 		'Grundangaben',
 
-		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		'Dieses Ereignis wurde um %1$s erstellt. <a href="%2$s">Ein neues erstellen?</a> <a href="%2$s">Alle Ereignisse anzeigen.</a>',
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Dieses Ereignis wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Ein neues erstellen?</a> <a href="%2$s" accesskey="a">Alle Ereignisse anzeigen.</a>',
 
 		'Events' => 
 		'Ereignisse',
 
-		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		'Dieses Ereignis wurde um %1$s aktualisiert. <a href="%2$s">Ein neues erstellen?</a> <a href="%2$s">Alle Ereignisse anzeigen.</a>',
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Dieses Ereignis wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Ein neues erstellen?</a> <a href="%2$s" accesskey="a">Alle Ereignisse anzeigen.</a>',
 
 		'Example Front-end Form Markup' => 
 		'Beispiel-Frontend-Formular',
@@ -883,8 +883,8 @@
 		'Save Changes' => 
 		'Änderungen speichern',
 
-		'Section created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Der Bereich wurde um %1$s erstellt. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Bereiche anzeigen.</a>',
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Der Bereich wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Bereiche anzeigen.</a>',
 
 		'Section is invalid' => 
 		'Der Bereich ist ungültig',
@@ -895,8 +895,8 @@
 		'Sections' => 
 		'Bereiche',
 
-		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Der Bereich wurde um %1$s aktualisiert. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Bereiche anzeigen.</a>',
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Der Bereich wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Bereiche anzeigen.</a>',
 
 		'Select Box' => 
 		'Auswahlfeld',
@@ -1234,11 +1234,11 @@
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Baustein konnte nicht auf der Festplatte gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte für <code>/workspace/utilities</code>.',
 
-		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Der Baustein wurde um %1$s erstellt. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Bausteine anzeigen.</a>',
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Der Baustein wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Bausteine anzeigen.</a>',
 
-		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Der Baustein wurde um %1$s aktualisiert. <a href="%2$s">Einen neuen erstellen?</a> <a href="%3$s">Alle Bausteine anzeigen.</a>',
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Der Baustein wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Alle Bausteine anzeigen.</a>',
 
 		'Validation Rule <i>Optional</i>' => 
 		'Validierungsregel <i>optional</i>',
@@ -1354,11 +1354,11 @@
 		'Custom Preferences' => 
 		'Benutzerdefinierte Einstellungen',
 
-		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Diese Datenquelle wurde um %1$s erstellt. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Datenquellen anzeigen.</a>',
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Diese Datenquelle wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Alle Datenquellen anzeigen.</a>',
 
-		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Diese Datenquelle wurde um %1$s aktualisiert. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Datenquellen anzeigen.</a>',	
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Diese Datenquelle wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Alle Datenquellen anzeigen.</a>',	
 
 		'Daylight savings time' => 
 		'Sommerzeit',
@@ -1393,14 +1393,14 @@
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
 		'An diesem Ort konnte kein Verzeichnis <code>/symphony</code> gefunden werden. Bitte laden Sie den Inhalt des Symphony-Installationspakets hierher hoch.',
 
-		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Diese Seiten wurde um %1$s erstellt. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Seiten anzeigen</a>',
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Diese Seiten wurde um %1$s erstellt. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Alle Seiten anzeigen</a>',
 
-		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Diese Seite wurde um %1$s aktualisiert. <a href="%2$s">Eine neue erstellen?</a> <a href="%3$s">Alle Seiten anzeigen</a>',
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Diese Seite wurde um %1$s aktualisiert. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Alle Seiten anzeigen</a>',
 
-		'Page updated at %s. <a href="%s">View all Pages</a>' => 
-		'Diese Seite wurde um %1$s aktualisiert. <a href="%3$s">Alle Seiten anzeigen</a>',
+		'Page updated at %s. <a href="%s" accesskey="a">View all Pages</a>' => 
+		'Diese Seite wurde um %1$s aktualisiert. <a href="%3$s" accesskey="a">Alle Seiten anzeigen</a>',
 		
 		'System Default' => 
 		'Systemstandard',
