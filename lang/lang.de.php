@@ -7,7 +7,7 @@
 			'email' => 'post@nilshoerrmann.de',
 			'website' => 'http://www.nilshoerrmann.de'
 		),
-		'release-date' => '2011-02-01'
+		'release-date' => '2011-02-15'
 	);
 
 	/**
@@ -39,6 +39,12 @@
 		'%s Checked by default' => 
 		'%s Standardmäßig ausgewählt.',
 
+		'%s Display field’s value in entries table' => 
+		'%s Zeige Feld in der tabellarischen Übersicht',
+
+		'%s Display relationship in linked sections' => 
+		'%s Zeige Verbindung in verknüpftem Bereich',
+
 		'%s HTML-encode text' => 
 		'%s Ausgabe HTML-konform kodieren.',
 
@@ -51,17 +57,20 @@
 		'%s Make this a required field' => 
 		'%s Dieses Feld verpflichtend machen.',
 
+		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
+		'%s Paginiere die Ausgabe, mit %s Einträgen pro Seite. Beginne auf Seite %s',
+
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Auf 404-Fehlerseite umleiten, wenn keine Ergebnisse gefunden werden können.',
 
 		'%s Select current user by default' => 
 		'%s Den aktuellen Benutzer vorauswählen',
 
-		'%s Show column' => 
-		'%s In der Übersicht anzeigen',
+		'%s has timed out' => 
+		'Zeitüberschreitung für %s',
 
-		'%s Show column in linked sections' => 
-		'%s Zeige Spalte in verknüpftem Bereich',
+		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
+		'%s is keine unterstützte Kodierungsart. Bitte verwenden Sie "quoted-printable" oder "base64". Die Verwendung von <code>false</code> überspringt die Kodierung.',
 
 		'&larr; Previous' => 
 		'&larr; Vorherige',
@@ -174,14 +183,17 @@
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
 		'An diesem Ort wurde ein bereits existierendes <code>/workspace</code>-Verzeichnis gefunden. Symphony wird diesen Workspace verwenden.',
 
+		'An extension requires updating. <a href="%s">View Extensions</a>' => 
+		'Eine Erweiterung muss aktualisiert werden. <a href="%s">Zeige Erweiterungen</a>',
+
 		'An index type page already exists.' => 
 		'Es existiert bereits eine Index-Seite.',
 
 		'An unknown database occurred while attempting to create the section.' => 
 		'Es ist ein unbekannter Datenbankfehler beim Erstellen des Bereiches aufgetreten.',
 
-		'An updater script has been found in your installation. <a href="%s/update.php">View Update</a>' => 
-		'Ein Aktualisierungsskript wurde in Ihrer Installation gefunden. <a href="%s/update.php">Zur Aktualisierung wechseln</a>',
+		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
+		'Eine Aktualisierung steht innerhalb Ihrer Installation zur Verfügung. <a href="%s">Zeige Aktualisierung</a>',
 
 		'Apply' => 
 		'Anwenden',
@@ -195,6 +207,9 @@
 		'Are you sure you want to {$action}?' => 
 		'Sind Sie sicher, dass Sie {$action} wollen?',
 
+		'As requested, here is your new Symphony Author Password for ' => 
+		'Wie angefragt, erhalten Sie Ihr neues Symphony-Passwort für ',
+
 		'At least one source must be specified, dynamic or static.' => 
 		'Mindestens eine Quelle, dynamisch oder statisch, muss festgelegt werden.',
 
@@ -204,14 +219,23 @@
 		'Author ID' => 
 		'Autor-ID',
 
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Autor um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Autoren</a>',
+
 		'Author not found' => 
 		'Autor nicht gefunden',
+
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Autor um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Autoren</a>',
 
 		'Authors' => 
 		'Autoren',
 
 		'Authors can set up a differing language in their profiles.' => 
 		'Autoren können in Ihren Profilen eine abweichende Sprache einstellen.',
+
+		'Available when using Dynamic Options' => 
+		'Verfügbar im Zusammenhang mit dynamischen Optionen',
 
 		'Best Regards,' => 
 		'Mit freundlichen Grüßen,',
@@ -233,6 +257,15 @@
 
 		'Bugs' => 
 		'Käfer',
+
+		'Can not call AUTH again.' => 
+		'AUTH darf nicht noch einmal aufgerufen werden.',
+
+		'Can not call HELO on existing session' => 
+		'HELO kann in der laufenden Session nicht aufgerufen werden',
+
+		'Cannot request a page callback without first specifying the page.' => 
+		'Ohne eine Seiteangabe, kann kein Seiten-Callback angefordert werden.',
 
 		'Cats' => 
 		'Katze',
@@ -267,6 +300,9 @@
 		'Confirm Password' => 
 		'Passwort wiederholen',
 
+		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Die Datenquelle <code>%s</code> konnte nicht gefunden werden. Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
+
 		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
 		'Das E-Mail-Gateway <code>%s</code> konnte nicht gefunden werden. Sollte das E-Mail-Gateway von einer Erweiterung bereitgestellt worden sein, überprüfen Sie ob diese installiert und aktiviert ist.',
 
@@ -284,6 +320,9 @@
 
 		'Could not read from %s' => 
 		'%s konnte nicht gelesen werden',
+
+		'Could not send request: %s' => 
+		'Anfrage konnte nicht gesendet werden: %s',
 
 		'Create Author' => 
 		'Autor erstellen',
@@ -327,6 +366,9 @@
 		'Create a section' => 
 		'Bereich erstellen',
 
+		'Created if does not exist' => 
+		'Die Gruppe wird erstellt, wenn Sie noch nicht existiert',
+
 		'Custom Preferences' => 
 		'Benutzerdefinierte Einstellungen',
 
@@ -345,8 +387,14 @@
 		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
 		'Daten, die vom Symphony-Supportserver empfangen werden, werden mit der ZLib-Kompression-Bibliothek dekomprimiert.',
 
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Datenquelle um %1$s erstellt.  <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Datenquellen</a>',
+
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'Ergebnisgruppierung für Datenquellen wird vom Feld <code>%s</code> nicht unterstützt',
+
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Datenquelle um %1$s aktualisiert. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Datenquellen</a>',
 
 		'Database' => 
 		'Datenbank',
@@ -420,11 +468,14 @@
 		'Disable' => 
 		'Deaktivieren',
 
+		'Disabled' => 
+		'Deaktiviert',
+
 		'Dogs' => 
 		'Hunde',
 
-		'Dynamic Options' => 
-		'Dynamische Optionen',
+		'Dynamic Values' => 
+		'Dynamische Werte',
 
 		'Dynamic XML' => 
 		'Dynamisches XML',
@@ -495,6 +546,9 @@
 		'Entry [created | edited] successfully.' => 
 		'Eintrag erfolgreich [erstellt | bearbeitet].',
 
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Eintrag um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Einträge</a>',
+
 		'Entry created successfully.' => 
 		'Eintrag erfolgreich erstellt.',
 
@@ -507,6 +561,9 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Die festgelegte Obergrenze entspricht keinem gültigen Typ. String oder Integer erwartet. ',
 
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Eintrag um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Einträge</a>',
+
 		'Environment Settings' => 
 		'Umgebungseinstellungen',
 
@@ -515,6 +572,12 @@
 
 		'Essentials' => 
 		'Grundangaben',
+
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Ereignis um %1$s erstellt. <a href="%2$s" accesskey="c">Ein neues erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Ereignisse</a>',
+
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Ereignis um %1$s aktualisiert. <a href="%2$s" accesskey="c">Ein neues erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Ereignisse</a>',
 
 		'Events' => 
 		'Ereignisse',
@@ -542,6 +605,9 @@
 
 		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
 		'<code>%s</code> konnte nicht gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte.',
+
+		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
+		'Die Deaktivierung der Paginierung kann sich negativ auf die Ladezeiten der Seite auswirken, wenn die Zahl der auszugebenen Einträge sehr hoch ist.',
 
 		'Fields' => 
 		'Felder',
@@ -605,6 +671,9 @@
 
 		'Handle' => 
 		'Bezeichner',
+
+		'Header fields can only contain strings' => 
+		'Header-Felder können nur Zeichenfolgen beinhalten',
 
 		'Hi %s,' => 
 		'Hi %s,',
@@ -684,8 +753,8 @@
 		'Logout' => 
 		'Abmelden',
 
-		'Long Description <i>Optional</i>' => 
-		'Lange Beschreibung <i>optional</i>',
+		'Long Description' => 
+		'Lange Beschreibung',
 
 		'Lumpy' => 
 		'Pummelig',
@@ -720,6 +789,18 @@
 		'Must be greater than zero' => 
 		'Muss größer als Null sein',
 
+		'Must call EHLO (or HELO) before calling AUTH' => 
+		'EHLO (oder HELO) muss vor AUTH aufgerufen werden',
+
+		'Must call EHLO (or HELO) before calling MAIL' => 
+		'EHLO (oder HELO) muss vor MAIL aufgerufen werden',
+
+		'Must call MAIL before calling RCPT' => 
+		'MAIL muss vor RCPT aufgerufen werden',
+
+		'Must call RCPT before calling DATA' => 
+		'RCPT muss vor DATA aufgerufen werden',
+
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 oder höher',
 
@@ -735,8 +816,8 @@
 		'Namespace' => 
 		'Namensraum',
 
-		'Namespace Declarations <i>Optional</i>' => 
-		'Namensraumdeklarationen <i>optional</i>',
+		'Namespace Declarations' => 
+		'Namensraumdeklarationen',
 
 		'Navigation' => 
 		'Navigation',
@@ -792,6 +873,9 @@
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Eine oder mehrere Seiten konnten nicht gelöscht werden. Bitte überprüfen Sie die Rechte für <code>/workspace/pages</code>.',
 
+		'Only one call to MAIL may be made at a time.' => 
+		'Nur eine MAIL-Aufruf kann zeitgleich gemacht werden.',
+
 		'Optional' => 
 		'optional',
 
@@ -828,8 +912,11 @@
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Die Seite konnte nicht auf der Festplatte gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte für <code>/workspace/pages</code>.',
 
-		'Page not found' => 
-		'Seite nicht gefunden',
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Seite um %1$s erstellt. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Seiten</a>',
+
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Seite um %1$s aktualisiert. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Seiten</a>',
 
 		'Pages' => 
 		'Seiten',
@@ -879,6 +966,9 @@
 		'Port' => 
 		'Port',
 
+		'Predefined Values' => 
+		'Feststehende Werte',
+
 		'Preferences' => 
 		'Einstellungen',
 
@@ -906,8 +996,14 @@
 		'Reordering was unsuccessful.' => 
 		'Das Neusortieren ist fehlgeschlagen.',
 
-		'Required URL Parameter <i>Optional</i>' => 
-		'Verpflichtende URL-Parameter <i>optional</i>',
+		'Reply-To Email Address can not contain carriage return or newlines.' => 
+		'Die Antwortadresse darf keine Zeilenumbrüche oder Leerzeilen enthalten.',
+
+		'Reply-To Name can not contain carriage return or newlines.' => 
+		'Der Antwortname darf keine Zeilenumbrüche oder Leerzeilen enthalten.',
+
+		'Required URL Parameter' => 
+		'Verpflichtende URL-Parameter',
 
 		'Root Path' => 
 		'Wurzelpfad',
@@ -915,14 +1011,20 @@
 		'Round' => 
 		'Rund',
 
-		'Run the updater to update Symphony to %s. <a href="%s/update.php">View Update</a>' => 
-		'Aktualisieren Sie Symphony auf Version %s. <a href="%s/update.php">Zur Aktualisierung wechseln</a>',
+		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
+		'Aktualisierung ausführen umd Symphony auf Version %s zu aktualisieren. <a href="%s">Zeige Aktualisierung</a>',
 
 		'Save Changes' => 
 		'Änderungen speichern',
 
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Bereich um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bereiche</a>',
+
 		'Section is invalid' => 
 		'Der Bereich ist ungültig',
+
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Bereich um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bereiche</a>',
 
 		'Sections' => 
 		'Bereiche',
@@ -935,6 +1037,9 @@
 
 		'Send Notification Email' => 
 		'Benachrichtigungs-E-Mail schicken',
+
+		'Sender Email Address can not contain carriage return or newlines.' => 
+		'Absenderadresse darf keinen Zeilenumbruch oder Leerzeilen enthalten.',
 
 		'Sender email address cannot be empty.' => 
 		'Die Absenderadresse darf nicht leer sein.',
@@ -968,9 +1073,6 @@
 
 		'Source' => 
 		'Quelle',
-
-		'Static Options' => 
-		'Statische Optionen',
 
 		'Static XML' => 
 		'Statisches XML',
@@ -1131,11 +1233,14 @@
 		'The following default settings will be used to send emails unless they are overwritten.' => 
 		'Die folgenden Standardeinstellungen werden für den E-Mail-Versand verwendet, sofern sie nicht überschrieben werden.',
 
+		'The following is an example of what is returned if any options return an error:' => 
+		'Das folgende Beispiel zeigt den Rückgabewert, wenn eine der Filteroptionen einen Fehler zurückgibt:',
+
+		'The page you requested does not exist' => 
+		'Die aufgerufen Seite existiert nicht',
+
 		'The page you requested does not exist.' => 
 		'Die aufgerufene Seite existiert nicht.',
-
-		'The page you requested to edit does not exist.' => 
-		'Die Seite, die Sie bearbeiten möchten, existiert nicht.',
 
 		'The password and confirmation did not match. Please retype your password.' => 
 		'Das Passwort und dessen Wiederholung stimmten nicht überein. Bitte geben Sie Ihr Passwort erneut ein.',
@@ -1160,6 +1265,9 @@
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
 		'Es gab Schwierigkeiten Ihren Benutzerzugang zuzuordnen. Überprüfen Sie bitte, ob Sie die richtige E-Mail-Adresse angegeben haben.',
+
+		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
+		'Beim Versuch eine Datenbankverbindung herzustellen ist ein Problem aufgetreten. Bitte überprüfen Sie, ob die Verbindungsinformationen korrekt sind. Der nachfolgende Fehler wurde zurückgegeben.',
 
 		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
 		'Beim Hochladen der Datei <code>%1$s</code> in den Zielordner <code>%2$s</code> ist ein Fehler aufgetreten.',
@@ -1227,6 +1335,9 @@
 		'URL Parameters' => 
 		'URL-Parameter',
 
+		'Unable to connect via TLS' => 
+		'TLS-Verbindung nicht möglich',
+
 		'Unable to open socket. %s' => 
 		'Socket konnte nicht geöffnet werden. %s',
 
@@ -1271,6 +1382,9 @@
 
 		'Uploading \'%s\' failed. File upload stopped by extension.' => 
 		'Das Hochladen von \'%s\' ist fehlgeschlagen. Der Vorgang wurde von einer Erweiterung unterbrochen.',
+
+		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
+		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den bestimmten Empfänger senden. <b>Dies funktioniert derzeit nicht mit mehreren Einträgen gleichzeitig.</b> Folgende Felder werden erkannt:',
 
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
 		'Verwenden Sie <code>{$param}</code>, um mit Seitenparametern zu filtern.',
@@ -1317,8 +1431,14 @@
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Baustein konnte nicht auf der Festplatte gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte für <code>/workspace/utilities</code>.',
 
-		'Validation Rule <i>Optional</i>' => 
-		'Validierungsregel <i>optional</i>',
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Baustein um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bausteine</a>',
+
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Baustein um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bausteine</a>',
+
+		'Validation Rule' => 
+		'Validierungsregel',
 
 		'Value' => 
 		'Wert',
@@ -1422,6 +1542,9 @@
 		'about {$hours} hours ago' => 
 		'vor etwa {$hours} Stunden',
 
+		'appendHeaderField accepts strings only; arrays are not allowed.' => 
+		'appendHeaderField akzeptiert nur Zeichenketten; Arrays sind nicht zugelassen.',
+
 		'ascending' => 
 		'aufsteigend',
 
@@ -1449,139 +1572,17 @@
 		'{$minutes} minutes ago' => 
 		'vor {$minutes} Minuten',
 
-		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		'Der Ordner <code>/symphony</code> konnte nicht gefunden werden. Bitte laden sie den Inhalt des Installationspakets hoch.',
-
-		// Missing
-
-		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		false,
-
-		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		false,
-
-		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
-		false,
-
-		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
-		false,
-
-		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
-		false,
-
-		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		false,
-
-		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		false,
-
-		'The following is an example of what is returned if any options return an error:' => 
-		false,
-
-		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
-		false,
-
-		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		false,
-
-		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		false,
-
-		'Created if does not exist' => 
-		false,
-
-		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		false,
-
-		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		false,
-
-		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		false,
-
-		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		false,
-
-		'As requested, here is your new Symphony Author Password for ' => 
-		false,
+		'%s Pre-populate this field with today\'s date' => 
+		'%s Dieses Feld mit dem heutigen Datum vorausfüllen',
 
 		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		false,
+		'Wie es scheint, versuchen Sie einen neuen Eintrag zu erstellen. Vielleicht möchten Sie zunächst Felder einrichten? <a href="%s">Klicken Sie hier, um welche zu erstellen.</a>',
 
-		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		false,
+		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
+		'Der <code>/symphony</code>-Ordner konnte nicht gefunden werden. Bitte laden Sie den Inhalt des Symphony-Installationspaket in diesen Ordner hoch.',
 
-		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		false,
-
-		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		false,
-
-		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		false,
-
-		'An extension requires updating. <a href="' => 
-		false,
-
-		'Cannot request a page callback without first specifying the page.' => 
-		false,
-
-		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
-		false,
-
-		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
-		false,
-
-		'Sender Email Address can not contain carriage return or newlines.' => 
-		false,
-
-		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
-		false,
-
-		'Reply-To Email Address can not contain carriage return or newlines.' => 
-		false,
-
-		'Reply-To Name can not contain carriage return or newlines.' => 
-		false,
-
-		'appendHeaderField accepts strings only; arrays are not allowed.' => 
-		false,
-
-		'Header fields can only contain strings' => 
-		false,
-
-		'Can not call HELO on existing session' => 
-		false,
-
-		'Must call EHLO (or HELO) before calling MAIL' => 
-		false,
-
-		'Only one call to MAIL may be made at a time.' => 
-		false,
-
-		'Must call MAIL before calling RCPT' => 
-		false,
-
-		'Must call RCPT before calling DATA' => 
-		false,
-
-		'Must call EHLO (or HELO) before calling AUTH' => 
-		false,
-
-		'Can not call AUTH again.' => 
-		false,
-
-		'Unable to connect via TLS' => 
-		false,
-
-		'Could not send request: %s' => 
-		'Anfrage konnte nicht gesendet werden: %s',
-
-		'%s has timed out' => 
-		'Zeitüberschreitung für %s',
-
-		'%s Pre-populate this field with today\'s date' => 
-		'%s Dieses Feld mit dem heutigen Datum vorausfüllen.',
+		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
+		'Das Parameter <code id="output-param-name">$ds-%s</code> wird mit dem Wert dieses Feldes erstellt, sodass es im XSLT oder in anderen Datenquellen verwendet werden kann.',
 
 	);
 
