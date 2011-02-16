@@ -5,7 +5,7 @@
 		'author' => array(
 			'name' => 'Nils Hörrmann',
 			'email' => 'post@nilshoerrmann.de',
-			'website' => 'http://www.nilshoerrmann.de'
+			'website' => 'http://nilshoerrmann.de'
 		),
 		'release-date' => '2011-02-15'
 	);
