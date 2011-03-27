@@ -5,8 +5,8 @@
 		public function about() {
 			return array(
 				'name' => 'Language: German',
-				'version' => '1.2',
-				'release-date' => '2011-02-16',
+				'version' => '1.3',
+				'release-date' => '2011-03-27',
 				'author' => array(
 					'name' => 'Nils Hörrmann',
 					'website' => 'http://nilshoerrmann.de',

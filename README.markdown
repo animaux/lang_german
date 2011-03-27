@@ -3,8 +3,8 @@
 Official German translation of [Symphony](http://www.symphony-cms.com).  
 Offizielle Deutsche Übersetzung von [Symphony](http://www.symphony-cms.com).
 
-- Version: 1.2
-- Date: 16th February 2011
+- Version: 1.3
+- Date: 27th March 2011
 - Requirements: Symphony 2.2 or greater
 - Author: Nils Hörrmann, post@nilshoerrmann.de
 - Constributors: [A list of contributors can be found in the commit history](http://github.com/nilshoerrmann/symphony_german/commits/master)
@@ -15,6 +15,10 @@ Offizielle Deutsche Übersetzung von [Symphony](http://www.symphony-cms.com).
 Information about [installing and updating extensions](http://symphony-cms.com/learn/tasks/view/install-an-extension/) can be found in the Symphony documentation at <http://symphony-cms.com/learn/>.
 
 ## Change log
+
+**Version 1.3, 27th March 2011**
+
+- Added missing date and time strings
 
 **Version 1.2, 16th February 2011**
 

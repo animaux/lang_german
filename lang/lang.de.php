@@ -1584,6 +1584,132 @@
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
 		'Das Parameter <code id="output-param-name">$ds-%s</code> wird mit dem Wert dieses Feldes erstellt, sodass es im XSLT oder in anderen Datenquellen verwendet werden kann.',
 
+		'yesterday' => 
+		'gestern', 
+		
+		'today' => 
+		'heute', 
+		
+		'tomorrow' => 
+		'morgen', 
+		
+		'now' => 
+		'jetzt',
+		
+		'Sunday' => 
+		'Sonntag', 
+		
+		'Monday' => 
+		'Montag', 
+		
+		'Tuesday' => 
+		'Dienstag', 
+		
+		'Wednesday' => 
+		'Mittwoch', 
+		
+		'Thursday' => 
+		'Donnerstag', 
+		
+		'Friday' => 
+		'Freitag', 
+		
+		'Saturday' => 
+		'Samstag',
+		
+		'Sun' => 
+		'So', 
+		
+		'Mon' => 
+		'Mo', 
+		
+		'Tue' => 
+		'Di', 
+		
+		'Wed' => 
+		'Mi', 
+		
+		'Thu' => 
+		'Do', 
+		
+		'Fri' => 
+		'Fr', 
+		
+		'Sat' => 
+		'Sa',
+		
+		'January' => 
+		'Januar', 
+		
+		'February' => 
+		'Februar', 
+		
+		'March' => 
+		'März', 
+		
+		'April' => 
+		'April', 
+		
+		'May' => 
+		'Mai', 
+		
+		'June' => 
+		'Juni', 
+		
+		'July' => 
+		'Juli', 
+		
+		'August' => 
+		'August', 
+		
+		'September' => 
+		'September', 
+		
+		'October' => 
+		'Oktober', 
+		
+		'November' => 
+		'November', 
+		
+		'December' => 
+		'Dezember',
+		
+		'Jan' => 
+		'Jan', 
+		
+		'Feb' => 
+		'Feb', 
+		
+		'Mar' => 
+		'Mrz', 
+		
+		'Apr' => 
+		'Apr', 
+		
+		'May' => 
+		'Mai', 
+		
+		'Jun' => 
+		'Jun', 
+		
+		'Jul' => 
+		'Jul', 
+		
+		'Aug' => 
+		'Aug', 
+		
+		'Sep' => 
+		'Sep', 
+		
+		'Oct' => 
+		'Okt', 
+		
+		'Nov' => 
+		'Nov', 
+		
+		'Dec' => 
+		'Dez'
+
 	);
 
 	/**
