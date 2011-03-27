@@ -7,7 +7,7 @@
 			'email' => 'post@nilshoerrmann.de',
 			'website' => 'http://nilshoerrmann.de'
 		),
-		'release-date' => '2011-02-15'
+		'release-date' => '2011-03-27'
 	);
 
 	/**
@@ -162,6 +162,9 @@
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
 		'Alle diese Felder können dynamisch befüllt werden, indem Sie den genauen Feldnamen eines anderen Feldes des Formulares verwenden, wie das nachfolgende Beispiel zeigt:',
 
+		'All selected' => 
+		'Alle ausgewählt',
+
 		'Allow Multiple' => 
 		'Mehrere zulassen',
 
@@ -198,6 +201,12 @@
 		'Apply' => 
 		'Anwenden',
 
+		'Apr' => 
+		'Apr',
+
+		'April' => 
+		'April',
+
 		'Are you sure you want to {$action} {$count} items?' => 
 		'Sind Sie sicher, dass sie {$count} Einträge {$action} wollen?',
 
@@ -212,6 +221,12 @@
 
 		'At least one source must be specified, dynamic or static.' => 
 		'Mindestens eine Quelle, dynamisch oder statisch, muss festgelegt werden.',
+
+		'Aug' => 
+		'Aug',
+
+		'August' => 
+		'August',
 
 		'Author' => 
 		'Autor',
@@ -417,6 +432,12 @@
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Liebe(r) <!-- RECIPIENT NAME -->,',
 
+		'Dec' => 
+		'Dez',
+
+		'December' => 
+		'Dezember',
+
 		'Default Area' => 
 		'Standardbereich',
 
@@ -609,6 +630,12 @@
 		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
 		'Die Deaktivierung der Paginierung kann sich negativ auf die Ladezeiten der Seite auswirken, wenn die Zahl der auszugebenen Einträge sehr hoch ist.',
 
+		'Feb' => 
+		'Feb',
+
+		'February' => 
+		'Februar',
+
 		'Fields' => 
 		'Felder',
 
@@ -660,6 +687,12 @@
 		'Formatting' => 
 		'Formatierung',
 
+		'Fri' => 
+		'Fr',
+
+		'Friday' => 
+		'Freitag',
+
 		'General' => 
 		'Allgemein',
 
@@ -708,11 +741,26 @@
 		'Invalid timezone \'{$timezone}\'' => 
 		'Ungültige Zeitzone \'{$timezone}\'',
 
-		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Anscheinend versuchen Sie einen neuen Eintrag zu erstellen. Vielleicht möchten Sie vorher Felder anlegen. <a href="%s">Klicken Sie hier um Felder anzulegen.</a>',
-
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Es wird in zwei Stunden ablaufen. Falls Sie kein neues Passwort angefordert haben, ignorieren Sie bitte diese Nachricht.',
+
+		'Jan' => 
+		'Jan',
+
+		'January' => 
+		'Januar',
+
+		'Jul' => 
+		'Jul',
+
+		'July' => 
+		'Juli',
+
+		'Jun' => 
+		'Jun',
+
+		'June' => 
+		'Juni',
 
 		'Label' => 
 		'Bezeichnung',
@@ -768,6 +816,15 @@
 		'Make textarea %s rows tall' => 
 		'Stelle Textfeld %s Zeilen hoch dar.',
 
+		'Mar' => 
+		'Mrz',
+
+		'March' => 
+		'März',
+
+		'May' => 
+		'Mai',
+
 		'Men' => 
 		'Männer',
 
@@ -776,6 +833,12 @@
 
 		'Missing Requirements' => 
 		'Fehlende Voraussetzungen',
+
+		'Mon' => 
+		'Mo',
+
+		'Monday' => 
+		'Montag',
 
 		'Monkeys' => 
 		'Affen',
@@ -863,6 +926,18 @@
 
 		'Not Installed' => 
 		'Nicht installiert',
+
+		'Nov' => 
+		'Nov',
+
+		'November' => 
+		'November',
+
+		'Oct' => 
+		'Okt',
+
+		'October' => 
+		'Oktober',
 
 		'Old Password' => 
 		'Altes Passwort',
@@ -1014,6 +1089,12 @@
 		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
 		'Aktualisierung ausführen umd Symphony auf Version %s zu aktualisieren. <a href="%s">Zeige Aktualisierung</a>',
 
+		'Sat' => 
+		'Sa',
+
+		'Saturday' => 
+		'Samstag',
+
 		'Save Changes' => 
 		'Änderungen speichern',
 
@@ -1043,6 +1124,12 @@
 
 		'Sender email address cannot be empty.' => 
 		'Die Absenderadresse darf nicht leer sein.',
+
+		'Sep' => 
+		'Sep',
+
+		'September' => 
+		'September',
 
 		'Set %s' => 
 		'Setze %s',
@@ -1088,6 +1175,12 @@
 
 		'Suggestion List' => 
 		'Vorschlagsliste',
+
+		'Sun' => 
+		'So',
+
+		'Sunday' => 
+		'Sonntag',
 
 		'Symphony' => 
 		'Symphony',
@@ -1302,6 +1395,12 @@
 		'This page could not be rendered due to the following XSLT processing errors.' => 
 		'Diese Seite konnte aufgrund nachfolgender XSLT-Verarbeitungfehler nicht dargestellt werden.',
 
+		'Thu' => 
+		'Do',
+
+		'Thursday' => 
+		'Donnerstag',
+
 		'Time Format' => 
 		'Zeitformat',
 
@@ -1316,6 +1415,12 @@
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
 		'Um nach erfolgreichem Speichern zu einer anderen Adresse weiterzuleiten, müssen Sie das Umleitungsziel im Formular einbinden. Dies geht am besten mit einem versteckten Feld, wobei der Wert der Ziel-URL entspricht:',
+
+		'Tue' => 
+		'Di',
+
+		'Tuesday' => 
+		'Dienstag',
 
 		'Two custom fields have the same element name. All element names must be unique.' => 
 		'Zwei Felder haben den selben Elementnamen. Alle Elementnamen müssen eindeutig sein.',
@@ -1461,6 +1566,12 @@
 		'Website Preferences' => 
 		'Webseiteneinstellungen',
 
+		'Wed' => 
+		'Mi',
+
+		'Wednesday' => 
+		'Mittwoch',
+
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
 		'Wenn beim Speichern ein Fehler auftritt, weil Felder fehlen oder ungültig sind, wird nachfolgendes XML ausgeben',
 
@@ -1551,17 +1662,74 @@
 		'at' => 
 		'um',
 
+		'day' => 
+		'Tag',
+
+		'days' => 
+		'Tage',
+
 		'descending' => 
 		'absteigend',
+
+		'eleventh' => 
+		'elfte(r|s)?',
+
+		'fifth' => 
+		'fünfte(r|s)',
+
+		'first' => 
+		'erste(r|s)?',
+
+		'fourth' => 
+		'vierte(r|s)?',
+
+		'hour' => 
+		'Stunde',
+
+		'hours' => 
+		'Stunden',
 
 		'just now' => 
 		'gerade eben',
 
+		'last' => 
+		'letzte(r|s)?',
+
 		'list of comma-separated author usernames.' => 
 		'Liste kommagetrennter Benutzernamen.',
 
+		'min' => 
+		'Min',
+
+		'mins' => 
+		'Min',
+
+		'minute' => 
+		'Minute',
+
+		'minutes' => 
+		'Minuten',
+
+		'month' => 
+		'Monat',
+
+		'months' => 
+		'Monate',
+
+		'next' => 
+		'nächste(r|s)?',
+
+		'ninth' => 
+		'neunte(r|s)?',
+
 		'no leading zeros' => 
 		'ohne führende Null',
+
+		'now' => 
+		'jetzt',
+
+		'previous' => 
+		'nächste(r|s)?',
 
 		'random' => 
 		'zufällig',
@@ -1569,146 +1737,118 @@
 		'released on' => 
 		'veröffentlicht am',
 
+		'sec' => 
+		'Sek',
+
+		'second' => 
+		'zweite(r|s)?',
+
+		'seconds' => 
+		'Sekunden',
+
+		'secs' => 
+		'Sek',
+
+		'seventh' => 
+		'siebte(r|s)?',
+
+		'sixth' => 
+		'sechste(r|s)?',
+
+		'tenth' => 
+		'zehnte(r|s)?',
+
+		'third' => 
+		'dritte(r|s)?',
+
+		'this' => 
+		'diese(r|s)?',
+
+		'today' => 
+		'heute',
+
+		'tomorrow' => 
+		'morgen',
+
+		'twelfth' => 
+		'zwölfte(r|s)?',
+
+		'week' => 
+		'Woche',
+
+		'weekday' => 
+		'Wochentag',
+
+		'weekdays' => 
+		'Wochentage',
+
+		'weeks' => 
+		'Wochen',
+
+		'year' => 
+		'Jahr',
+
+		'years' => 
+		'Jahre',
+
+		'yesterday' => 
+		'gestern',
+
 		'{$minutes} minutes ago' => 
 		'vor {$minutes} Minuten',
 
-		'%s Pre-populate this field with today\'s date' => 
-		'%s Dieses Feld mit dem heutigen Datum vorausfüllen',
+		'Content' => 
+		'Inhalte',
 
 		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Wie es scheint, versuchen Sie einen neuen Eintrag zu erstellen. Vielleicht möchten Sie zunächst Felder einrichten? <a href="%s">Klicken Sie hier, um welche zu erstellen.</a>',
+		'Anscheinend versuchen Sie einen neuen Eintrag zu erstellen. Vielleicht möchten Sie vorher Felder anlegen. <a href="%s">Klicken Sie hier um Felder anzulegen.</a>',
 
-		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		'Der <code>/symphony</code>-Ordner konnte nicht gefunden werden. Bitte laden Sie den Inhalt des Symphony-Installationspaket in diesen Ordner hoch.',
+		'XML is invalid.' => 
+		'Das XML ist ungültig',
+
+		'Sendmail (default)' => 
+		'Sendmail (Standard)',
+
+		'From Name' => 
+		'Absender',
+
+		'From Email Address' => 
+		'Absenderadresse',
+
+		'SMTP' => 
+		'SMTP',
+
+		'No encryption' => 
+		'Keine Verschlüsselung',
+
+		'SSL encryption' => 
+		'SSL-Verschlüsselung',
+
+		'TLS encryption' => 
+		'TLS-Verschlüsselung',
+
+		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
+		'SSL und TLS werden für sichere Verbindungen unterstützt. Nähere Informationen hierzu erhalten Sie bei Ihrem E-Mail-Provider.',
+
+		'%s Requires authentication' => 
+		'%s Autorisierung erforderlich',
+
+		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
+		'Einige SMTP-Verbindungen erfordern Autorisierung. Geben Sie in diesem Fall hier die Benutzer-Passwort-Kombination an.',
+
+		'%s Pre-populate this field with today’s date' => 
+		'%s Dieses Feld mit dem heutigen Datum vorausfüllen',
+
+		'eighth' => 
+		'achte(r|s)?',
+
+		// Missing
 
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
-		'Das Parameter <code id="output-param-name">$ds-%s</code> wird mit dem Wert dieses Feldes erstellt, sodass es im XSLT oder in anderen Datenquellen verwendet werden kann.',
+		false,
 
-		'yesterday' => 
-		'gestern', 
-		
-		'today' => 
-		'heute', 
-		
-		'tomorrow' => 
-		'morgen', 
-		
-		'now' => 
-		'jetzt',
-		
-		'Sunday' => 
-		'Sonntag', 
-		
-		'Monday' => 
-		'Montag', 
-		
-		'Tuesday' => 
-		'Dienstag', 
-		
-		'Wednesday' => 
-		'Mittwoch', 
-		
-		'Thursday' => 
-		'Donnerstag', 
-		
-		'Friday' => 
-		'Freitag', 
-		
-		'Saturday' => 
-		'Samstag',
-		
-		'Sun' => 
-		'So', 
-		
-		'Mon' => 
-		'Mo', 
-		
-		'Tue' => 
-		'Di', 
-		
-		'Wed' => 
-		'Mi', 
-		
-		'Thu' => 
-		'Do', 
-		
-		'Fri' => 
-		'Fr', 
-		
-		'Sat' => 
-		'Sa',
-		
-		'January' => 
-		'Januar', 
-		
-		'February' => 
-		'Februar', 
-		
-		'March' => 
-		'März', 
-		
-		'April' => 
-		'April', 
-		
-		'May' => 
-		'Mai', 
-		
-		'June' => 
-		'Juni', 
-		
-		'July' => 
-		'Juli', 
-		
-		'August' => 
-		'August', 
-		
-		'September' => 
-		'September', 
-		
-		'October' => 
-		'Oktober', 
-		
-		'November' => 
-		'November', 
-		
-		'December' => 
-		'Dezember',
-		
-		'Jan' => 
-		'Jan', 
-		
-		'Feb' => 
-		'Feb', 
-		
-		'Mar' => 
-		'Mrz', 
-		
-		'Apr' => 
-		'Apr', 
-		
-		'May' => 
-		'Mai', 
-		
-		'Jun' => 
-		'Jun', 
-		
-		'Jul' => 
-		'Jul', 
-		
-		'Aug' => 
-		'Aug', 
-		
-		'Sep' => 
-		'Sep', 
-		
-		'Oct' => 
-		'Okt', 
-		
-		'Nov' => 
-		'Nov', 
-		
-		'Dec' => 
-		'Dez'
+		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
+		false,
 
 	);
 
