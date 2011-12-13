@@ -5,14 +5,14 @@
 		public function about() {
 			return array(
 				'name' => 'Language: German',
-				'version' => '1.3',
-				'release-date' => '2011-03-27',
+				'version' => '1.3.1',
+				'release-date' => '2011-12-13',
 				'author' => array(
 					'name' => 'Nils Hörrmann',
 					'website' => 'http://nilshoerrmann.de',
 					'email' => 'post@nilshoerrmann.de'
 				),
-				'description' => 'Official German translation for the Symphony backend'
+				'description' => 'German translation for Symphony'
 			);
 		}
 		
