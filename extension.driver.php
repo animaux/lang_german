@@ -1,21 +1,10 @@
 <?php
 
 	Class extension_lang_german extends Extension {
-
-		public function about() {
-			return array(
-				'name' => 'Language: German',
-				'version' => '1.3.1',
-				'release-date' => '2011-12-13',
-				'author' => array(
-					'name' => 'Nils Hörrmann',
-					'website' => 'http://nilshoerrmann.de',
-					'email' => 'post@nilshoerrmann.de'
-				),
-				'description' => 'German translation for Symphony'
-			);
-		}
 		
+		/**
+		 * @see http://symphony-cms.com/learn/api/2.3/toolkit/extension/#getSubscribedDelegates
+		 */
 		public function getSubscribedDelegates(){
 			return array(
 				array(
@@ -42,6 +31,9 @@
 			}
 		}
 		
+		/**
+		 * @see http://symphony-cms.com/learn/api/2.3/toolkit/extension/#install
+		 */
 		public function install() {
 		
 			// Fetch current date and time settings
@@ -56,16 +48,25 @@
 			Administration::instance()->saveConfig();
 		}
 
+		/**
+		 * @see http://symphony-cms.com/learn/api/2.3/toolkit/extension/#enable
+		 */
 		public function enable(){
 			if(Symphony::Configuration()->get('lang', 'symphony') == 'de') {
 				$this->__setGerman();
 			}
 		}
 
+		/**
+		 * @see http://symphony-cms.com/learn/api/2.3/toolkit/extension/#disable
+		 */
 		public function disable(){
 			$this->__unsetGerman();
 		}
 
+		/**
+		 * @see http://symphony-cms.com/learn/api/2.3/toolkit/extension/#uninstall
+		 */
 		public function uninstall() {
 			$this->__unsetGerman();
 
