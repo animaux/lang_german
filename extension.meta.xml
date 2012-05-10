@@ -2,7 +2,7 @@
 <extension id="lang_german" status="beta" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Language: German</name>
 	<description>German translation for Symphony</description>
-	<repo type="github">https://github.com/nilshoerrmann/lang_german</repo>
+	<repo type="github">https://github.com/hananils/lang_german</repo>
 	<url type="discuss">http://symphony-cms.com/discuss/thread/632/</url>
 	<types>
 		<type>Translations</type>
