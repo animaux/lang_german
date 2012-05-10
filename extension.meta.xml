@@ -19,7 +19,7 @@
 	</authors>
 	<releases>
 		<release version="2.0beta" date="2012-05-10" min="2.3">
-			- Added `extension.meta.xml`
+			- Symphony 2.3 compatibility
 		</release>
 		<release version="1.3.1" date="2011-12-13" min="2.2" max="2.2.5">
 			- Added `extension.meta.xml`
