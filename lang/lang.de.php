@@ -1660,190 +1660,190 @@
 		'Ereignis %s konnte nicht gefunden werden.',
 
 		'The field ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'Das Feld ‚%s‘, das von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
 
 		'Please remove it from your sections prior to uninstalling or disabling.' => 
-		false,
+		'Bitte entfernen Sie es von Ihren Bereichen bevor Sie es deinstallieren oder deaktivieren.',
 
 		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'Die Datenquelle ‚%s‘, die von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
 
 		'Please remove it from your pages prior to uninstalling or disabling.' => 
-		false,
+		'Bitte entfernen Sie sie von Ihren Seiten bevor Sie es deinstallieren oder deaktivieren.',
 
 		'The Event ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'Das Ereignis ‚%s‘, das von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
 
 		'The Text Formatter ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'Der Textformatierer ‚%s‘, der von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
 
 		'Please remove it from your fields prior to uninstalling or disabling.' => 
-		false,
+		'Bitte entfernen Sie ihn von Ihren Felder bevor Sie es deinstallieren oder deaktivieren.',
 
 		'Missing default namespace definition.' => 
-		false,
+		'Standardnamensraumdefinition fehlt.',
 
 		'The %1$s file for the %2$s extension is not valid XML: %3$s' => 
-		false,
+		'Die Datei %1$s für die Erweiterung %2$s enthält kein valides XML: %3$s',
 
 		'Could not find extension %s at location %s' => 
-		false,
+		'Konnte die Erweiterung %s nicht unter %s finden',
 
 		'New Field' => 
 		'Neues Feld',
 
 		'%s Display in entries table' => 
-		false,
+		'%s In tabellarischer Übersicht zeigen',
 
 		'%s Display relationship in entries table' => 
-		false,
+		'%s Verbindungen in tabellarischer Übersicht zeigen',
 
 		'Invalid element name. Must be valid %s.' => 
-		false,
+		'Ungültiger Elementname. Es muss valides %s sein.',
 
 		'‘%s’ is a required field.' => 
-		false,
+		'‚%s‘ ist ein verpflichtendes Feld.',
 
 		'Data source output grouping is not supported by the %s field' => 
-		false,
+		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
 
 		'Settings for field %s could not be found in table tbl_fields_%s.' => 
-		false,
+		'Die Einstellungen für das Feld %s konnten nicht in der Tabelle tbl_fields_%s gefunden werden.',
 
 		'Could not find Field %1$s at %2$s.' => 
-		false,
+		'Das Feld %1$s konnten nicht unter %2$s gefunden werden.',
 
 		'Please login to view this page.' => 
-		false,
+		'Bitte melden Sie sich an, um diese Seite zu sehen.',
 
 		'Take me to the login page' => 
-		false,
+		'Weiter zur Anmeldeseite',
 
 		'Unable to remove - %s' => 
-		false,
+		'%s konnte nicht entfernt werden',
 
 		'Enforced type `%1$s` for argument `$%2$s` does not match any known variable types.' => 
-		false,
+		'Erzwungener Typ `%1$s` für das Argument `$%2$s` enspricht keinem bekannten Variablentyp.',
 
 		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
-		false,
+		'Das Argument ‚$%1$‘ entspricht nicht dem Typ ‚%2$‘, ‚%3$s‘ übergeben',
 
 		'No errors.' => 
-		false,
+		'Keine Fehler.',
 
 		'Maximum stack depth exceeded.' => 
-		false,
+		'Die maximale Stapeltiefe wurde überschritten.',
 
 		'Underflow or the modes mismatch.' => 
-		false,
+		'Bereichsunterschreitung oder falsche Moduszuordnung.',
 
 		'Unexpected control character found.' => 
-		false,
+		'Unerwartetes Kontrollzeichen gefunden.',
 
 		'Syntax error, malformed JSON.' => 
-		false,
+		'Syntaxfehler, fehlerhaftes JSON',
 
 		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
-		false,
+		'Fehlerhafte, wahrscheinlihc fehlerhaft kodierte UTF-8-Zeichen.',
 
 		'Unknown JSON error' => 
-		false,
+		'Unbekannter JSON-Fehler',
 
 		'JSON not formatted correctly' => 
-		false,
+		'JSON nicht richtig formatiert',
 
 		'MySQL Error (%1$s): %2$s in query: %3$s' => 
-		false,
+		'MySQL-Fehler (%1$s): %2$s in Abfrage: %3$s',
 
 		'Unable to find a Manager class for this resource.' => 
-		false,
+		'Manager-Klasse für die Resource konnte nicht gefunden werden.',
 
 		'Release Date' => 
-		false,
+		'Veröffentlichungsdatum',
 
 		'Attach to Page' => 
-		false,
+		'Seitenverknüpfung herstellen',
 
 		'Detach from Page' => 
-		false,
+		'Seitenverknüpfung aufheben',
 
 		'All' => 
 		'Alle',
 
 		'Please check permissions on %s' => 
-		false,
+		'Bitte überprüfen Sie die Zugriffsrechte für %s',
 
 		'Could not find Text Formatter %s.' => 
-		false,
+		'Textformatierer %s konnte nicht gefunden werden.',
 
 		'Data returned is invalid.' => 
-		false,
+		'Die Rückgabewerte sind ungültig.',
 
 		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
-		false,
+		'Die Klasse %s konnte keine Sperre einrichten, überprüfen Sie, ob %s existiert und schreibbar ist.',
 
 		'Transformed XML is invalid.' => 
-		false,
+		'Das umgewandelte XML is ungültig.',
 
 		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
-		false,
+		'Beim Erstellen das Feldobjekts mit der ID %1$d für die Filterung der Datenquelle %2$s ist ein Fehler aufgetreten. Überprüfen Sie, ob das Feld existiert.',
 
 		'The section associated with the data source %s could not be found.' => 
-		false,
+		'Der Bereich, der mit der Datenquelle %s verknüpft ist, konnte nicht gefunden werden.',
 
 		'%s Pre-populate with current date' => 
 		'%s Heutiges Datum vorausfüllen',
 
 		'The date specified in ‘%s’ is invalid.' => 
-		false,
+		'Das angegebene Datum für ‚%s‘ is ungültig.',
 
 		'‘%s’ contains invalid data. Please check the contents.' => 
-		false,
+		'‚%s‘ enthält ungültige Werte. Bitte überprüfen Sie den Inhalt.',
 
 		'Available when using Dynamic Values' => 
-		false,
+		'Verfügbar in Verbindung mit dynamischen Werten',
 
 		'%s Sort all options alphabetically' => 
-		false,
+		'%s Alle Optionen alphabetisch sortieren',
 
 		'Number of default rows' => 
-		false,
+		'Anzahl der Standardreihen',
 
 		'‘%s’ contains invalid XML.' => 
-		false,
+		'‚%s‘ enthält ungültiges XML.',
 
 		'Directory %s does not exist.' => 
-		false,
+		'Das Verzeichnis %s existiert nicht.',
 
 		'Destination folder is not writable.' => 
-		false,
+		'Der Zielordner ist nicht schreibbar.',
 
 		'The destination directory, %s, does not exist.' => 
-		false,
+		'Der Zielordner, %s, existiert nicht.',
 
 		'File chosen in ‘%s’ does not match allowable file types for that field.' => 
-		false,
+		'Die in ‚%s‘ gewählte Datei entspricht keinen zugelassenen Feldtypen für dieses Feld.',
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s specified by your host.' => 
-		false,
+		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Ihrem Host erlaubte Dateigröße von %2$s',
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
-		false,
+		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Symphony erlaubte Dateigröße von %2$s',
 
 		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
-		false,
+		'Die in ‚%s‘ ausgewählte Datei wurde aufgrund eines Fehlers nur teilweise hochgeladen.',
 
 		'Uploading ‘%s’ failed. Could not write temporary file to disk.' => 
-		false,
+		'Das Hochladen von ‚%s‘ ist fehlgeschlagen. Es konnte keine temporäre Datei gespeichert werden.',
 
 		'Uploading ‘%s’ failed. File upload stopped by extension.' => 
-		false,
+		'Das Hochladen von ‚%s‘ ist fehlgeschlagen. Der Vorgang wurde von einer Erweiterung gestoppt.',
 
 		'There was an error while trying to upload the file %1$s to the target directory %2$s.' => 
-		false,
+		'Bei Hochladen der Datei %1$s in den Zielordner %2§s ist ein Fehler aufgetreten.',
 
 		'This page could not be rendered due to the following XSLT processing errors:' => 
-		false,
+		'Aufgrund nachfolgender XSLT-Ausführungsfehler konnte die Seite nicht ausgegeben werden:',
 
 		'Show debug view' => 
 		'Debug-Ansicht anzeigen',
