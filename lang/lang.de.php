@@ -1186,7 +1186,7 @@
 		'Monate',
 
 		'next' => 
-		'nächste(r|s)?',
+		'mehr', // Verwendet für Notify
 
 		'ninth' => 
 		'neunte(r|s)?',
@@ -1263,984 +1263,401 @@
 		'{$minutes} minutes ago' => 
 		'vor {$minutes} Minuten',
 
-		// Obsolete
-
-		' (<b>Notice that it is possible to get mixtures of success and failure messages when using the "Allow Multiple" option</b>)' => 
-		' (<b>Bitte beachten Sie, dass Sie möglicherweise eine Mischung aus Fehler- und Erfolgsrückmeldungen erhalten, wenn Sie die die Erstellung mehrerer Einträge zulassen.</b>)',
-
-		'"%1$s" contains invalid XML. The following error was returned: <code>%2$s</code>' => 
-		'"%1$s" enthält ungültiges XML. Der folgende Fehler wurde zurückgegeben: <code>%2$s</code>',
-
-		'%1$s Allow remote login via <a href="%2$s">%2$s</a>' => 
-		'%1$s Remotezugriff über <a href="%2$s">%2$s</a> erlauben',
-
-		'%s Display field’s value in entries table' => 
-		'%s Zeige Feld in der tabellarischen Übersicht',
-
-		'%s Display relationship in linked sections' => 
-		'%s Zeige Verbindung in verknüpftem Bereich',
-
-		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
-		'%s Paginiere die Ausgabe, mit %s Einträgen pro Seite. Beginne auf Seite %s',
-
-		'%s Pre-populate this field with today’s date' => 
-		'%s Dieses Feld mit dem heutigen Datum vorausfüllen',
-
-		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
-		'%s is keine unterstützte Kodierungsart. Bitte verwenden Sie "quoted-printable" oder "base64". Die Verwendung von <code>false</code> überspringt die Kodierung.',
-
-		'\'%s\' contains invalid data. Please check the contents.' => 
-		'\'%s\' enthält ungültige Daten. Bitte überprüfen Sie den Inhalt.',
-
-		'\'%s\' is a required field.' => 
-		'\'%s\' ist ein Pflichtfeld.',
-
-		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
-		'<a href="%1$s" title="Wechsle in den Debug-Modus für %2$s">Zeile %3$d</a>',
-
-		'<a href="%s" title="Show debug view">Compile</a>' => 
-		'<a href="%s" title="Zeige Debug-Modus">Kompiliere</a>',
-
-		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 or above' => 
-		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 oder höher',
-
-		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
-		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>-Prozessor',
-
-		'<acronym title="Universal Resource Locator">URL</acronym>' => 
-		'<acronym title="Universal Resource Locator">URL</acronym>',
-
-		'<acronym title="Universal Resource Locator">URL</acronym> Parameters' => 
-		'<acronym title="Universal Resource Locator">URL-</acronym>Parameter',
-
-		'A Data source with the name <code>%s</code> name already exists' => 
-		'Eine Datenquelle mit dem Namen <code>%s</code> existiert bereits',
-
-		'A Section with the name <code>%s</code> name already exists' => 
-		'Es existiert bereits ein Bereich mit dem Namen <code>%s</code>',
-
-		'Add a new author' => 
-		'Neuen Autor hinzufügen',
-
-		'Add an Author' => 
-		'Autor hinzufügen',
-
-		'Advanced Configuration' => 
-		'Erweiterte Einstellungen',
-
-		'All selected' => 
-		'Alle ausgewählt',
-
-		'An Event with the name <code>%s</code> name already exists' => 
-		'Ein Ereignis mit dem Namen <code>%s</code> existiert bereits',
-
-		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
-		'Wenn dieser Parameter keinen Wert hat, wird ein leeres Ergebnis ausgegeben. Umschließen Sie den Parameter nicht mit geschweiften Klammern.',
-
-		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
-		'Während der Installation ist ein Fehler aufgetreten. Sie können das <a href="install-log.txt">Installation-Logbuch</> für weitere Informationen einsehen.',
-
-		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
-		'Beim Verarbeiten dieses Formulars ist ein Fehler aufgetreten. <a href="#error">Details siehe unten.</a>',
-
-		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
-		'An diesem Ort wurde ein bereits existierendes <code>/workspace</code>-Verzeichnis gefunden. Symphony wird diesen Workspace verwenden.',
-
-		'An extension requires updating. <a href="%s">View Extensions</a>' => 
-		'Eine Erweiterung muss aktualisiert werden. <a href="%s">Zeige Erweiterungen</a>',
-
-		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
-		'Eine Aktualisierung steht innerhalb Ihrer Installation zur Verfügung. <a href="%s">Zeige Aktualisierung</a>',
-
-		'Are you sure you want to {$action} {$count} items?' => 
-		'Sind Sie sicher, dass sie {$count} Einträge {$action} wollen?',
-
-		'Are you sure you want to {$action} {$name}?' => 
-		'Sind Sie sicher, dass sie {$name} {$action} wollen?',
-
-		'Are you sure you want to {$action}?' => 
-		'Sind Sie sicher, dass Sie {$action} wollen?',
-
-		'As requested, here is your new Symphony Author Password for ' => 
-		'Wie angefragt, erhalten Sie Ihr neues Symphony-Passwort für ',
-
-		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Autor um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Autoren</a>',
-
-		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Autor um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Autoren</a>',
-
-		'Available when using Dynamic Options' => 
-		'Verfügbar im Zusammenhang mit dynamischen Optionen',
-
-		'Choose only one. Created if does not exist' => 
-		'Wählen Sie nur ein Gruppe. Diese wird bei Bedarf erstellt.',
-
-		'Collapse all' => 
-		'Alle einklappen',
-
-		'Components' => 
-		'Komponenten',
-
-		'Confirm New Password' => 
-		'Neues Passwort wiederholen',
-
-		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Die Datenquelle <code>%s</code> konnte nicht gefunden werden. Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
-
-		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Das E-Mail-Gateway <code>%s</code> konnte nicht gefunden werden. Sollte das E-Mail-Gateway von einer Erweiterung bereitgestellt worden sein, überprüfen Sie ob diese installiert und aktiviert ist.',
-
-		'Could not find Event <code>%s</code>. If the Event was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Das Ereignis <code>%s</code> konnte nicht gefunden werden. Sollte das Ereignis von einer Erweiterung bereitgestellt worden sein, überprüfen Sei ob diese installiert und aktiviert ist.',
-
-		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Das Feld <code>%1$s</code> konnte nicht unter <code>%2$s</code> gefunden werden. Wenn dieses Feld von einer Erweiterung bereitgestellt wurde, überprüfen Sie, dass diese installiert und aktiviert ist.',
-
-		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Der Textformatierer <code>%s</code> konnte nicht gefunden werden. Sollte der Textformatieren von einer Erweiterung bereitgestellt werden, stellen Sie sicher, dass er installiert und aktiviert ist.',
-
-		'Could not find extension at location %s' => 
-		'Die Erweiterung konnte nicht unter %s gefunden werden.',
-
-		'Created if does not exist' => 
-		'Die Gruppe wird erstellt, wenn Sie noch nicht existiert',
-
-		'Customise how Date and Time values are displayed throughout the Administration interface.' => 
-		'Passen Sie an, wie Datums- und Zeitangaben innerhalb des Administrationsbereichs dargestellt werden.',
-
-		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
-		'Daten, die vom Symphony-Supportserver empfangen werden, werden mit der ZLib-Kompression-Bibliothek dekomprimiert.',
-
-		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Datenquelle um %1$s erstellt.  <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Datenquellen</a>',
-
-		'Data source output grouping is not supported by the <code>%s</code> field' => 
-		'Ergebnisgruppierung für Datenquellen wird vom Feld <code>%s</code> nicht unterstützt',
-
-		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Datenquelle um %1$s aktualisiert. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Datenquellen</a>',
-
-		'Database' => 
-		'Datenbank',
-
-		'Database Connection' => 
-		'Datenbankverbindung',
-
-		'Date Format' => 
-		'Datumsformat',
-
-		'Date and Time' => 
-		'Datum und Zeit',
-
-		'Dear <!-- RECIPIENT NAME -->,' => 
-		'Liebe(r) <!-- RECIPIENT NAME -->,',
-
-		'Destination folder, <code>%s</code>, is not writable. Please check permissions.' => 
-		'Das Zielverzeichnis <code>%s</code> ist nicht beschreibbar. Bitte überprüfen Sie die Zugriffsrechte.',
-
-		'Directories' => 
-		'Verzeichnisse',
-
-		'Directory <code>%s</code> does not exist.' => 
-		'Der Ordner <code>%s</code> existiert nicht.',
-
-		'Edit Configuration' => 
-		'Einstellungen bearbeiten',
-
-		'Edit Page Confguration' => 
-		'Seiteneinstellungen bearbeiten',
-
-		'Email Gateway' => 
-		'E-Mail-Gateway',
-
-		'Enable' => 
-		'Aktivieren',
-
-		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Eintrag um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Einträge</a>',
-
-		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Eintrag um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Einträge</a>',
-
-		'Environment Settings' => 
-		'Umgebungseinstellungen',
-
-		'Error creating field object with id %1$d, for filtering in data source "%2$s". Check this field exists.' => 
-		'Beim Erstellen des Feld-Objekts mit der ID %1sd, das zum Filter der Datenquelle "%2$s" verwendet wird, ist ein Fehler aufgetreten. Überprüfen Sie, ob das Feld existiert.',
-
-		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Ereignis um %1$s erstellt. <a href="%2$s" accesskey="c">Ein neues erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Ereignisse</a>',
-
-		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Ereignis um %1$s aktualisiert. <a href="%2$s" accesskey="c">Ein neues erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Ereignisse</a>',
-
-		'Expand all' => 
-		'Alle ausklappen',
-
-		'Failed to delete <code>%s</code>. Please check permissions.' => 
-		'<code>%s</code> konnte nicht gelöscht werden. Bitte überprüfen Sie die Zugriffsrechte.',
-
-		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
-		'Datenquelle konnte nicht unter <code>%s</code> gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte.',
-
-		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
-		'<code>%s</code> konnte nicht gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte.',
-
-		'File chosen in "%1$s" exceeds the maximum allowed upload size of %2$s specified by your host.' => 
-		'Die gewählte Datei überschreitet die von Ihrem Host festgelegte maximale Uploadgröße von %2$s.',
-
-		'File chosen in "%1$s" exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
-		'Die gewählte Datei überschreitet die für Symphony festgelegte maximale Uploadgröße von %2$s.',
-
-		'File chosen in \'%s\' does not match allowable file types for that field.' => 
-		'Die in \'%s\' ausgewählte Datei entspricht keinem erlaubten Dateityp für dieses Feld.',
-
-		'File chosen in \'%s\' was only partially uploaded due to an error.' => 
-		'Die in \'%s\' ausgewählte Datei wurde aufgrund eines Fehlers nur teilweise hochgeladen.',
-
-		'Files' => 
-		'Dateien',
-
-		'Filter %s by' => 
-		'%s filtern mit',
-
-		'Filter Authors by' => 
-		'Autoren filtern mit',
-
-		'Filter Navigation by' => 
-		'Navigation filtern mit',
-
-		'Install Symphony' => 
-		'Symphony installieren',
-
-		'Installation Failure' => 
-		'Installation fehlgeschlagen',
-
-		'Invalid element name. Must be valid QName.' => 
-		'Ungültiger Elementname. Muss ein gültiger QName sein.',
-
-		'Invalid timezone \'{$timezone}\'' => 
-		'Ungültige Zeitzone \'{$timezone}\'',
-
-		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Anscheinend versuchen Sie einen neuen Eintrag zu erstellen. Vielleicht möchten Sie vorher Felder anlegen. <a href="%s">Klicken Sie hier um Felder anzulegen.</a>',
-
-		'Leave these fields unless you are sure they need to be changed.' => 
-		'Belassen Sie diese Felder wie sie sind, es sei denn, Sie sind sich sicher, dass sie geändert werden müssen.',
-
-		'Line %s' => 
-		'Zeile %s',
-
-		'Logout' => 
-		'Abmelden',
-
-		'Long Description' => 
-		'Lange Beschreibung',
-
-		'Make sure that you delete <code>%s</code> file after Symphony has installed successfully.' => 
-		'Bitte löschen Sie <code>%s</code> nachdem Symphony erfolgreich installiert wurde.',
-
-		'Make textarea %s rows tall' => 
-		'Stelle Textfeld %s Zeilen hoch dar.',
-
-		'Missing Requirements' => 
-		'Fehlende Voraussetzungen',
-
-		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
-		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 oder höher',
-
-		'MySQL Error (%1$s): %2$s in query "%3$s"' => 
-		'MySQL-Fehler (%1$s): %2$s in query "%3$s"',
-
-		'No valid recipients found. Check send-email[recipient] field.' => 
-		'Es konnten keine Empfänger gefunden werden. Überprüfen Sie das Feld send-email[recipient].',
-
-		'Once installed, you will be able to login to the Symphony admin with these user details.' => 
-		'Sobald die Installation abgeschlossen ist, können Sie mit diesen Zugangsdaten auf Symphony zugreifen.',
-
-		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
-		'Eine oder mehrere Seiten konnten nicht gelöscht werden. Bitte überprüfen Sie die Rechte für <code>/workspace/pages</code>.',
-
-		'Outstanding Requirements' => 
-		'Fehlende Anforderungen',
-
-		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
-		'Die Seite konnte nicht auf der Festplatte gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte für <code>/workspace/pages</code>.',
-
-		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Seite um %1$s erstellt. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Seiten</a>',
-
-		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Seite um %1$s aktualisiert. <a href="%2$s" accesskey="c">Eine neue erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Seiten</a>',
-
-		'Parameter Output' => 
-		'Ausgabeparameter',
-
-		'Password reset. Check your email' => 
-		'Das Passwort wurde zurückgesetzt. Überprüfen Sie Ihr E-Mail-Postfach',
-
-		'Permission Settings' => 
-		'Zugriffseinstellungen',
-
-		'Personal Information' => 
-		'Persönliche Informationen',
-
-		'Please <a href="%s">login</a> to view this page.' => 
-		'Bitte <a href="%s">melden Sie sich an</a>, um diese Seite zu sehen.',
-
-		'Please add the following personal details for this user.' => 
-		'Bitte ergänzen Sie die nachfolgenden persönlichen Informationen des Nutzers.',
-
-		'Please provide Symphony with access to a database.' => 
-		'Bitte räumen Sie Symphony einen Datenbankzugang ein.',
-
-		'Recipient username was invalid' => 
-		'Empfängername war ungültig',
-
-		'Region' => 
-		'Region',
-
-		'Remove selected items' => 
-		'Auswahl entfernen',
-
-		'Root Path' => 
-		'Wurzelpfad',
-
-		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
-		'Aktualisierung ausführen umd Symphony auf Version %s zu aktualisieren. <a href="%s">Zeige Aktualisierung</a>',
-
-		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Bereich um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bereiche</a>',
-
-		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Bereich um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bereiche</a>',
-
-		'Symphony Concierge' => 
-		'Symphony-Concierge',
-
-		'Symphony does not have write permission to the <code>/manifest</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		'Symphony hat keine Schreibrechte für das Verzeichnis <code>/manifest</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses und seiner Inhalte an, zum Beispiel mit einen rekursiven <code>chmod -R</code> Kommando.',
-
-		'Symphony does not have write permission to the <code>/symphony</code> directory. Please modify permission settings on this directory. This is necessary only during installation, and can be reverted once installation is complete.' => 
-		'Symphony hat keine Schreibrechte für das Verzeichnis <code>/symphony</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses an. Diese Änderung ist nur während der Installation nötig und kann danach rückgängig gemacht werden.',
-
-		'Symphony does not have write permission to the existing <code>/workspace</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		'Symphony hat keine Schreibrechte für das Verzeichnis <code>/workspace</code>. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses und seiner Inhalte an, zum Beispiel mit einen rekursiven <code>chmod -R</code> Kommando.',
-
-		'Symphony does not have write permission to the root directory. Please modify permission settings on this directory. This is necessary only if you are not including a workspace, and can be reverted once installation is complete.' => 
-		'Symphony hat keine Schreibreiche für das Wurzelverzeichnis. Bitte passen Sie die Zugriffsrechte dieses Verzeichnisses an. Diese Änderung ist nur nötig, wenn Sie keinen Workspace einbinden und kann nach der Installation rückgängig gemacht werden.',
-
-		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
-		'Symphony hat keine Schreibrechte für die temporäre <code>.htaccess</code>-Datei. Bitte passen Sie die Zugriffsrechte dieser Datei so an, dass sie umbenannt und beschrieben werden kann.',
-
-		'Symphony is also available in other languages' => 
-		'Symphony ist auch in anderen Sprachen verfügbar',
-
-		'Symphony is ready to be installed at the following location.' => 
-		'Symphony ist bereit für die Installation an nachfolgendem Ort.',
-
-		'Symphony needs a recent version of <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.' => 
-		'Symphony benötigt eine aktuelle <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>-Version.',
-
-		'Symphony needs a recent version of My<abbr title="Structured Query Language">SQL</abbr>.' => 
-		'Symphony benötigt eine aktuelle My<abbr title="Structured Query Language">SQL</abbr>-Version.',
-
-		'Symphony needs an XSLT processor such as Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> or Sablotron to build pages.' => 
-		'Symphony benötigt einen XSLT-Prozessor wie Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> oder Sablotron um Seiten erzeugen zu können.',
-
-		'Symphony needs permission to read and write both files and directories.' => 
-		'Symphony benötigt Lese- und Schreibrechte für Dateien und Verzeichnisse.',
-
-		'Symphony needs the following requirements satisfied before installation can proceed.' => 
-		'Symphony benötigt folgende Voraussetzungen bevor die Installation fortgesetzt werden kann.',
-
-		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		'Symphony verwendet normalerweise UTF-8-Zeichenkodierung für Datenbankeinträge. Im Kompatibilitätsmodus verwendet Symphony anstelle die Standardzeichenkodierung ihrer Datenbank.',
-
-		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		'Symphony benötigt <code>MySQL 4.1</code> oder neuer, allerdings wurde Version <code>%s</code> erkannt. Ohne die benötigte Version kann die Installation nicht fortgesetzt werden.',
-
-		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
-		'Symphony benötigt <code>MySQL 4.1</code> oder neuer. Ohne die benötigte Version kann die Installation nicht fortgesetzt werden.',
-
-		'Symphony was unable to connect to the specified database. You may need to modify host or port settings.' => 
-		'Symphony war nicht in der Lage eine Verbindung zur angegebenen Datenbank aufzubauen. Möglicherweise müssen Sie Ihre Host- oder Port-Einstellungen anpassen.',
-
-		'System Author' => 
-		'Systemautor',
-
-		'Table Prefix' => 
-		'Tabellenprefix',
-
-		'The %s gateway does not support the use of %s' => 
-		'Das %s-Gateway überstützt die Verwednung von %s nicht',
-
-		'The Data Source \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
-		'Die Datenquelle \'%s\', welche durch die Erweiterung \'%s\' bereitgestellt wird, ist in Verwendung. Bitte entfernen sie es zunächst von allen Seiten, bevor Sie es deinstallieren oder deaktivieren.',
-
-		'The Event \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
-		'Das Ereignis \'%s\', welches durch die Erweiterung \'%s\' bereitgestellt wird, is in Verwendung. Bitte entfernen sie es zunächst von allen Seiten, bevor Sie es deinstallieren oder deaktivieren.',
-
-		'The Section you are looking for, <code>%s</code>, could not be found.' => 
-		'Der von Ihnen gesuchte Berich <code>%s</code> konnte nicht gefunden werden.',
-
-		'The Section you are looking, <code>%s</code> for could not be found.' => 
-		'Der von Ihnen gesuchte Bereich <code>%s</code> konnte nicht gefunden werden.',
-
-		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
-		'Die Symphony-Konfigurationsdatei <code>/manifest/config.php</code> ist nicht lesbar. Die Änderungen der Voreinstellungen werden nicht gespeichert.',
-
-		'The Symphony core will use the selected gateway to send emails. More gateways can be installed using extensions, and any gateway may be used by custom events or extensions.' => 
-		'Symphony verwendet das ausgewählte Gateway, um E-Mails zu versenden. Weitere Gateways können mittels Erweiterungen installiert werden, wobei in Ereignissen oder Erweiterungen ein beliebiges dieser Gateways benutzt werden kann.',
-
-		'The date specified in \'%s\' is invalid.' => 
-		'Das angegebene Datum \'%s\' ist ungültig.',
-
-		'The destination directory, <code>%s</code>, does not exist.' => 
-		'Der Zielordner <code>%s</code> existiert nicht.',
-
-		'The email address "%s" is invalid.' => 
-		'Die E-Mail-Adresse "%s" is ungültig.',
-
-		'The field \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your sections prior to uninstalling or disabling.' => 
-		'Das Feld \'%s\', welches durch die Erweiterung \'%s\' bereitgestellt wird, ist in Verwendung. Bitte entfernen sie es zunächst aus allen Bereichen, bevor Sie es deinstallieren oder deaktivieren.',
-
-		'The following default settings will be used to send emails unless they are overwritten.' => 
-		'Die folgenden Standardeinstellungen werden für den E-Mail-Versand verwendet, sofern sie nicht überschrieben werden.',
-
-		'The page you requested does not exist' => 
-		'Die aufgerufen Seite existiert nicht',
-
-		'The password and confirmation did not match. Please retype your password.' => 
-		'Das Passwort und dessen Wiederholung stimmten nicht überein. Bitte geben Sie Ihr Passwort erneut ein.',
-
-		'The section associated with the data source <code>%s</code> could not be found.' => 
-		'Der mit der Datenquelle <code>%s</code> verbundene Bereich konnte nicht gefunden werden.',
-
-		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
-		'Das übermittelte Passwort wurde nicht akzeptiert. <a href="%s">Ein neues anfordern?</a>',
-
-		'The supplied password was rejected. Make sure it is not empty and that password matches password confirmation.' => 
-		'Das verwendete Passwort wurde nicht akzeptiert. Stellen Sie sicher, dass das Passwort nicht leer ist und dass es der Passwort-Benachrichtung entspricht.',
-
-		'The table prefix <code><!-- TABLE-PREFIX --></code> is already in use. Please choose a different prefix to use with Symphony.' => 
-		'Der Tabellenprefix <code><!-- TABLE-PREFIX --></code>ist bereits in Benutzung. Bitte wählen Sie einen anderen Prefix, der in Verbindung mit Symphony verwendet werden soll.',
-
-		'There is already a field of type <code>%s</code>. There can only be one per section.' => 
-		'Es existiert bereits ein Feld des Typs <code>%s</code>. Es ist für jeden Bereich nur eines zulässig.',
-
-		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
-		'Beim Versuch eine Datenbankverbindung herzustellen ist ein Problem aufgetreten. Bitte überprüfen Sie, ob die Verbindungsinformationen korrekt sind. Der nachfolgende Fehler wurde zurückgegeben.',
-
-		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
-		'Beim Hochladen der Datei <code>%1$s</code> in den Zielordner <code>%2$s</code> ist ein Fehler aufgetreten.',
-
-		'This document is not well formed. The following error was returned: <code>%s</code>' => 
-		'Dieses Dokument ist nicht wohlgeformt. Folgender Fehler wurde zurückgegeben: <code>%s</code>',
-
-		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
-		'Diese E-Mail möchte Sie darüber informieren, dass ein Eintrag im Bereich %1$s erstellt wurde. Sie können diesen bearbeiten, indem folgende Seite aufrufen: %2$s',
-
-		'This is not a valid email address. You must provide an email address since you will need it if you forget your password.' => 
-		'Dies keine gültige E-Mail-Adresse. Sie müssen eine E-Mail-Adresse angeben, da Sie diese benötigen, falls Sie Ihr Passwort vergessen sollten.',
-
-		'This page could not be rendered due to the following XSLT processing errors.' => 
-		'Diese Seite konnte aufgrund nachfolgender XSLT-Verarbeitungfehler nicht dargestellt werden.',
-
-		'Time Format' => 
-		'Zeitformat',
-
-		'Title is a required field' => 
-		'Titel ist ein Pflichtfeld',
-
-		'Two custom fields have the same element name. All element names must be unique.' => 
-		'Zwei Felder haben den selben Elementnamen. Alle Elementnamen müssen eindeutig sein.',
-
-		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
-		'Ein unbekannter Fehler ist beim Speichern aufgetreten. Bitte überprüfen Sie Ihr <a href="%s">Systemlogbuch</a>.',
-
-		'Update Symphony' => 
-		'Symphony Aktualisierung',
-
-		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
-		'Das Hochladen von \'%s\' ist fehlgeschlagen. Die temporäre Datei konnte nicht gespeichert werden.',
-
-		'Uploading \'%s\' failed. File upload stopped by extension.' => 
-		'Das Hochladen von \'%s\' ist fehlgeschlagen. Der Vorgang wurde von einer Erweiterung unterbrochen.',
-
-		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
-		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den bestimmten Empfänger senden. <b>Dies funktioniert derzeit nicht mit mehreren Einträgen gleichzeitig.</b> Folgende Felder werden erkannt:',
-
-		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
-		'Verwenden Sie <code>{$param}</code>, um mit Seitenparametern zu filtern.',
-
-		'Use <code>{$param}</code> syntax to limit by page parameters.' => 
-		'Verwenden Sie <code>{$param}</code>, um mit Seitenparametern zu begrenzen.',
-
-		'Use <code>{$param}</code> syntax to specify dynamic portions of the URL.' => 
-		'Verwenden Sie <code>{$param}</code>, um dynamische Teile der URL festzulegen.',
-
-		'Use Field' => 
-		'Zu verwendendes Feld',
-
-		'Use compatibility mode' => 
-		'Verwende Kompatibilitätsmodus',
-
-		'User Information' => 
-		'Benutzerinformationen',
-
-		'User type' => 
-		'Benutzergruppe',
-
-		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
-		'Baustein konnte nicht auf der Festplatte gespeichert werden. Bitte überprüfen Sie die Zugriffsrechte für <code>/workspace/utilities</code>.',
-
-		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Baustein um %1$s erstellt. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bausteine</a>',
-
-		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Baustein um %1$s aktualisiert. <a href="%2$s" accesskey="c">Einen neuen erstellen?</a> <a href="%3$s" accesskey="a">Zeige alle Bausteine</a>',
-
-		'Version %s' => 
-		'Version %s',
-
-		'Website Name' => 
-		'Webseitenname',
-
-		'Website Preferences' => 
-		'Webseiteneinstellungen',
-
-		'XML' => 
-		'XML',
-
-		'XML returned is invalid.' => 
-		'Zurückgegebenes XML ist ungültig',
-
-		'You are already using the most recent version of Symphony. There is no need to run the installer, and can be safely deleted.' => 
-		'Sie verwenden bereits die aktuellste Version von Symphony. Es ist nicht nötig das Installationsprogramm laufen zu lassen, es kann sicher entfernt werden.',
-
-		'You are not using the most recent version of Symphony. This update is only compatible with Symphony 2.' => 
-		'Sie verwenden nicht die aktuellste Version von Symphony. Diese Aktualisierung ist nur mit Symphony 2 kompatibel.',
-
-		'You must enter a Password. This will be your Symphony login information.' => 
-		'Sie müssen ein Passwort anlegen, welches für Sie bei der Symphony-Anmeldung verwendet werden soll.',
-
-		'You must enter a Username. This will be your Symphony login information.' => 
-		'Sie müssen einen Benutzernamen anlegen, welcher für Sie bei der Symphony-Anmeldung verwendet werden soll.',
-
-		'You must enter your name.' => 
-		'Sie müssen Ihren Namen angeben.',
-
-		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
-		'Ihre Symphony-Installation ist auf dem neusten Stand aber es wurde immer noch ein Aktualisierungsskript gefunden. Aus Sicherheitsgründen sollten Sie dieses entfernen. <a href="%s/update.php?action=remove">Aktualisierungsskript entfernen</a>',
-
-		'ZLib Compression Library' => 
-		'ZLib-Compression-Library',
-
-		'appendHeaderField accepts strings only; arrays are not allowed.' => 
-		'appendHeaderField akzeptiert nur Zeichenketten; Arrays sind nicht zugelassen.',
-
-		'released on' => 
-		'veröffentlicht am',
-
-		// Missing
-
 		'Are you sure you want to proceed?' => 
-		false,
+		'Sind Sie sicher, dass Sie fortfahren möchten?',
 
 		'Untitled Field' => 
-		false,
+		'Unbenanntes Feld',
 
 		'The field “{$title}” ({$type}) has been removed.' => 
-		false,
+		'Das Feld „{$title}“ ({$type}) wurde entfernt.',
 
 		'Undo?' => 
-		false,
+		'Rückgängig machen?',
 
 		'Ignore?' => 
-		false,
+		'Ignorieren?',
 
 		'An error occurred while processing this form. See below for details.' => 
-		false,
+		'Beim Verarbeiten dieses Formulars ist ein Fehler aufgetreten. Details siehe unten.',
 
 		'Data source updated at %s.' => 
-		false,
+		'Datenquelle um %s aktualisiert.',
 
 		'Create another?' => 
-		false,
+		'Einen neuen erstellen?',
 
 		'View all Data sources' => 
-		false,
+		'Alle Datenquellen anzeigen',
 
 		'Data source created at %s.' => 
-		false,
+		'Datenquelle um %s erstellt.',
 
 		'From extensions' => 
-		false,
+		'Als Erweiterung',
 
 		'Use %s syntax to filter by page parameters.' => 
-		false,
+		'Verwenden Sie %s, um mit Seitenparametern zu filtern.',
 
 		'$param' => 
-		false,
+		'$parameter',
 
 		'Add filter' => 
-		false,
+		'Filter hinzufügen',
 
 		'Remove filter' => 
-		false,
+		'Filter entfernen',
 
 		'Use %s syntax to limit by page parameters.' => 
-		false,
+		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
 
 		'%1$s Paginate results, limiting to %2$s entries per page. Return page %3$s' => 
-		false,
+		'%1$s Paginiere die Ausgabe, mit %2$s Einträgen pro Seite. Beginne auf Seite %3$s',
 
 		'An empty result will be returned when this parameter does not have a value.' => 
-		false,
+		'Wenn dieser Parameter keinen Wert hat, wird ein leeres Ergebnis ausgegeben.',
 
 		'Output Parameters' => 
-		false,
+		'Ausgabeparameter',
 
 		'Use Fields' => 
-		false,
+		'Verfügbare Felder',
 
 		'Use %s syntax to specify dynamic portions of the URL.' => 
-		false,
+		'Verwenden Sie %s, um dynamische Teile der URL festzulegen.',
 
 		'Are you sure you want to delete this data source?' => 
-		false,
+		'Sie Sie sicher, dass Sie diese Datenquelle löschen möchten?',
 
 		'%1$s released on %2$s' => 
-		false,
+		'%1$s veröffentlicht am %2$s',
 
 		'Created by %1$s at %2$s' => 
-		false,
+		'Von %1$s um %2$s erstellt',
 
 		'Failed to delete %s.' => 
-		false,
+		'Löschen von %s fehlgeschlagen',
 
 		'Please check permissions on %s.' => 
-		false,
+		'Bitte überprüfen Sie die Zugriffsrechte für %s.',
 
 		'Please ensure name contains at least one Latin-based character.' => 
-		false,
+		'Bitte stellen Sie sicher, dass der Name mindestens ein lateinisches Schriftzeichen beinhaltet.',
 
 		'A Data source with the name %s already exists' => 
-		false,
+		'Eine Datenquelle mit dem Namen %s existiert bereits',
 
 		'Failed to write Data source to disk.' => 
-		false,
+		'Datenquelle konnte nicht gespeichert werden.',
 
 		'Invalid URL' => 
-		false,
+		'Ungültige URL',
 
 		'Request timed out. %d second limit reached.' => 
-		false,
+		'Zeitüberschreitung bei Anfrage. %d-Sekunden-Limit erreicht.',
 
 		'Failed to load URL, status code %d was returned.' => 
-		false,
+		'URL konnte nicht geladen werden, Statuskode %d wurden zurückgegeben.',
 
 		'Event updated at %s.' => 
-		false,
+		'Ereignis um %s aktualisiert.',
 
 		'View all Events' => 
-		false,
+		'Alle Ereignisse anzeigen',
 
 		'Event created at %s.' => 
-		false,
+		'Ereignis um $s erstellt.',
 
 		'Are you sure you want to delete this event?' => 
-		false,
+		'Sind Sie sicher, dass Sie dieses Ereignis löschen möchten?',
 
 		'An Event with the name %s already exists' => 
-		false,
+		'Ein Ereignis mit dem Namen %s existiert bereits',
 
 		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option' => 
-		false,
+		'Bitte beachten Sie, dass Sie möglicherweise eine Mischung aus Fehler- und Erfolgsrückmeldungen erhalten, wenn Sie die Erstellung mehrerer Einträge zulassen.',
 
 		'Recipient not found' => 
-		false,
+		'Empfänger nicht gefunden',
 
 		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
-		false,
+		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den bestimmten Empfänger senden.',
 
 		'It currently does not work with ‘Allow Multiple’' => 
-		false,
+		'Dies funktioniert derzeit nicht mit mehreren Einträgen gleichzeitig',
 
 		'The following are the recognised fields:' => 
-		false,
+		'Folgende Felder werden erkannt:',
 
 		'Failed to write Event to disk.' => 
-		false,
+		'Ereignis konnte nicht gespeichert werden.',
 
 		'Universal Resource Locator' => 
-		false,
+		'Universla Resource Locator',
 
 		'Parameters' => 
-		false,
+		'Parameter',
 
 		'Are you sure you want to delete the selected pages?' => 
-		false,
+		'Sind Sie sicher, dass Sie die ausgewählten Seiten löschen möchten?',
 
 		'Page updated at %s.' => 
-		false,
+		'Seite um %s aktualisiert.',
 
 		'View all Pages' => 
-		false,
+		'Alle Seiten anzeigen',
 
 		'Edit Page' => 
-		false,
+		'Seite bearbeiten',
 
 		'Edit Page Configuration' => 
-		false,
+		'Seitenkonfiguration bearbeiten',
 
 		'Page created at %s.' => 
-		false,
+		'Seite um %s erstellt.',
 
 		'Are you sure you want to delete this page?' => 
-		false,
+		'Sind Sie sicher, dass Sie diese Seite löschen möchten?',
 
 		'This document is not well formed.' => 
-		false,
+		'Dieses Dokument ist nicht wohlgeformt.',
 
 		'The following error was returned:' => 
-		false,
+		'Folgender Fehler wurde zurückgegeben:',
 
 		'Page Template could not be written to disk.' => 
-		false,
+		'Seitenvorlage konnte nicht gespeichert werden.',
 
 		'Please ensure handle contains at least one Latin-based character.' => 
-		false,
+		'Bitte stellen Sie sicher, dass der Bezeichner mindestens einen lateinisches Schriftzeichen enthällt.',
 
 		'Unknown errors occurred while attempting to save.' => 
-		false,
+		'Beim Speichern ist ein unbekannter Fehler aufgetreten.',
 
 		'Check your activity log' => 
-		false,
+		'Überprüfen Sie Ihr Fehlerlogbuch',
 
 		'One or more pages could not be deleted.' => 
-		false,
+		'Eine oder mehrere Seiten konnten nicht gelöscht werden.',
 
 		'Are you sure you want to delete the selected sections?' => 
-		false,
+		'Sind Sie sicher, dass Sie die ausgewählten Bereiche löschen möchten?',
 
 		'Are you sure you want to delete all entries in the selected sections?' => 
-		false,
+		'Sind Sie sicher, dass Sie alle Einträge in den ausgewählten Bereichen löschen?',
 
 		'Click to expand or collapse a field.' => 
-		false,
+		'Aus- und Einklappen eines Feldes mittels Klick.',
 
 		'Double click to expand or collapse all fields.' => 
-		false,
+		'Aus- und Einklappen aller Felder mittels Doppelklick.',
 
 		'Add field' => 
-		false,
+		'Feld hinzufügen',
 
 		'Remove field' => 
-		false,
+		'Feld löschen',
 
 		'Section updated at %s.' => 
-		false,
+		'Bereich um %s aktualisiert.',
 
 		'View all Sections' => 
-		false,
+		'Zeige alle Bereiche',
 
 		'Section created at %s.' => 
-		false,
+		'Bereich um %s erstellt.',
 
 		'View Entries' => 
-		false,
+		'Zeige Einträge',
 
 		'View Section Entries' => 
-		false,
+		'Zeige Einträge des Bereichs',
 
 		'Are you sure you want to delete this section?' => 
-		false,
+		'Sind Sie sicher, dass Sie diesen Bereich löschen möchten?',
 
 		'A Section with the name %s already exists' => 
-		false,
+		'Ein Bereich mit dem Namen %s existiert bereits',
 
 		'A field with this handle already exists. All handle must be unique.' => 
-		false,
+		'Ein Feld mit diesem Bezeichner existiert bereits. Bezeichner müssen eindeutig sein.',
 
 		'There is already a field of type %s. There can only be one per section.' => 
-		false,
+		'Ein Feld vom Typ %s existiert bereits. Pro Bereich darf es nur eines geben.',
 
 		'Utility updated at %s.' => 
-		false,
+		'Baustein um %s aktualisiert.',
 
 		'View all Utilities' => 
-		false,
+		'Zeige alle Bausteine',
 
 		'Utility created at %s.' => 
-		false,
+		'Baustein um %s erstellt.',
 
 		'Are you sure you want to delete this Utility?' => 
-		false,
+		'Sind Sie sicher, dass Sie diesen Baustein löschen möchten?',
 
 		'Utility could not be written to disk.' => 
-		false,
+		'Baustein konnte nicht gespeichert werden.',
 
 		'No username was entered.' => 
-		false,
+		'Es wurde kein Benutzername eingegeben',
 
 		'The supplied password was rejected.' => 
-		false,
+		'Das eingegebene Passwort wurde nicht akzeptiert.',
 
 		'Retrieve password?' => 
-		false,
+		'Passwort anfordern?',
 
 		'The Section you are looking for, %s, could not be found.' => 
-		false,
+		'Der gesuchte Bereich, %s, konnte nicht gefunden werden.',
 
 		'Edit Section' => 
-		false,
+		'Bereich bearbeiten',
 
 		'Edit Section Configuration' => 
-		false,
+		'Bereichseinstellungen bearbeiten',
 
 		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
-		false,
+		'Beim anfordern gefilterter Einträge ist ein Fehler aufgetreten. Es werden daher alle Einträge angezeigt.',
 
 		'Are you sure you want to delete the selected entries?' => 
-		false,
+		'Sind Sie sicher, dass Sie die ausgewählten Einträge löschen möchten?',
 
 		'Go to page …' => 
-		false,
+		'Gehe zu Seite …',
 
 		'Fields must be added to this section before an entry can be created.' => 
-		false,
+		'Bevor sie einen Eintrag erstellen können, müssen Sie dem Bereich Felder hinzufügen.',
 
 		'Add fields' => 
-		false,
+		'Felder hinzufügen',
 
 		'Entry updated at %s.' => 
-		false,
+		'Eintrag um %s aktualisiert.',
 
 		'View all Entries' => 
-		false,
+		'Zeige alle Einträge',
 
 		'Entry created at %s.' => 
-		false,
+		'Eintrag um %s erstellt.',
 
 		'Are you sure you want to delete this entry?' => 
-		false,
+		'Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?',
 
 		'Create a new author' => 
-		false,
+		'Neuen Autor erstellen',
 
 		'Email this author' => 
-		false,
+		'Dieses Autor anschreiben',
 
 		'Unknown' => 
-		false,
+		'Unbekannt',
 
 		'Are you sure you want to delete the selected authors?' => 
-		false,
+		'Sind Sie sicher, dass Sie die ausgewählten Autoren löschen möchten`',
 
 		'Author updated at %s.' => 
-		false,
+		'Autor um %s aktualisiert.',
 
 		'View all Authors' => 
-		false,
+		'Zeige alle Autoren',
 
 		'Author created at %s.' => 
-		false,
+		'Autor um %s erstellt.',
 
 		'%s Allow remote login via' => 
-		false,
+		'%s Remotezugriff erlauben via',
 
 		'Sections Index' => 
-		false,
+		'Bereichsübersicht',
 
 		'Are you sure you want to delete this author?' => 
-		false,
+		'Sind Sie sicher, dass Sie diesen Autor löschen möchten?',
 
 		'Requires Symphony %s' => 
-		false,
+		'Setzt Symphony %s voraus',
 
 		'New version %1$s, Requires Symphony %2$s' => 
-		false,
+		'Neue version %1$s, setzt Symphony %2$s voraus',
 
 		'Enable/Install' => 
-		false,
+		'Aktivieren/Installieren',
 
 		'Are you sure you want to uninstall the selected extensions?' => 
-		false,
+		'Sind Sie sicher, dass Sie die ausgewählten Erweiterungen deinstallieren möchten?',
 
 		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
-		false,
+		'Die Symphony-Konfigurationsdatei, %s, ist nicht lesbar. Die Änderungen der Voreinstellungen werden nicht gespeichert.',
 
 		'Default Email Settings' => 
-		false,
+		'Standard-E-Mail-Einstellungen',
 
 		'Gateway' => 
-		false,
+		'Gateway',
 
 		'An extension requires updating.' => 
-		false,
+		'Eine Erweiterung muss aktualisiert werden.',
 
 		'View extensions' => 
-		false,
+		'Zeige Erweiterungen',
 
 		'An update has been found in your installation to upgrade Symphony to %s.' => 
-		false,
+		'Eine Aktualisierung auf Symphony %s wurde für Ihre Installation gefunden.',
 
 		'View update.' => 
-		false,
+		'Zeige Aktualisierung.',
 
 		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
-		false,
+		'Ihre Symphony-Installation ist auf dem neusten Stand aber das Installationsskript ist noch vorhanden. Aus Sicherheitsgründen sollte es entfernt werden.',
 
 		'Remove installer?' => 
-		false,
+		'Installationsskript entfernen?',
 
 		'An update script has been found in your installation.' => 
-		false,
+		'Für Ihre Installation steht eine Aktualisierung zur Verfügung.',
 
 		'Invalid timezone %s' => 
-		false,
+		'Ungültige Zeitzone %s',
 
 		'The page you requested, %s, does not exist.' => 
-		false,
+		'Die aufgerufene Seite, %s, existiert nicht.',
 
 		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct.' => 
-		false,
+		'Beim Versuch eine Datenbankverbindung herzustellen ist ein Problem aufgetreten. Bitte überprüfen Sie, ob die Verbindungsinformationen korrekt sind.',
 
 		'Log out' => 
-		false,
+		'Abmelden',
 
 		'E-mail address is already taken' => 
-		false,
+		'E-Mail-Adresse bereits in Verwendung',
 
 		'Could not find Data Source %s.' => 
-		false,
+		'Konnte Datenquelle %s nicht finden.',
 
 		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
-		false,
+		'Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
 
 		'Sender Name can not contain carriage return or newlines.' => 
-		false,
+		'Absender darf keine Zeilenumbrüche enthalten.',
 
 		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
-		false,
+		'%1$s is keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
 
 		'%s accepts strings only; arrays are not allowed.' => 
-		false,
+		'%s akzeptiert ausschließlich Zeichenketten; Datenreihen sind nicht erlaubt.',
 
 		'The email address ‘%s’ is invalid.' => 
-		false,
+		'Die E-Mail-Adresse „%s“ ist ungültig',
 
 		'The %1$s gateway does not support the use of %2$s' => 
-		false,
+		'Das %1$s-Gateway überstützt die Verwednung von %2$s nicht',
 
 		'Could not find Email Gateway %s.' => 
-		false,
+		'E-Mail-Gateway %s konnte nicht gefunden werden.',
 
 		'Could not find Event %s.' => 
-		false,
+		'Ereignis %s konnte nicht gefunden werden.',
 
 		'The field ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
 		false,
@@ -2273,7 +1690,7 @@
 		false,
 
 		'New Field' => 
-		false,
+		'Neues Feld',
 
 		'%s Display in entries table' => 
 		false,
@@ -2351,7 +1768,7 @@
 		false,
 
 		'All' => 
-		false,
+		'Alle',
 
 		'Please check permissions on %s' => 
 		false,
@@ -2429,28 +1846,39 @@
 		false,
 
 		'Show debug view' => 
-		false,
+		'Debug-Ansicht anzeigen',
 
 		'Debug' => 
-		false,
+		'Debug',
 
 		'Show debug view for %s' => 
-		false,
+		'Debug-Ansicht für %s anzeigen',
 
 		'Show line %d in debug view' => 
-		false,
+		'Zeile %s in der Debug-Ansicht anzeigen',
+				
+		// Namespaces
 
-		'fortnight' => 
-		false,
-
-		'forthnight' => 
-		false,
-
-		'fortnights' => 
-		false,
-
-		'forthnights' => 
-		false,
+		'/blueprints/pages' => array(
+		
+			'Create another?' => 
+			'Eine neue erstellen?',
+		
+		),
+		
+		'/blueprints/datasources' => array(
+		
+			'Create another?' => 
+			'Eine neue erstellen?',
+		
+		),
+		
+		'/blueprints/events' => array(
+		
+			'Create another?' => 
+			'Ein neues erstellen?',
+		
+		),
 
 	);
 
