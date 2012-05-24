@@ -109,7 +109,7 @@
 		'Mehrere zulassen',
 
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		'Eine E-Mail mit personalisierten Anmeldedaten wurden verschickt. Sie verliert in zwei Stunden ihre Gültigkeit.',
+		'Eine E-Mail mit personalisierten Anmeldedaten wurde verschickt. Sie verliert in zwei Stunden ihre Gültigkeit.',
 
 		'An index type page already exists.' => 
 		'Es existiert bereits eine Index-Seite.',
@@ -394,7 +394,7 @@
 		'Beim Speichern des Eintrags sind Fehler aufgetreten.',
 
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
-		'Die festgelegte Obergrenze entspricht keinem gültigen Typ. String oder Integer erwartet. ',
+		'Die festgelegte Obergrenze entspricht keinem gültigen Typ. String oder Integer erwartet.',
 
 		'Essentials' => 
 		'Grundangaben',
@@ -478,7 +478,7 @@
 		'Bezeichner',
 
 		'Header fields can only contain strings' => 
-		'Header-Felder können nur Zeichenfolgen beinhalten',
+		'Header-Felder können nur Zeichenketten beinhalten',
 
 		'Hi %s,' => 
 		'Hi %s,',
@@ -646,10 +646,10 @@
 		'Keine Einträge gefunden.',
 
 		'No suitable XSLT processor was found.' => 
-		'Es konnte kein ausreichender XSLT-Prozessor gefunden werden.',
+		'Es konnte kein passender XSLT-Prozessor gefunden werden.',
 
 		'No suitable engine object found' => 
-		'Es konnte kein ausreichendes Engine-Objekt gefunden werden.',
+		'Es konnte kein passendes Engine-Objekt gefunden werden.',
 
 		'None' => 
 		'Keine Angaben',
@@ -676,7 +676,7 @@
 		'Altes Passwort',
 
 		'Only one call to MAIL may be made at a time.' => 
-		'Nur eine MAIL-Aufruf kann zeitgleich gemacht werden.',
+		'Nur ein MAIL-Aufruf kann zeitgleich durchgeführt werden.',
 
 		'Optional' => 
 		'optional',
@@ -826,7 +826,7 @@
 		'Klein',
 
 		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
-		'Einige SMTP-Verbindungen erfordern Autorisierung. Geben Sie in diesem Fall hier die Benutzer-Passwort-Kombination an.',
+		'Einige SMTP-Verbindungen erfordern eine Autorisierung. Geben Sie in diesem Fall hier die Benutzer-Passwort-Kombination an.',
 
 		'Some errors were encountered while attempting to save.' => 
 		'Beim Versuch zu speichern sind Fehler aufgetreten.',
@@ -961,10 +961,10 @@
 		'Titel',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
-		'Um einen existierenden Eintrag zu bearbeiten, müssen Sie die Eintrags-ID im Formular einbinden. Dies geht am besten mit einem versteckten Feld:',
+		'Um einen existierenden Eintrag zu bearbeiten, müssen Sie die Eintrags-ID im Formular einbinden. Dies geht am besten mit einem versteckten Textfeld:',
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
-		'Um nach erfolgreichem Speichern zu einer anderen Adresse weiterzuleiten, müssen Sie das Umleitungsziel im Formular einbinden. Dies geht am besten mit einem versteckten Feld, wobei der Wert der Ziel-URL entspricht:',
+		'Um nach erfolgreichem Speichern zu einer anderen Adresse weiterzuleiten, müssen Sie das Umleitungsziel im Formular einbinden. Dies geht am besten mit einem versteckten Textfeld, wobei der Wert der Ziel-URL entspricht:',
 
 		'Tue' => 
 		'Di',
@@ -1780,7 +1780,7 @@
 		'Die Rückgabewerte sind ungültig.',
 
 		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
-		'Die Klasse %s konnte keine Sperre einrichten, überprüfen Sie, ob %s existiert und schreibbar ist.',
+		'Die Klasse %s konnte keine Sperre einrichten, überprüfen Sie, ob %s existiert und beschreibbar ist.',
 
 		'Transformed XML is invalid.' => 
 		'Das umgewandelte XML is ungültig.',
@@ -1792,7 +1792,7 @@
 		'Der Bereich, der mit der Datenquelle %s verknüpft ist, konnte nicht gefunden werden.',
 
 		'%s Pre-populate with current date' => 
-		'%s Heutiges Datum vorausfüllen',
+		'%s Mit heutigem Datum vorbelegen',
 
 		'The date specified in ‘%s’ is invalid.' => 
 		'Das angegebene Datum für ‚%s‘ is ungültig.',
@@ -1816,13 +1816,13 @@
 		'Das Verzeichnis %s existiert nicht.',
 
 		'Destination folder is not writable.' => 
-		'Der Zielordner ist nicht schreibbar.',
+		'Der Zielordner ist nicht beschreibbar.',
 
 		'The destination directory, %s, does not exist.' => 
-		'Der Zielordner, %s, existiert nicht.',
+		'Der Zielordner %s existiert nicht.',
 
 		'File chosen in ‘%s’ does not match allowable file types for that field.' => 
-		'Die in ‚%s‘ gewählte Datei entspricht keinen zugelassenen Feldtypen für dieses Feld.',
+		'Die in ‚%s‘ gewählte Datei entspricht keinen zugelassenen Dateityp für dieses Feld.',
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s specified by your host.' => 
 		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Ihrem Host erlaubte Dateigröße von %2$s',
@@ -1846,13 +1846,13 @@
 		'Aufgrund nachfolgender XSLT-Ausführungsfehler konnte die Seite nicht ausgegeben werden:',
 
 		'Show debug view' => 
-		'Debug-Ansicht anzeigen',
+		'Debug-Ansicht öffnen',
 
 		'Debug' => 
 		'Debug',
 
 		'Show debug view for %s' => 
-		'Debug-Ansicht für %s anzeigen',
+		'Debug-Ansicht für %s öffnen',
 
 		'Show line %d in debug view' => 
 		'Zeile %s in der Debug-Ansicht anzeigen',
