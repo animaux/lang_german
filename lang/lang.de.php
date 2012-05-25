@@ -736,7 +736,7 @@
 		'Port',
 
 		'Predefined Values' => 
-		'Feststehende Werte',
+		'Vordefinierte Werte',
 
 		'Preferences' => 
 		'Einstellungen',
@@ -799,7 +799,7 @@
 		'Benachrichtigungs-E-Mail schicken',
 
 		'Sender Email Address can not contain carriage return or newlines.' => 
-		'Absenderadresse darf keinen Zeilenumbruch oder Leerzeilen enthalten.',
+		'Die Absenderadresse darf keinen Zeilenumbruch oder Leerzeilen enthalten.',
 
 		'Sender email address cannot be empty.' => 
 		'Die Absenderadresse darf nicht leer sein.',
@@ -1342,7 +1342,7 @@
 		'Bitte überprüfen Sie die Zugriffsrechte für %s.',
 
 		'Please ensure name contains at least one Latin-based character.' => 
-		'Bitte stellen Sie sicher, dass der Name mindestens ein lateinisches Schriftzeichen beinhaltet.',
+		'Bitte stellen Sie sicher, dass der Name mindestens ein lateinisches Schriftzeichen enthält.',
 
 		'A Data source with the name %s already exists' => 
 		'Eine Datenquelle mit dem Namen %s existiert bereits',
@@ -1357,7 +1357,7 @@
 		'Zeitüberschreitung bei Anfrage. %d-Sekunden-Limit erreicht.',
 
 		'Failed to load URL, status code %d was returned.' => 
-		'URL konnte nicht geladen werden, Statuskode %d wurden zurückgegeben.',
+		'URL konnte nicht geladen werden, Status-Code %d wurden zurückgegeben.',
 
 		'Event updated at %s.' => 
 		'Ereignis um %s aktualisiert.',
@@ -1381,7 +1381,7 @@
 		'Empfänger nicht gefunden',
 
 		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
-		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den bestimmten Empfänger senden.',
+		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den ausgewählten Empfänger senden.',
 
 		'It currently does not work with ‘Allow Multiple’' => 
 		'Dies funktioniert derzeit nicht mit mehreren Einträgen gleichzeitig',
@@ -1393,7 +1393,7 @@
 		'Ereignis konnte nicht gespeichert werden.',
 
 		'Universal Resource Locator' => 
-		'Universla Resource Locator',
+		'Universal Resource Locator',
 
 		'Parameters' => 
 		'Parameter',
@@ -1429,13 +1429,13 @@
 		'Seitenvorlage konnte nicht gespeichert werden.',
 
 		'Please ensure handle contains at least one Latin-based character.' => 
-		'Bitte stellen Sie sicher, dass der Bezeichner mindestens einen lateinisches Schriftzeichen enthällt.',
+		'Bitte stellen Sie sicher, dass der Bezeichner mindestens ein lateinisches Schriftzeichen enthält.',
 
 		'Unknown errors occurred while attempting to save.' => 
 		'Beim Speichern ist ein unbekannter Fehler aufgetreten.',
 
 		'Check your activity log' => 
-		'Überprüfen Sie Ihr Fehlerlogbuch',
+		'Überprüfen Sie Ihr Fehler-Logbuch',
 
 		'One or more pages could not be deleted.' => 
 		'Eine oder mehrere Seiten konnten nicht gelöscht werden.',
@@ -1444,13 +1444,13 @@
 		'Sind Sie sicher, dass Sie die ausgewählten Bereiche löschen möchten?',
 
 		'Are you sure you want to delete all entries in the selected sections?' => 
-		'Sind Sie sicher, dass Sie alle Einträge in den ausgewählten Bereichen löschen?',
+		'Sind Sie sicher, dass Sie alle Einträge in den ausgewählten Bereichen löschen möchten?',
 
 		'Click to expand or collapse a field.' => 
-		'Aus- und Einklappen eines Feldes mittels Klick.',
+		'Ein- und Ausklappen eines Feldes mittels Klick.',
 
 		'Double click to expand or collapse all fields.' => 
-		'Aus- und Einklappen aller Felder mittels Doppelklick.',
+		'Ein- und Ausklappen aller Felder mittels Doppelklick.',
 
 		'Add field' => 
 		'Feld hinzufügen',
@@ -1501,7 +1501,7 @@
 		'Baustein konnte nicht gespeichert werden.',
 
 		'No username was entered.' => 
-		'Es wurde kein Benutzername eingegeben',
+		'Es wurde kein Benutzername eingegeben.',
 
 		'The supplied password was rejected.' => 
 		'Das eingegebene Passwort wurde nicht akzeptiert.',
@@ -1519,7 +1519,7 @@
 		'Bereichseinstellungen bearbeiten',
 
 		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
-		'Beim anfordern gefilterter Einträge ist ein Fehler aufgetreten. Es werden daher alle Einträge angezeigt.',
+		'Beim Anfordern gefilterter Einträge ist ein Fehler aufgetreten. Es werden daher alle Einträge angezeigt.',
 
 		'Are you sure you want to delete the selected entries?' => 
 		'Sind Sie sicher, dass Sie die ausgewählten Einträge löschen möchten?',
@@ -1555,7 +1555,7 @@
 		'Unbekannt',
 
 		'Are you sure you want to delete the selected authors?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Autoren löschen möchten`',
+		'Sind Sie sicher, dass Sie die ausgewählten Autoren löschen möchten?',
 
 		'Author updated at %s.' => 
 		'Autor um %s aktualisiert.',
@@ -1579,7 +1579,7 @@
 		'Setzt Symphony %s voraus',
 
 		'New version %1$s, Requires Symphony %2$s' => 
-		'Neue version %1$s, setzt Symphony %2$s voraus',
+		'Neue Version %1$s, setzt Symphony %2$s voraus',
 
 		'Enable/Install' => 
 		'Aktivieren/Installieren',
@@ -1639,16 +1639,16 @@
 		'Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
 
 		'Sender Name can not contain carriage return or newlines.' => 
-		'Absender darf keine Zeilenumbrüche enthalten.',
+		'Der Absender darf keine Zeilenumbrüche enthalten.',
 
 		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
-		'%1$s is keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
+		'%1$s ist keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
 
 		'%s accepts strings only; arrays are not allowed.' => 
-		'%s akzeptiert ausschließlich Zeichenketten; Datenreihen sind nicht erlaubt.',
+		'%s akzeptiert ausschließlich Zeichenketten; Arrays sind nicht erlaubt.',
 
 		'The email address ‘%s’ is invalid.' => 
-		'Die E-Mail-Adresse „%s“ ist ungültig',
+		'Die E-Mail-Adresse „%s“ ist ungültig',
 
 		'The %1$s gateway does not support the use of %2$s' => 
 		'Das %1$s-Gateway überstützt die Verwednung von %2$s nicht',
@@ -1702,7 +1702,7 @@
 		'Ungültiger Elementname. Es muss valides %s sein.',
 
 		'‘%s’ is a required field.' => 
-		'‚%s‘ ist ein verpflichtendes Feld.',
+		'‚%s‘ ist ein Pflichtfeld.',
 
 		'Data source output grouping is not supported by the %s field' => 
 		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
@@ -1738,13 +1738,13 @@
 		'Bereichsunterschreitung oder falsche Moduszuordnung.',
 
 		'Unexpected control character found.' => 
-		'Unerwartetes Kontrollzeichen gefunden.',
+		'Unerwartetes Steuerzeichen gefunden.',
 
 		'Syntax error, malformed JSON.' => 
 		'Syntaxfehler, fehlerhaftes JSON',
 
 		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
-		'Fehlerhafte, wahrscheinlihc fehlerhaft kodierte UTF-8-Zeichen.',
+		'Falsche UTF-8-Zeichen, wahrscheinlich fehlerhaft kodiert.',
 
 		'Unknown JSON error' => 
 		'Unbekannter JSON-Fehler',
@@ -1795,7 +1795,7 @@
 		'%s Mit heutigem Datum vorbelegen',
 
 		'The date specified in ‘%s’ is invalid.' => 
-		'Das angegebene Datum für ‚%s‘ is ungültig.',
+		'Das angegebene Datum für ‚%s‘ ist ungültig.',
 
 		'‘%s’ contains invalid data. Please check the contents.' => 
 		'‚%s‘ enthält ungültige Werte. Bitte überprüfen Sie den Inhalt.',
