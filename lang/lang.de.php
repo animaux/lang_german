@@ -1702,7 +1702,7 @@
 		'Ungültiger Elementname. Es muss valides %s sein.',
 
 		'‘%s’ is a required field.' => 
-		'‚%s‘ ist ein Pflichfeld.',
+		'‚%s‘ ist ein Pflichtfeld.',
 
 		'Data source output grouping is not supported by the %s field' => 
 		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
