@@ -1639,16 +1639,16 @@
 		'Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
 
 		'Sender Name can not contain carriage return or newlines.' => 
-		'Absender darf keine Zeilenumbrüche enthalten.',
+		'Der Absender darf keine Zeilenumbrüche enthalten.',
 
 		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
-		'%1$s is keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
+		'%1$s ist keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
 
 		'%s accepts strings only; arrays are not allowed.' => 
-		'%s akzeptiert ausschließlich Zeichenketten; Datenreihen sind nicht erlaubt.',
+		'%s akzeptiert ausschließlich Zeichenketten; Arrays sind nicht erlaubt.',
 
 		'The email address ‘%s’ is invalid.' => 
-		'Die E-Mail-Adresse „%s“ ist ungültig',
+		'Die E-Mail-Adresse „%s“ ist ungültig',
 
 		'The %1$s gateway does not support the use of %2$s' => 
 		'Das %1$s-Gateway überstützt die Verwednung von %2$s nicht',
@@ -1702,7 +1702,7 @@
 		'Ungültiger Elementname. Es muss valides %s sein.',
 
 		'‘%s’ is a required field.' => 
-		'‚%s‘ ist ein verpflichtendes Feld.',
+		'‚%s‘ ist ein Pflichfeld.',
 
 		'Data source output grouping is not supported by the %s field' => 
 		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
@@ -1738,13 +1738,13 @@
 		'Bereichsunterschreitung oder falsche Moduszuordnung.',
 
 		'Unexpected control character found.' => 
-		'Unerwartetes Kontrollzeichen gefunden.',
+		'Unerwartetes Steuerzeichen gefunden.',
 
 		'Syntax error, malformed JSON.' => 
 		'Syntaxfehler, fehlerhaftes JSON',
 
 		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
-		'Fehlerhafte, wahrscheinlihc fehlerhaft kodierte UTF-8-Zeichen.',
+		'Falsche UTF-8-Zeichen, wahrscheinlich fehlerhaft kodiert.',
 
 		'Unknown JSON error' => 
 		'Unbekannter JSON-Fehler',
@@ -1795,7 +1795,7 @@
 		'%s Mit heutigem Datum vorbelegen',
 
 		'The date specified in ‘%s’ is invalid.' => 
-		'Das angegebene Datum für ‚%s‘ is ungültig.',
+		'Das angegebene Datum für ‚%s‘ ist ungültig.',
 
 		'‘%s’ contains invalid data. Please check the contents.' => 
 		'‚%s‘ enthält ungültige Werte. Bitte überprüfen Sie den Inhalt.',
