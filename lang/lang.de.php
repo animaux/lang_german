@@ -1312,7 +1312,7 @@
 		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
 
 		'%1$s Paginate results, limiting to %2$s entries per page. Return page %3$s' => 
-		'%1$s Paginiere die Ausgabe, mit %2$s Einträgen pro Seite. Beginne auf Seite %3$s',
+		'%1$s Ausgabe paginieren: %2$s Einträgen pro Seite, beginnend auf Seite %3$s',
 
 		'An empty result will be returned when this parameter does not have a value.' => 
 		'Wenn dieser Parameter keinen Wert hat, wird ein leeres Ergebnis ausgegeben.',
