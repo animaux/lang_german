@@ -1944,9 +1944,9 @@
 
 		// Special characters
 		
-	 	'Nº' => 'number',
-	 	'№' => 'number',
-	 	'°' => 'deg',
+	 	'Nº' => 'nummer',
+	 	'№' => 'nummer',
+	 	'°' => 'grad',
 	 	'º' => null,
 
 		// Other characters
@@ -1958,10 +1958,10 @@
 	
 		// Ampersands
 		
-	 	'/^&(?!&)$/' => 'and',
-	 	'/^&(?!&)/' => 'and-',
-	 	'/&(?!&)&/' => '-and',
-	 	'/&(?!&)/' => '-and-',
+	 	'/^&(?!&)$/' => 'und',
+	 	'/^&(?!&)/' => 'und-',
+	 	'/&(?!&)&/' => '-und',
+	 	'/&(?!&)/' => '-und-',
 
 		// Other characters
 		
