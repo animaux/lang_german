@@ -7,7 +7,7 @@
 			'email' => 'post@nilshoerrmann.de',
 			'website' => 'http://nilshoerrmann.de'
 		),
-		'release-date' => '2012-05-10'
+		'release-date' => '2013-04-03'
 	);
 
 	/**
