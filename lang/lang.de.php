@@ -7,7 +7,7 @@
 			'email' => 'post@nilshoerrmann.de',
 			'website' => 'http://nilshoerrmann.de'
 		),
-		'release-date' => '2013-04-03'
+		'release-date' => '2014-03-18'
 	);
 
 	/**
@@ -15,11 +15,29 @@
 	 */
 	$dictionary = array(
 
+		'$param' => 
+		'$parameter',
+
 		'%1$s &ndash; %2$s' => 
 		'%1$s &ndash; %2$s',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		'%1$s &ndash; %2$s &ndash; %3$s',
+
+		'%1$s Disable pagination and return all entries' => 
+		'%1$s Paginierung ausschalten und alle Einträge ausgeben',
+
+		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
+		'%1$s ist keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
+
+		'%1$s released on %2$s' => 
+		'%1$s veröffentlicht am %2$s',
+
+		'%d entries' => 
+		'%d Einträge',
+
+		'%s Allow remote login via' => 
+		'%s Remotezugriff erlauben via',
 
 		'%s Allow selection of multiple authors' => 
 		'%s Erlaube Auswahl mehrerer Autoren.',
@@ -29,6 +47,12 @@
 
 		'%s Checked by default' => 
 		'%s Standardmäßig ausgewählt.',
+
+		'%s Display in entries table' => 
+		'%s In tabellarischer Übersicht zeigen',
+
+		'%s Display relationship in entries table %s' => 
+		'%s Zeige Verknüpfung in der Übersicht %s',
 
 		'%s HTML-encode text' => 
 		'%s Ausgabe HTML-konform kodieren.',
@@ -42,6 +66,9 @@
 		'%s Make this a required field' => 
 		'%s Dieses Feld verpflichtend machen.',
 
+		'%s Pre-populate with current date' => 
+		'%s Mit heutigem Datum vorbelegen',
+
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Auf 404-Fehlerseite umleiten, wenn keine Ergebnisse gefunden werden können.',
 
@@ -51,11 +78,20 @@
 		'%s Select current user by default' => 
 		'%s Den aktuellen Benutzer vorauswählen',
 
+		'%s Sort all options alphabetically' => 
+		'%s Alle Optionen alphabetisch sortieren',
+
+		'%s accepts strings only; arrays are not allowed.' => 
+		'%s akzeptiert ausschließlich Zeichenketten; Arrays sind nicht erlaubt.',
+
 		'%s has timed out' => 
 		'Zeitüberschreitung für %s',
 
 		'&larr; Previous' => 
 		'&larr; Vorherige',
+
+		'\'%s\' contains invalid data. Please check the contents.' => 
+		'\'%s\' enthält ungültige Daten. Bitte überprüfen Sie den Inhalt.',
 
 		'A 403 type page already exists.' => 
 		'Es existiert bereits eine 403-Fehlerseite.',
@@ -63,8 +99,11 @@
 		'A 404 type page already exists.' => 
 		'Es existiert bereits eine 404-Fehlerseite.',
 
-		'A Utility with that name already exists. Please choose another.' => 
-		'Es existiert bereits ein Baustein mit dem namen <code>%s</code>.',
+		'A Data source with the name %s already exists' => 
+		'Eine Datenquelle mit dem Namen %s existiert bereits',
+
+		'A Section with the name %s already exists' => 
+		'Ein Bereich mit dem Namen %s existiert bereits',
 
 		'A database error occurred while attempting to reorder.' => 
 		'Beim Neuordnen ist ein Datenbankfehler aufgetreten.',
@@ -72,8 +111,8 @@
 		'A field with that element name already exists. Please choose another.' => 
 		'Ein Feld mit diesem Elementnamen existiert bereits. Bitte wählen Sie einen anderen.',
 
-		'A file with the name %1$s already exists in %2$s. Please rename the file first, or choose another.' => 
-		'Eine Datei mit dem Namen %1$s existiert bereits in %2$s. Bitte benennen Sie die Datei zuerst um oder wähle Sie eine andere.',
+		'A field with this handle already exists. All handle must be unique.' => 
+		'Ein Feld mit diesem Bezeichner existiert bereits. Bezeichner müssen eindeutig sein.',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
 		'Ein neues Passwort wurde für Ihren Zugang angefordert. Sie können sich anmelden, indem Sie nachfolgendem Link folgen, und dann Ihr Passwort im Autorenbereich ändern:',
@@ -90,17 +129,32 @@
 		'A result limit must be set' => 
 		'Eine Ergebnisobergrenze muss festgelegt werden',
 
-		'Aardvarks' => 
-		'Erdferkel',
-
 		'Access Denied' => 
 		'Zugriff verweigert',
+
+		'Actions' => 
+		'Aktionen',
+
+		'Add field' => 
+		'Feld hinzufügen',
+
+		'Add fields' => 
+		'Felder hinzufügen',
+
+		'Add filter' => 
+		'Filter hinzufügen',
 
 		'Add item' => 
 		'Hinzufügen',
 
+		'Add namespace' => 
+		'Namensraum hinzufügen',
+
 		'Admin Only' => 
 		'Nur Administratoren',
+
+		'All' => 
+		'Alle',
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
 		'Alle diese Felder können dynamisch befüllt werden, indem Sie den genauen Feldnamen eines anderen Feldes des Formulares verwenden, wie das nachfolgende Beispiel zeigt:',
@@ -108,14 +162,32 @@
 		'Allow Multiple' => 
 		'Mehrere zulassen',
 
-		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		'Eine E-Mail mit personalisierten Anmeldedaten wurde verschickt. Sie verliert in zwei Stunden ihre Gültigkeit.',
+		'An Event with the name %s already exists' => 
+		'Ein Ereignis mit dem Namen %s existiert bereits',
+
+		'An email containing a customised login link has been sent to %s. It will expire in 2 hours.' => 
+		'Eine E-Mail mit einem personalisierten Anmeldelink wurden an %s gesendet. Dieser Links verfällt in 2 Stunden.',
+
+		'An error occurred while processing this form. See below for details.' => 
+		'Beim Verarbeiten dieses Formulars ist ein Fehler aufgetreten. Details siehe unten.',
+
+		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
+		'Beim Anfordern gefilterter Einträge ist ein Fehler aufgetreten. Es werden daher alle Einträge angezeigt.',
+
+		'An extension requires updating.' => 
+		'Eine Erweiterung muss aktualisiert werden.',
 
 		'An index type page already exists.' => 
 		'Es existiert bereits eine Index-Seite.',
 
 		'An unknown database occurred while attempting to create the section.' => 
 		'Es ist ein unbekannter Datenbankfehler beim Erstellen des Bereiches aufgetreten.',
+
+		'An update has been found in your installation to upgrade Symphony to %s.' => 
+		'Eine Aktualisierung auf Symphony %s wurde für Ihre Installation gefunden.',
+
+		'An update script has been found in your installation.' => 
+		'Für Ihre Installation steht eine Aktualisierung zur Verfügung.',
 
 		'Apply' => 
 		'Anwenden',
@@ -126,8 +198,56 @@
 		'April' => 
 		'April',
 
+		'Are you sure you want to delete all entries in the selected sections?' => 
+		'Sind Sie sicher, dass Sie alle Einträge in den ausgewählten Bereichen löschen möchten?',
+
+		'Are you sure you want to delete the selected authors?' => 
+		'Sind Sie sicher, dass Sie die ausgewählten Autoren löschen möchten?',
+
+		'Are you sure you want to delete the selected entries?' => 
+		'Sind Sie sicher, dass Sie die ausgewählten Einträge löschen möchten?',
+
+		'Are you sure you want to delete the selected pages?' => 
+		'Sind Sie sicher, dass Sie die ausgewählten Seiten löschen möchten?',
+
+		'Are you sure you want to delete the selected sections?' => 
+		'Sind Sie sicher, dass Sie die ausgewählten Bereiche löschen möchten?',
+
+		'Are you sure you want to delete this author?' => 
+		'Sind Sie sicher, dass Sie diesen Autor löschen möchten?',
+
+		'Are you sure you want to delete this data source?' => 
+		'Sie Sie sicher, dass Sie diese Datenquelle löschen möchten?',
+
+		'Are you sure you want to delete this entry?' => 
+		'Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?',
+
+		'Are you sure you want to delete this event?' => 
+		'Sind Sie sicher, dass Sie dieses Ereignis löschen möchten?',
+
+		'Are you sure you want to delete this page?' => 
+		'Sind Sie sicher, dass Sie diese Seite löschen möchten?',
+
+		'Are you sure you want to delete this section?' => 
+		'Sind Sie sicher, dass Sie diesen Bereich löschen möchten?',
+
+		'Are you sure you want to proceed?' => 
+		'Sind Sie sicher, dass Sie fortfahren möchten?',
+
+		'Are you sure you want to uninstall the selected extensions?' => 
+		'Sind Sie sicher, dass Sie die ausgewählten Erweiterungen deinstallieren möchten?',
+
+		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
+		'Das Argument ‚$%1$‘ entspricht nicht dem Typ ‚%2$‘, ‚%3$s‘ übergeben',
+
 		'At least one source must be specified, dynamic or static.' => 
 		'Mindestens eine Quelle, dynamisch oder statisch, muss festgelegt werden.',
+
+		'Attach to Page' => 
+		'Seitenverknüpfung herstellen',
+
+		'Attach to Pages' => 
+		'Zu Seiten hinzufügen',
 
 		'Aug' => 
 		'Aug',
@@ -141,8 +261,17 @@
 		'Author ID' => 
 		'Autor-ID',
 
+		'Author created at %s.' => 
+		'Autor um %s erstellt.',
+
 		'Author not found' => 
 		'Autor nicht gefunden',
+
+		'Author types' => 
+		'Autorentypen',
+
+		'Author updated at %s.' => 
+		'Autor um %s aktualisiert.',
 
 		'Authors' => 
 		'Autoren',
@@ -153,23 +282,14 @@
 		'Best Regards,' => 
 		'Mit freundlichen Grüßen,',
 
-		'Big' => 
-		'Dick',
-
-		'Birds' => 
-		'Vögel',
-
 		'Blueprints' => 
 		'Blaupausen',
 
 		'Body' => 
 		'Daten',
 
-		'Body is a required field.' => 
-		'Der Datenbereich ist ein Pflichtfeld.',
-
-		'Bugs' => 
-		'Käfer',
+		'Cache Expiration' => 
+		'Ablauf des Zwischenspeichers',
 
 		'Can not call AUTH again.' => 
 		'AUTH darf nicht noch einmal aufgerufen werden.',
@@ -177,14 +297,17 @@
 		'Can not call HELO on existing session' => 
 		'HELO kann in der laufenden Session nicht aufgerufen werden',
 
+		'Cancel' => 
+		'Abbrechen',
+
 		'Cannot request a page callback without first specifying the page.' => 
 		'Ohne eine Seiteangabe, kann kein Seiten-Callback angefordert werden.',
 
-		'Cats' => 
-		'Katze',
-
 		'Change Password' => 
 		'Passwort ändern',
+
+		'Check your activity log' => 
+		'Überprüfen Sie Ihr Fehler-Logbuch',
 
 		'Checkbox' => 
 		'Kontrollkästchen',
@@ -192,17 +315,35 @@
 		'Children' => 
 		'Kinder',
 
-		'Coconut' => 
-		'Kokosnuss',
+		'Collapse all fields' => 
+		'Alle Felder ausblenden',
 
-		'Cold' => 
-		'Kalt',
+		'Conditions' => 
+		'Bedingung',
 
 		'Confirm Password' => 
 		'Passwort wiederholen',
 
 		'Content' => 
 		'Inhalte',
+
+		'Could not find Data Source %s.' => 
+		'Konnte Datenquelle %s nicht finden.',
+
+		'Could not find Email Gateway %s.' => 
+		'E-Mail-Gateway %s konnte nicht gefunden werden.',
+
+		'Could not find Event %s.' => 
+		'Ereignis %s konnte nicht gefunden werden.',
+
+		'Could not find Field %1$s at %2$s.' => 
+		'Das Feld %1$s konnten nicht unter %2$s gefunden werden.',
+
+		'Could not find Text Formatter %s.' => 
+		'Textformatierer %s konnte nicht gefunden werden.',
+
+		'Could not find extension %s at location %s.' => 
+		'Die Erweiterung %s konnte nicht am Ziel %s gefunden werden.',
 
 		'Could not read from %s' => 
 		'%s konnte nicht gelesen werden',
@@ -231,8 +372,8 @@
 		'Create Section' => 
 		'Bereich erstellen',
 
-		'Create Utility' => 
-		'Baustein erstellen',
+		'Create a new author' => 
+		'Neuen Autor erstellen',
 
 		'Create a new data source' => 
 		'Neue Datenquelle erstellen',
@@ -246,11 +387,14 @@
 		'Create a new page' => 
 		'Neue Seite erstellen',
 
-		'Create a new utility' => 
-		'Neuen Baustein erstellen',
-
 		'Create a section' => 
 		'Bereich erstellen',
+
+		'Create another?' => 
+		'Einen neuen erstellen?',
+
+		'Created by %1$s at %2$s' => 
+		'Von %1$s um %2$s erstellt',
 
 		'Custom Preferences' => 
 		'Benutzerdefinierte Einstellungen',
@@ -264,11 +408,29 @@
 		'Data Sources' => 
 		'Datenquellen',
 
+		'Data returned is invalid.' => 
+		'Die Rückgabewerte sind ungültig.',
+
+		'Data source created at %s.' => 
+		'Datenquelle um %s erstellt.',
+
+		'Data source output grouping is not supported by the %s field' => 
+		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
+
+		'Data source updated at %s.' => 
+		'Datenquelle um %s aktualisiert.',
+
+		'DataSource' => 
+		'Datenquelle',
+
 		'Database Error' => 
 		'Datenbankfehler',
 
 		'Date' => 
 		'Datum',
+
+		'Debug' => 
+		'Debug',
 
 		'Dec' => 
 		'Dez',
@@ -278,6 +440,9 @@
 
 		'Default Area' => 
 		'Standardbereich',
+
+		'Default Email Settings' => 
+		'Standard-E-Mail-Einstellungen',
 
 		'Delete' => 
 		'Löschen',
@@ -303,14 +468,17 @@
 		'Delete this section' => 
 		'Diesen Bereich löschen',
 
-		'Delete this utility' => 
-		'Diesen Baustein löschen',
-
 		'Description' => 
 		'Beschreibung',
 
 		'Destination Directory' => 
 		'Zielordner',
+
+		'Destination folder is not writable.' => 
+		'Der Zielordner ist nicht beschreibbar.',
+
+		'Detach from Page' => 
+		'Seitenverknüpfung aufheben',
 
 		'Developer' => 
 		'Entwickler',
@@ -321,8 +489,8 @@
 		'Disabled' => 
 		'Deaktiviert',
 
-		'Dogs' => 
-		'Hunde',
+		'Documentation' => 
+		'Documentation',
 
 		'Dynamic Values' => 
 		'Dynamische Werte',
@@ -333,17 +501,26 @@
 		'E-mail address entered is invalid' => 
 		'Die eingegebene E-Mail-Adresse ist ungültig',
 
+		'E-mail address is already taken' => 
+		'E-Mail-Adresse bereits in Verwendung',
+
 		'E-mail address is required' => 
 		'Die E-Mail-Adresse ist eine Pflichtangabe',
 
 		'Edit' => 
 		'Bearbeiten',
 
-		'Edit Page Template' => 
-		'Seitenvorlage bearbeiten',
+		'Edit Page' => 
+		'Seite bearbeiten',
 
-		'Edit Template' => 
-		'Vorlage bearbeiten',
+		'Edit Page Configuration' => 
+		'Seitenkonfiguration bearbeiten',
+
+		'Edit Section' => 
+		'Bereich bearbeiten',
+
+		'Edit Section Configuration' => 
+		'Bereichseinstellungen bearbeiten',
 
 		'Email' => 
 		'E-Mail',
@@ -351,11 +528,17 @@
 		'Email Address' => 
 		'E-Mail-Adresse',
 
+		'Email Address or Username' => 
+		'E-Mail-Adresse oder Benutzername',
+
 		'Email Gateway Error' => 
 		'E-Mail-Gateway-Fehler',
 
 		'Email subject cannot be empty.' => 
 		'Der Betreff darf nicht leer sein.',
+
+		'Email this author' => 
+		'Dieses Autor anschreiben',
 
 		'Email: SMTP' => 
 		'E-Mail: SMTP',
@@ -363,26 +546,32 @@
 		'Email: Sendmail' => 
 		'E-Mail: Sendmail',
 
-		'Enable to install %s' => 
-		'Aktivierung installiert Version %s',
-
-		'Enable to update to %s' => 
-		'Aktivierung aktualisiert auf Version %s',
+		'Enable' => 
+		'aktivieren',
 
 		'Enabled' => 
 		'Aktiviert',
 
-		'Encumbered' => 
-		'belastet',
+		'Enforced type `%1$s` for argument `$%2$s` does not match any known variable types.' => 
+		'Erzwungener Typ `%1$s` für das Argument `$%2$s` enspricht keinem bekannten Variablentyp.',
 
-		'Enter your email address to be sent a remote login link with further instructions for logging in.' => 
-		'Geben Sie Ihre E-Mail-Adresse an, um einen Link mit weiteren Erläuterungen zur Anmeldung zugesandt zu bekommen.',
+		'Enter valid XML, exclude XML declaration' => 
+		'Gültiges XML ohne XML-Deklaration eingeben',
+
+		'Enter your email address or username to be sent further instructions for logging in.' => 
+		'Geben Sie Ihre E-Mail-Adresse oder Ihren Benutzernamen ein, um weitere Informationen zur Anmeldung zu erhalten.',
 
 		'Entries' => 
 		'Einträge',
 
+		'Entries per Page' => 
+		'Einträge pro Seite',
+
 		'Entry [created | edited] successfully.' => 
 		'Eintrag erfolgreich [erstellt | bearbeitet].',
+
+		'Entry created at %s.' => 
+		'Eintrag um %s erstellt.',
 
 		'Entry created successfully.' => 
 		'Eintrag erfolgreich erstellt.',
@@ -396,8 +585,29 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Die festgelegte Obergrenze entspricht keinem gültigen Typ. String oder Integer erwartet.',
 
+		'Entry updated at %s.' => 
+		'Eintrag um %s aktualisiert.',
+
+		'Error creating Symphony extension manager.' => 
+		'Fehler beim Erstellen des Symphony-Erweiterungsmanagers.',
+
+		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
+		'Beim Erstellen das Feldobjekts mit der ID %1$d für die Filterung der Datenquelle %2$s ist ein Fehler aufgetreten. Überprüfen Sie, ob das Feld existiert.',
+
 		'Essentials' => 
 		'Grundangaben',
+
+		'Event' => 
+		'Ereignis',
+
+		'Event Filters add additional conditions or actions to an event.' => 
+		'Filter fügen einem Ereignis zusätzliche Bedingungen oder Aktionen hinzu',
+
+		'Event created at %s.' => 
+		'Ereignis um $s erstellt.',
+
+		'Event updated at %s.' => 
+		'Ereignis um %s aktualisiert.',
 
 		'Events' => 
 		'Ereignisse',
@@ -411,11 +621,23 @@
 		'Existing Values' => 
 		'Existierende Werte',
 
+		'Expand all fields' => 
+		'Alle Felder einblenden',
+
 		'Extensions' => 
 		'Erweiterungen',
 
-		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
-		'Die Deaktivierung der Paginierung kann sich negativ auf die Ladezeiten der Seite auswirken, wenn die Zahl der auszugebenen Einträge sehr hoch ist.',
+		'Failed to delete %s.' => 
+		'Löschen von %s fehlgeschlagen',
+
+		'Failed to load URL, status code %d was returned.' => 
+		'URL konnte nicht geladen werden, Status-Code %d wurden zurückgegeben.',
+
+		'Failed to write Data source to disk.' => 
+		'Datenquelle konnte nicht gespeichert werden.',
+
+		'Failed to write Event to disk.' => 
+		'Ereignis konnte nicht gespeichert werden.',
 
 		'Feb' => 
 		'Feb',
@@ -426,14 +648,26 @@
 		'Fields' => 
 		'Felder',
 
+		'Fields must be added to this section before an entry can be created.' => 
+		'Bevor sie einen Eintrag erstellen können, müssen Sie dem Bereich Felder hinzufügen.',
+
 		'File Upload' => 
 		'Dateiupload',
 
-		'Filter Options' => 
-		'Filteroptionen',
+		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s specified by your host.' => 
+		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Ihrem Host erlaubte Dateigröße von %2$s',
 
-		'Filter Results' => 
-		'Ergebnisfilter',
+		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
+		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Symphony erlaubte Dateigröße von %2$s',
+
+		'File chosen in ‘%s’ does not match allowable file types for that field.' => 
+		'Die in ‚%s‘ gewählte Datei entspricht keinen zugelassenen Dateityp für dieses Feld.',
+
+		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
+		'Die in ‚%s‘ ausgewählte Datei wurde aufgrund eines Fehlers nur teilweise hochgeladen.',
+
+		'Filters' => 
+		'Filter',
 
 		'First' => 
 		'Erste',
@@ -450,6 +684,9 @@
 		'Forbidden' => 
 		'Verboten',
 
+		'Forbidden Parameter' => 
+		'Verbotenes Parameter',
+
 		'Formatting' => 
 		'Formatierung',
 
@@ -465,14 +702,23 @@
 		'From Name' => 
 		'Absender',
 
+		'From extensions' => 
+		'Als Erweiterung',
+
+		'Gateway' => 
+		'Gateway',
+
 		'General' => 
 		'Allgemein',
+
+		'Go to page …' => 
+		'Gehe zu Seite …',
 
 		'Group By' => 
 		'Gruppieren nach',
 
-		'Hairy' => 
-		'Haarig',
+		'Grouping' => 
+		'Gruppierung',
 
 		'Handle' => 
 		'Bezeichner',
@@ -486,23 +732,44 @@
 		'Host' => 
 		'Host',
 
-		'Hot' => 
-		'Heiß',
-
 		'ID' => 
 		'ID',
+
+		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
+
+		'Ignore?' => 
+		'Ignorieren?',
+
+		'In minutes' => 
+		'in Minuten',
 
 		'Included Elements' => 
 		'Eingebundene Elemente',
 
-		'Installed Version' => 
-		'Installierte Version',
+		'Incompatible, requires Symphony %s' => 
+		'Inkompatibel, benötigt Symphony %s',
 
-		'Invalid Entry ID specified. Could not create Entry object.' => 
-		'Ungültige Eintrags-ID angegeben. Eintragsobjekt konnte nicht erstellt werden.',
+		'Install' => 
+		'installieren',
+
+		'Invalid URL' => 
+		'Ungültige URL',
+
+		'Invalid element name. Must be valid %s.' => 
+		'Ungültiger Elementname. Es muss valides %s sein.',
+
+		'Invalid timezone %s' => 
+		'Ungültige Zeitzone %s',
+
+		'It currently does not work with ‘Allow Multiple’' => 
+		'Dies funktioniert derzeit nicht mit mehreren Einträgen gleichzeitig',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Es wird in zwei Stunden ablaufen. Falls Sie kein neues Passwort angefordert haben, ignorieren Sie bitte diese Nachricht.',
+
+		'JSON not formatted correctly' => 
+		'JSON nicht richtig formatiert',
 
 		'Jan' => 
 		'Jan',
@@ -528,9 +795,6 @@
 		'Language' => 
 		'Sprache',
 
-		'Large' => 
-		'Groß',
-
 		'Last' => 
 		'Letzte',
 
@@ -540,11 +804,29 @@
 		'Last Seen' => 
 		'Letzter Besuch',
 
+		'Last modified on %s' => 
+		'Zuletzt verändert am %s',
+
 		'Last name is required' => 
 		'Der Nachname ist eine Pflichtangabe',
 
 		'Leave password fields blank to keep the current password' => 
 		'Lassen Sie das Passwortfeld leer, um das derzeitige Passwort zu behalten',
+
+		'Leaving these fields empty will always execute the data source.' => 
+		'Wenn diese Felder leer sind, wird die Datenquelle immer ausgeführt.',
+
+		'Linked to %s in' => 
+		'Verknüpft mit %s in',
+
+		'Links' => 
+		'Links',
+
+		'Links in %s' => 
+		'Verknüpft in %s',
+
+		'Log out' => 
+		'Abmelden',
 
 		'Login' => 
 		'Anmeldung',
@@ -552,11 +834,14 @@
 		'Login Details' => 
 		'Anmeldedaten',
 
-		'Lumpy' => 
-		'Pummelig',
-
 		'Main content' => 
 		'Hauptbereich',
+
+		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
+		'Falsche UTF-8-Zeichen, wahrscheinlich fehlerhaft kodiert.',
+
+		'Manager' => 
+		'Manager',
 
 		'Mar' => 
 		'Mrz',
@@ -564,23 +849,23 @@
 		'March' => 
 		'März',
 
+		'Maximum stack depth exceeded.' => 
+		'Die maximale Stapeltiefe wurde überschritten.',
+
 		'May' => 
 		'Mai',
 
-		'Men' => 
-		'Männer',
-
 		'Message' => 
 		'Nachricht',
+
+		'Missing default namespace definition.' => 
+		'Standardnamensraumdefinition fehlt.',
 
 		'Mon' => 
 		'Mo',
 
 		'Monday' => 
 		'Montag',
-
-		'Monkeys' => 
-		'Affen',
 
 		'Must be a valid number' => 
 		'Muss eine gültige Zahl sein',
@@ -603,11 +888,11 @@
 		'Must call RCPT before calling DATA' => 
 		'RCPT muss vor DATA aufgerufen werden',
 
+		'MySQL Error (%1$s): %2$s in query: %3$s' => 
+		'MySQL-Fehler (%1$s): %2$s in Abfrage: %3$s',
+
 		'Name' => 
 		'Name',
-
-		'Name is a required field.' => 
-		'Name ist ein Pflichtfeld.',
 
 		'Namespace' => 
 		'Namensraum',
@@ -620,6 +905,9 @@
 
 		'Navigation Group' => 
 		'Navigationsgruppe',
+
+		'New Field' => 
+		'Neues Feld',
 
 		'New Password' => 
 		'Neues Passwort',
@@ -642,6 +930,15 @@
 		'No encryption' => 
 		'Keine Verschlüsselung',
 
+		'No errors.' => 
+		'Keine Fehler.',
+
+		'No links in %s' => 
+		'Keine Verknüpfungen für %s',
+
+		'No password was entered.' => 
+		'Es wurde keine Passwort eingegeben',
+
 		'No records found.' => 
 		'Keine Einträge gefunden.',
 
@@ -651,14 +948,20 @@
 		'No suitable engine object found' => 
 		'Es konnte kein passendes Engine-Objekt gefunden werden.',
 
+		'No username was entered.' => 
+		'Es wurde kein Benutzername eingegeben.',
+
 		'None' => 
 		'Keine Angaben',
 
 		'None found.' => 
 		'Keine Einträge.',
 
-		'Not Installed' => 
+		'Not installed' => 
 		'Nicht installiert',
+
+		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option' => 
+		'Bitte beachten Sie, dass Sie möglicherweise eine Mischung aus Fehler- und Erfolgsrückmeldungen erhalten, wenn Sie die Erstellung mehrerer Einträge zulassen.',
 
 		'Nov' => 
 		'Nov',
@@ -666,23 +969,29 @@
 		'November' => 
 		'November',
 
+		'Number of default rows' => 
+		'Anzahl der Standardreihen',
+
 		'Oct' => 
 		'Okt',
 
 		'October' => 
 		'Oktober',
 
+		'Often the cause of this error is a misnamed extension folder. You can try renaming %s to %s, or you can uninstall the extension to continue.' => 
+		'Der Grund ist oft ein Fehler bei der Benennung des Verzeichnisses der Erweiterung. Sie können ',
+
 		'Old Password' => 
 		'Altes Passwort',
+
+		'One or more pages could not be deleted.' => 
+		'Eine oder mehrere Seiten konnten nicht gelöscht werden.',
 
 		'Only one call to MAIL may be made at a time.' => 
 		'Nur ein MAIL-Aufruf kann zeitgleich durchgeführt werden.',
 
 		'Optional' => 
 		'optional',
-
-		'Output Options' => 
-		'Ausgabeoptionen',
 
 		'Page %1$s of %2$s' => 
 		'Seite %1$s von %2$s',
@@ -693,11 +1002,17 @@
 		'Page Not Found' => 
 		'Seite konnte nicht gefunden werden',
 
+		'Page Number' => 
+		'Seitennummer',
+
 		'Page Resources' => 
 		'Seitenbasis',
 
 		'Page Settings' => 
 		'Seiteneinstellungen',
+
+		'Page Template could not be written to disk.' => 
+		'Seitenvorlage konnte nicht gespeichert werden.',
 
 		'Page Type' => 
 		'Seitentyp',
@@ -708,8 +1023,20 @@
 		'Page could not be deleted because it has children.' => 
 		'Die Seite konnte nicht gelöscht werden, weil sie Unterseiten hat.',
 
+		'Page created at %s.' => 
+		'Seite um %s erstellt.',
+
+		'Page updated at %s.' => 
+		'Seite um %s aktualisiert.',
+
 		'Pages' => 
 		'Seiten',
+
+		'Pagination' => 
+		'Paginierung',
+
+		'Parameters' => 
+		'Parameter',
 
 		'Parent Page' => 
 		'Übergeordnete Seite',
@@ -723,14 +1050,32 @@
 		'Passwords did not match' => 
 		'Passworteingabe stimmte nicht überein',
 
-		'Pigs' => 
-		'Schweine',
-
-		'Pirates' => 
-		'Piraten',
-
 		'Placement' => 
 		'Platzierung',
+
+		'Please check permissions on %s' => 
+		'Bitte überprüfen Sie die Zugriffsrechte für %s',
+
+		'Please check permissions on %s.' => 
+		'Bitte überprüfen Sie die Zugriffsrechte für %s.',
+
+		'Please ensure handle contains at least one Latin-based character.' => 
+		'Bitte stellen Sie sicher, dass der Bezeichner mindestens ein lateinisches Schriftzeichen enthält.',
+
+		'Please ensure name contains at least one Latin-based character.' => 
+		'Bitte stellen Sie sicher, dass der Name mindestens ein lateinisches Schriftzeichen enthält.',
+
+		'Please login to view this page.' => 
+		'Bitte melden Sie sich an, um diese Seite zu sehen.',
+
+		'Please remove it from your fields prior to uninstalling or disabling.' => 
+		'Bitte entfernen Sie ihn von Ihren Felder bevor Sie es deinstallieren oder deaktivieren.',
+
+		'Please remove it from your pages prior to uninstalling or disabling.' => 
+		'Bitte entfernen Sie sie von Ihren Seiten bevor Sie es deinstallieren oder deaktivieren.',
+
+		'Please remove it from your sections prior to uninstalling or disabling.' => 
+		'Bitte entfernen Sie es von Ihren Bereichen bevor Sie es deinstallieren oder deaktivieren.',
 
 		'Port' => 
 		'Port',
@@ -744,14 +1089,35 @@
 		'Preferences saved.' => 
 		'Die Einstellungen wurden gespeichert.',
 
+		'Recipient address can not contain carriage return or newlines.' => 
+		'Die Empfängeradresse darf keine Zeilenumbrüche und Absätze enthalten.',
+
 		'Recipient email address cannot be empty.' => 
 		'Die Empfängeradresse darf nicht leer sein.',
+
+		'Recipient not found' => 
+		'Empfänger nicht gefunden',
 
 		'Remove File' => 
 		'Datei entfernen',
 
+		'Remove field' => 
+		'Feld löschen',
+
+		'Remove filter' => 
+		'Filter entfernen',
+
+		'Remove installer?' => 
+		'Installationsskript entfernen?',
+
 		'Remove item' => 
 		'Entfernen',
+
+		'Remove namespace' => 
+		'Namensraum entfernen',
+
+		'Rename folder' => 
+		'Verzeichnis umbenennen',
 
 		'Reordering was unsuccessful.' => 
 		'Das Neusortieren ist fehlgeschlagen.',
@@ -762,11 +1128,20 @@
 		'Reply-To Name can not contain carriage return or newlines.' => 
 		'Der Antwortname darf keine Zeilenumbrüche oder Leerzeilen enthalten.',
 
-		'Required URL Parameter' => 
-		'Verpflichtende URL-Parameter',
+		'Request timed out. %d second limit reached.' => 
+		'Zeitüberschreitung bei Anfrage. %d-Sekunden-Limit erreicht.',
 
-		'Round' => 
-		'Rund',
+		'Required Parameter' => 
+		'Zwingendes Parameter',
+
+		'Requires Symphony %s' => 
+		'Setzt Symphony %s voraus',
+
+		'Results Negated.' => 
+		'Ergebnisse ausgeschlossen.',
+
+		'Retrieve password?' => 
+		'Passwort anfordern?',
 
 		'SMTP' => 
 		'SMTP',
@@ -783,14 +1158,38 @@
 		'Save Changes' => 
 		'Änderungen speichern',
 
-		'Section is invalid' => 
-		'Der Bereich ist ungültig',
+		'Section created at %s.' => 
+		'Bereich um %s erstellt.',
+
+		'Section updated at %s.' => 
+		'Bereich um %s aktualisiert.',
 
 		'Sections' => 
 		'Bereiche',
 
+		'Sections Index' => 
+		'Bereichsübersicht',
+
+		'Select ' => 
+		'Wähle ',
+
+		'Select %s Extension' => 
+		'%s-Erweiterung auswählen',
+
+		'Select Author %s' => 
+		'Autor $s auswählen',
+
 		'Select Box' => 
 		'Auswahlfeld',
+
+		'Select Entry %d' => 
+		'Eintrag %d auswählen',
+
+		'Select Page %s' => 
+		'Seite %s auswählen',
+
+		'Select Section %s' => 
+		'Bereich $s auswählen',
 
 		'Send Email' => 
 		'E-Mail verschicken',
@@ -800,6 +1199,9 @@
 
 		'Sender Email Address can not contain carriage return or newlines.' => 
 		'Die Absenderadresse darf keinen Zeilenumbruch oder Leerzeilen enthalten.',
+
+		'Sender Name can not contain carriage return or newlines.' => 
+		'Der Absender darf keine Zeilenumbrüche enthalten.',
 
 		'Sender email address cannot be empty.' => 
 		'Die Absenderadresse darf nicht leer sein.',
@@ -819,17 +1221,35 @@
 		'Set navigation group' => 
 		'Navigationsgruppe festlegen',
 
+		'Settings for field %s could not be found in table tbl_fields_%s.' => 
+		'Die Einstellungen für das Feld %s konnten nicht in der Tabelle tbl_fields_%s gefunden werden.',
+
+		'Show Associations' => 
+		'Zeige Verknüpfungen',
+
+		'Show debug view' => 
+		'Debug-Ansicht öffnen',
+
+		'Show debug view for %s' => 
+		'Debug-Ansicht für %s öffnen',
+
+		'Show line %d in debug view' => 
+		'Zeile %s in der Debug-Ansicht anzeigen',
+
+		'Show more entries' => 
+		'Zeige mehr Einträge',
+
 		'Sidebar' => 
 		'Seitenleiste',
-
-		'Small' => 
-		'Klein',
 
 		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
 		'Einige SMTP-Verbindungen erfordern eine Autorisierung. Geben Sie in diesem Fall hier die Benutzer-Passwort-Kombination an.',
 
 		'Some errors were encountered while attempting to save.' => 
 		'Beim Versuch zu speichern sind Fehler aufgetreten.',
+
+		'Sorry, but Symphony was unable to rename the folder. You can try renaming %s to %s yourself, or you can uninstall the extension to continue.' => 
+		'Leider war Symphony nicht in der Lage das Verzeichnis umzubenennen. Sie können versuchen %s manuell in %s umzubenennen oder Sie deinstallieren die Erweiterung um fortzufahren.',
 
 		'Sort By' => 
 		'Sortieren nach',
@@ -840,8 +1260,8 @@
 		'Sort by %1$s %2$s' => 
 		'Sortiere nach %1$s %2$s',
 
-		'Sorting and Limiting' => 
-		'Sortierung und Begrenzung',
+		'Sorting' => 
+		'Sortierung',
 
 		'Source' => 
 		'Quelle',
@@ -873,11 +1293,17 @@
 		'Symphony Database Error' => 
 		'Symphony-Datenbankfehler',
 
+		'Symphony Extension Missing Error' => 
+		'Symphony-Erweiterung nicht gefunden',
+
+		'Syntax error, malformed JSON.' => 
+		'Syntaxfehler, fehlerhaftes JSON',
+
 		'System' => 
 		'System',
 
-		'System Date' => 
-		'Systemdatum',
+		'System Creation Date' => 
+		'Systemerstellungdatum',
 
 		'System Default' => 
 		'Systemstandard',
@@ -888,11 +1314,23 @@
 		'System Language' => 
 		'Systemsprache',
 
+		'System Modification Date' => 
+		'Systemveränderungsdatum',
+
+		'System Modified Date' => 
+		'Systemveränderungsdatum',
+
 		'TLS encryption' => 
 		'TLS-Verschlüsselung',
 
 		'Tag List' => 
 		'Tag-Liste',
+
+		'Take me to the login page' => 
+		'Weiter zur Anmeldeseite',
+
+		'Target' => 
+		'Ziel',
 
 		'Template' => 
 		'Vorlage',
@@ -906,35 +1344,116 @@
 		'Textarea' => 
 		'Textfeld',
 
-		'The Section you are looking for could not be found.' => 
-		'Der von Ihnen gesuchte Bereich konnte nicht gefunden werden.',
+		'The %1$s file for the %2$s extension is not valid XML: %3$s' => 
+		'Die Datei %1$s für die Erweiterung %2$s enthält kein valides XML: %3$s',
+
+		'The %1$s gateway does not support the use of %2$s' => 
+		'Das %1$s-Gateway überstützt die Verwednung von %2$s nicht',
+
+		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
+		'Die Klasse %s konnte keine Sperre einrichten, überprüfen Sie, ob %s existiert und beschreibbar ist.',
+
+		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
+		'Die Datenquelle ‚%s‘, die von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
+
+		'The Entry, %s, could not be found.' => 
+		'Der Eintrag %s konnte nicht gefunden werden.',
+
+		'The Envelope From Address can not contain carriage return or newlines.' => 
+		'Die Absenderadresse darf keine Zeilenumbrüche und Absätze enthalten.',
+
+		'The Event ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
+		'Das Ereignis ‚%s‘, das von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
+
+		'The Section, %s, associated with the Data source, %s, could not be found.' => 
+		'Die mit dem Bereich %s verknüpfte Datenquelle %s konnte nicht gefunden werden.',
+
+		'The Section, %s, could not be found.' => 
+		'Der Bereich %s konnte nicht gefunden werden.',
 
 		'The Symphony Team' => 
 		'Ihr Symphony-Team',
 
+		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
+		'Die Symphony-Konfigurationsdatei, %s, ist nicht lesbar. Die Änderungen der Voreinstellungen werden nicht gespeichert.',
+
+		'The Text Formatter ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
+		'Der Textformatierer ‚%s‘, der von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
+
 		'The author profile you requested does not exist.' => 
 		'Das von Ihnen aufgerufene Benutzerprofil existiert nicht.',
 
-		'The entry you are looking for could not be found.' => 
-		'Der von Ihnen gesuchte Eintrag konnte nicht gefunden werden.',
+		'The content of the file `%s` could not be loaded.' => 
+		'Der Inhalt der Daten `%s` konnte nicht geladen werden.',
+
+		'The data will only be available on the selected pages.' => 
+		'Die Daten werden nur auf den ausgewählten Seiten verfügbar sein.',
+
+		'The date specified in ‘%s’ is invalid.' => 
+		'Das angegebene Datum für ‚%s‘ ist ungültig.',
+
+		'The destination directory is not writable.' => 
+		'Der Zielordner ist nicht schreibbar.',
+
+		'The destination directory, %s, does not exist.' => 
+		'Der Zielordner %s existiert nicht.',
+
+		'The email address ‘%s’ is invalid.' => 
+		'Die E-Mail-Adresse „%s“ ist ungültig',
+
+		'The event will only be available on the selected pages.' => 
+		'Das Ergeinis wird nur auf den ausgewählten Seiten verfügbar sein.',
+
+		'The field ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
+		'Das Feld ‚%s‘, das von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
+
+		'The field “{$title}” ({$type}) has been removed.' => 
+		'Das Feld „{$title}“ ({$type}) wurde entfernt.',
 
 		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
 		'Die hochgeladene Datei ist nicht länger verfügbar. Bitte überprüfen Sie, ob sie noch existiert und lesbar ist.',
 
+		'The following are the recognised fields:' => 
+		'Folgende Felder werden erkannt:',
+
+		'The following error was returned:' => 
+		'Folgender Fehler wurde zurückgegeben:',
+
 		'The following is an example of what is returned if any options return an error:' => 
 		'Das folgende Beispiel zeigt den Rückgabewert, wenn eine der Filteroptionen einen Fehler zurückgibt:',
+
+		'The login details provided are incorrect.' => 
+		'Die verwendeten Anmeldedaten sind falsch.',
 
 		'The page you requested does not exist.' => 
 		'Die aufgerufene Seite existiert nicht.',
 
-		'The selected language could not be found. Using default English dictionary instead.' => 
-		'Die ausgewählte Sprache konnte nicht gefunden werden, so dass anstelle das englische Standardwörterbuch verwendet wird.',
+		'The page you requested, %s, does not exist.' => 
+		'Die aufgerufene Seite, %s, existiert nicht.',
 
-		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		'Es gab Schwierigkeiten Ihren Benutzerzugang zuzuordnen. Überprüfen Sie bitte, ob Sie die richtige E-Mail-Adresse angegeben haben.',
+		'The selected language, %s, could not be found. Using default English dictionary instead.' => 
+		'Die ausgewählte Sprache %s konnte nicht gefunden werden. Verwende das englische Standartwörterbuch.',
+
+		'There is already a field of type %s. There can only be one per section.' => 
+		'Ein Feld vom Typ %s existiert bereits. Pro Bereich darf es nur eines geben.',
+
+		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct.' => 
+		'Beim Versuch eine Datenbankverbindung herzustellen ist ein Problem aufgetreten. Bitte überprüfen Sie, ob die Verbindungsinformationen korrekt sind.',
+
+		'There was an error while trying to upload the file %1$s to the target directory %2$s.' => 
+		'Bei Hochladen der Datei %1$s in den Zielordner %2§s ist ein Fehler aufgetreten.',
 
 		'There were some problems while attempting to save. Please check below for problem fields.' => 
 		'Beim Speichern sind einige Fehler aufgetreten. Bitte überprüfen Sie die betroffenen Felder.',
+
+		'This Symphony instance has not been set up for emailing, %s' => 
+		'Diese Symphony-Instanz wurden nicht für den E-Mail-Versand eingerichtet, %s',
+
+		'This document is not well formed.' => 
+		'Dieses Dokument ist nicht wohlgeformt.',
+
+		'This error occurred whilst attempting to resolve the 404 page for the original request.' => 
+		'Der Fehler trat bei Versuch auf, die 404-Seite für die Ursprungsanfrage aufzulösen.',
 
 		'This event has been customised and cannot be viewed from Symphony.' => 
 		'Dieses Ereignis wurde angepasst und kann nicht innerhalb Symphonys angezeigt werden.',
@@ -951,6 +1470,9 @@
 		'This is an example of the form markup you can use on your frontend:' => 
 		'Dies ist ein Beispiel, dass Sie für Ihr Frontend-Formular nutzen können:',
 
+		'This page could not be rendered due to the following XSLT processing errors:' => 
+		'Aufgrund nachfolgender XSLT-Ausführungsfehler konnte die Seite nicht ausgegeben werden:',
+
 		'Thu' => 
 		'Do',
 
@@ -965,6 +1487,9 @@
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
 		'Um nach erfolgreichem Speichern zu einer anderen Adresse weiterzuleiten, müssen Sie das Umleitungsziel im Formular einbinden. Dies geht am besten mit einem versteckten Textfeld, wobei der Wert der Ziel-URL entspricht:',
+
+		'Transformed XML is invalid.' => 
+		'Das umgewandelte XML is ungültig.',
 
 		'Tue' => 
 		'Di',
@@ -990,11 +1515,20 @@
 		'Unable to connect via TLS' => 
 		'TLS-Verbindung nicht möglich',
 
+		'Unable to create path - %s' => 
+		'Der Pfad %s konnte nicht erstellt werden',
+
+		'Unable to find a Manager class for this resource.' => 
+		'Manager-Klasse für die Resource konnte nicht gefunden werden.',
+
 		'Unable to open socket. %s' => 
 		'Socket konnte nicht geöffnet werden. %s',
 
 		'Unable to open socket. Unknown error' => 
 		'Socket konnte nicht geöffnet werden. Unbekannter Fehler',
+
+		'Unable to remove - %s' => 
+		'%s konnte nicht entfernt werden',
 
 		'Unable to remove file - %s' => 
 		'Datei konnte nicht entfernt werden – %s',
@@ -1002,14 +1536,44 @@
 		'Unable to set timeout.' => 
 		'Timeout konnte nicht gesetzt werden.',
 
+		'Underflow or the modes mismatch.' => 
+		'Bereichsunterschreitung oder falsche Moduszuordnung.',
+
+		'Undo?' => 
+		'Rückgängig machen?',
+
+		'Unexpected control character found.' => 
+		'Unerwartetes Steuerzeichen gefunden.',
+
+		'Unfortunately no account was found using this information.' => 
+		'Leider konnte kein Account mit diesen Informationen gefunden werden.',
+
 		'Uninstall' => 
 		'Deinstallieren',
+
+		'Uninstall extension' => 
+		'Erweiterung deinstallieren',
+
+		'Uninstall this extension' => 
+		'Diese Erweiterung deinstallieren',
+
+		'Universal Resource Locator' => 
+		'Universal Resource Locator',
+
+		'Unknown' => 
+		'Unbekannt',
 
 		'Unknown Entry' => 
 		'Unbekannter Eintrag',
 
+		'Unknown JSON error' => 
+		'Unbekannter JSON-Fehler',
+
 		'Unknown Section' => 
 		'Unbekannter Bereich',
+
+		'Unknown errors occurred while attempting to save.' => 
+		'Beim Speichern ist ein unbekannter Fehler aufgetreten.',
 
 		'Unknown errors where encountered when saving.' => 
 		'Beim Speichern sind unbekannte Fehler aufgetreten.',
@@ -1020,11 +1584,32 @@
 		'Untitled' => 
 		'Ohne Titel',
 
-		'Update cached result every %s minutes' => 
-		'Zwischenspeicher alle %s Minuten aktualisieren',
+		'Untitled Field' => 
+		'Unbenanntes Feld',
 
-		'Use an XPath expression to select which elements from the source XML to include.' => 
-		'Benutzen Sie einen X-Path-Ausdruck, um die einzubinden Elemente der XML-Quelle auszuwählen.',
+		'Update' => 
+		'aktualisieren',
+
+		'Update available' => 
+		'Aktualisierung verfügbar',
+
+		'Uploading ‘%s’ failed. Could not write temporary file to disk.' => 
+		'Das Hochladen von ‚%s‘ ist fehlgeschlagen. Es konnte keine temporäre Datei gespeichert werden.',
+
+		'Uploading ‘%s’ failed. File upload stopped by extension.' => 
+		'Das Hochladen von ‚%s‘ ist fehlgeschlagen. Der Vorgang wurde von einer Erweiterung gestoppt.',
+
+		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
+		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den ausgewählten Empfänger senden.',
+
+		'Use %s syntax to filter by page parameters.' => 
+		'Verwenden Sie %s, um mit Seitenparametern zu filtern.',
+
+		'Use %s syntax to limit by page parameters.' => 
+		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
+
+		'Use %s syntax to specify dynamic portions of the URL.' => 
+		'Verwenden Sie %s, um dynamische Teile der URL festzulegen.',
 
 		'User Type' => 
 		'Benutzertyp',
@@ -1053,11 +1638,44 @@
 		'Version' => 
 		'Version',
 
+		'View Entries' => 
+		'Zeige Einträge',
+
+		'View Page' => 
+		'Zeige Seite',
+
+		'View Page on Frontend' => 
+		'Zeige Seite im Frontend',
+
+		'View Section Entries' => 
+		'Zeige Einträge des Bereichs',
+
+		'View all Authors' => 
+		'Zeige alle Autoren',
+
+		'View all Data sources' => 
+		'Alle Datenquellen anzeigen',
+
+		'View all Entries' => 
+		'Zeige alle Einträge',
+
+		'View all Events' => 
+		'Alle Ereignisse anzeigen',
+
+		'View all Pages' => 
+		'Alle Seiten anzeigen',
+
+		'View all Sections' => 
+		'Zeige alle Bereiche',
+
+		'View extensions' => 
+		'Zeige Erweiterungen',
+
+		'View update.' => 
+		'Zeige Aktualisierung.',
+
 		'Viewing %1$s - %2$s of %3$s entries' => 
 		'Zeige %1$s - %2$s von %3$s Einträgen',
-
-		'Weasels' => 
-		'Wiesel',
 
 		'Wed' => 
 		'Mi',
@@ -1074,23 +1692,11 @@
 		'With Selected...' => 
 		'Auswahl &#8230;',
 
-		'Women' => 
-		'Frauen',
-
-		'Worms' => 
-		'Würmer',
-
 		'Wrong password. Enter old one to change email address.' => 
 		'Falsches Passwort. Geben Sie Ihr altes Passwort zum Ändern der E-Mail-Adresse ein.',
 
 		'Wrong password. Enter old password to change it.' => 
 		'Falsches Passwort. Geben Sie Ihr altes Passwort zum Ändern ein.',
-
-		'XML Output' => 
-		'XML-Ausgabe',
-
-		'XML is invalid' => 
-		'XML ist ungültig',
 
 		'XML is invalid.' => 
 		'Das XML ist ungültig',
@@ -1107,8 +1713,14 @@
 		'You are not authorised to edit other authors.' => 
 		'Sie haben keine Rechte andere Autoren zu bearbeiten.',
 
+		'You can try uninstalling the extension to continue, or you might want to ask on the forums' => 
+		'Sie können versuchen die Erweiterung zu deinstallieren, um fortzufahren, oder Sie fragen im Forum um Hilfe.',
+
 		'You cannot remove yourself as you are the active Author.' => 
 		'Sie können sich nicht selbst entfernen, da Sie der aktive Nutzer sind.',
+
+		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
+		'Ihre Symphony-Installation ist auf dem neusten Stand aber das Installationsskript ist noch vorhanden. Aus Sicherheitsgründen sollte es entfernt werden.',
 
 		'[Symphony] A new entry was created on %s' => 
 		'[Symphony] Ein neuer Eintrag auf %s wurde erstellt',
@@ -1128,6 +1740,9 @@
 		'at' => 
 		'um',
 
+		'available when using Dynamic Values' => 
+		'verfügbar in Verbindung mit dynamischen Werten',
+
 		'day' => 
 		'Tag',
 
@@ -1136,6 +1751,9 @@
 
 		'descending' => 
 		'absteigend',
+
+		'drag to reorder' => 
+		'manuelle Sortierung',
 
 		'eighth' => 
 		'achte(r|s)?',
@@ -1148,6 +1766,18 @@
 
 		'first' => 
 		'erste(r|s)?',
+
+		'forthnight' => 
+		'14 Tage',
+
+		'forthnights' => 
+		'14 Tage',
+
+		'fortnight' => 
+		'14 Tage',
+
+		'fortnights' => 
+		'14 Tage',
 
 		'fourth' => 
 		'vierte(r|s)?',
@@ -1186,7 +1816,7 @@
 		'Monate',
 
 		'next' => 
-		'mehr', // Verwendet für Notify
+		'mehr',
 
 		'ninth' => 
 		'neunte(r|s)?',
@@ -1202,6 +1832,9 @@
 
 		'random' => 
 		'zufällig',
+
+		'read only' => 
+		'schreibgeschützt',
 
 		'sec' => 
 		'Sek',
@@ -1239,6 +1872,9 @@
 		'twelfth' => 
 		'zwölfte(r|s)?',
 
+		'untitled' => 
+		'Ohne Titel',
+
 		'week' => 
 		'Woche',
 
@@ -1250,6 +1886,9 @@
 
 		'weeks' => 
 		'Wochen',
+
+		'xPath Expression' => 
+		'xPath-Ausdruck',
 
 		'year' => 
 		'Jahr',
@@ -1263,623 +1902,41 @@
 		'{$minutes} minutes ago' => 
 		'vor {$minutes} Minuten',
 
-		'Are you sure you want to proceed?' => 
-		'Sind Sie sicher, dass Sie fortfahren möchten?',
-
-		'Untitled Field' => 
-		'Unbenanntes Feld',
-
-		'The field “{$title}” ({$type}) has been removed.' => 
-		'Das Feld „{$title}“ ({$type}) wurde entfernt.',
-
-		'Undo?' => 
-		'Rückgängig machen?',
-
-		'Ignore?' => 
-		'Ignorieren?',
-
-		'An error occurred while processing this form. See below for details.' => 
-		'Beim Verarbeiten dieses Formulars ist ein Fehler aufgetreten. Details siehe unten.',
-
-		'Data source updated at %s.' => 
-		'Datenquelle um %s aktualisiert.',
-
-		'Create another?' => 
-		'Einen neuen erstellen?',
-
-		'View all Data sources' => 
-		'Alle Datenquellen anzeigen',
-
-		'Data source created at %s.' => 
-		'Datenquelle um %s erstellt.',
-
-		'From extensions' => 
-		'Als Erweiterung',
-
-		'Use %s syntax to filter by page parameters.' => 
-		'Verwenden Sie %s, um mit Seitenparametern zu filtern.',
-
-		'$param' => 
-		'$parameter',
-
-		'Add filter' => 
-		'Filter hinzufügen',
-
-		'Remove filter' => 
-		'Filter entfernen',
-
-		'Use %s syntax to limit by page parameters.' => 
-		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
-
-		'%1$s Paginate results, limiting to %2$s entries per page. Return page %3$s' => 
-		'%1$s Ausgabe paginieren: %2$s Einträgen pro Seite, beginnend auf Seite %3$s',
-
-		'An empty result will be returned when this parameter does not have a value.' => 
-		'Wenn dieser Parameter keinen Wert hat, wird ein leeres Ergebnis ausgegeben.',
-
-		'Output Parameters' => 
-		'Ausgabeparameter',
-
-		'Use Fields' => 
-		'Verfügbare Felder',
-
-		'Use %s syntax to specify dynamic portions of the URL.' => 
-		'Verwenden Sie %s, um dynamische Teile der URL festzulegen.',
-
-		'Are you sure you want to delete this data source?' => 
-		'Sie Sie sicher, dass Sie diese Datenquelle löschen möchten?',
-
-		'%1$s released on %2$s' => 
-		'%1$s veröffentlicht am %2$s',
-
-		'Created by %1$s at %2$s' => 
-		'Von %1$s um %2$s erstellt',
-
-		'Failed to delete %s.' => 
-		'Löschen von %s fehlgeschlagen',
-
-		'Please check permissions on %s.' => 
-		'Bitte überprüfen Sie die Zugriffsrechte für %s.',
-
-		'Please ensure name contains at least one Latin-based character.' => 
-		'Bitte stellen Sie sicher, dass der Name mindestens ein lateinisches Schriftzeichen enthält.',
-
-		'A Data source with the name %s already exists' => 
-		'Eine Datenquelle mit dem Namen %s existiert bereits',
-
-		'Failed to write Data source to disk.' => 
-		'Datenquelle konnte nicht gespeichert werden.',
-
-		'Invalid URL' => 
-		'Ungültige URL',
-
-		'Request timed out. %d second limit reached.' => 
-		'Zeitüberschreitung bei Anfrage. %d-Sekunden-Limit erreicht.',
-
-		'Failed to load URL, status code %d was returned.' => 
-		'URL konnte nicht geladen werden, Status-Code %d wurden zurückgegeben.',
-
-		'Event updated at %s.' => 
-		'Ereignis um %s aktualisiert.',
-
-		'View all Events' => 
-		'Alle Ereignisse anzeigen',
-
-		'Event created at %s.' => 
-		'Ereignis um $s erstellt.',
-
-		'Are you sure you want to delete this event?' => 
-		'Sind Sie sicher, dass Sie dieses Ereignis löschen möchten?',
-
-		'An Event with the name %s already exists' => 
-		'Ein Ereignis mit dem Namen %s existiert bereits',
-
-		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option' => 
-		'Bitte beachten Sie, dass Sie möglicherweise eine Mischung aus Fehler- und Erfolgsrückmeldungen erhalten, wenn Sie die Erstellung mehrerer Einträge zulassen.',
-
-		'Recipient not found' => 
-		'Empfänger nicht gefunden',
-
-		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
-		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den ausgewählten Empfänger senden.',
-
-		'It currently does not work with ‘Allow Multiple’' => 
-		'Dies funktioniert derzeit nicht mit mehreren Einträgen gleichzeitig',
-
-		'The following are the recognised fields:' => 
-		'Folgende Felder werden erkannt:',
-
-		'Failed to write Event to disk.' => 
-		'Ereignis konnte nicht gespeichert werden.',
-
-		'Universal Resource Locator' => 
-		'Universal Resource Locator',
-
-		'Parameters' => 
-		'Parameter',
-
-		'Are you sure you want to delete the selected pages?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Seiten löschen möchten?',
-
-		'Page updated at %s.' => 
-		'Seite um %s aktualisiert.',
-
-		'View all Pages' => 
-		'Alle Seiten anzeigen',
-
-		'Edit Page' => 
-		'Seite bearbeiten',
-
-		'Edit Page Configuration' => 
-		'Seitenkonfiguration bearbeiten',
-
-		'Page created at %s.' => 
-		'Seite um %s erstellt.',
-
-		'Are you sure you want to delete this page?' => 
-		'Sind Sie sicher, dass Sie diese Seite löschen möchten?',
-
-		'This document is not well formed.' => 
-		'Dieses Dokument ist nicht wohlgeformt.',
-
-		'The following error was returned:' => 
-		'Folgender Fehler wurde zurückgegeben:',
-
-		'Page Template could not be written to disk.' => 
-		'Seitenvorlage konnte nicht gespeichert werden.',
-
-		'Please ensure handle contains at least one Latin-based character.' => 
-		'Bitte stellen Sie sicher, dass der Bezeichner mindestens ein lateinisches Schriftzeichen enthält.',
-
-		'Unknown errors occurred while attempting to save.' => 
-		'Beim Speichern ist ein unbekannter Fehler aufgetreten.',
-
-		'Check your activity log' => 
-		'Überprüfen Sie Ihr Fehler-Logbuch',
-
-		'One or more pages could not be deleted.' => 
-		'Eine oder mehrere Seiten konnten nicht gelöscht werden.',
-
-		'Are you sure you want to delete the selected sections?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Bereiche löschen möchten?',
-
-		'Are you sure you want to delete all entries in the selected sections?' => 
-		'Sind Sie sicher, dass Sie alle Einträge in den ausgewählten Bereichen löschen möchten?',
-
-		'Click to expand or collapse a field.' => 
-		'Ein- und Ausklappen eines Feldes mittels Klick.',
-
-		'Double click to expand or collapse all fields.' => 
-		'Ein- und Ausklappen aller Felder mittels Doppelklick.',
-
-		'Add field' => 
-		'Feld hinzufügen',
-
-		'Remove field' => 
-		'Feld löschen',
-
-		'Section updated at %s.' => 
-		'Bereich um %s aktualisiert.',
-
-		'View all Sections' => 
-		'Zeige alle Bereiche',
-
-		'Section created at %s.' => 
-		'Bereich um %s erstellt.',
-
-		'View Entries' => 
-		'Zeige Einträge',
-
-		'View Section Entries' => 
-		'Zeige Einträge des Bereichs',
-
-		'Are you sure you want to delete this section?' => 
-		'Sind Sie sicher, dass Sie diesen Bereich löschen möchten?',
-
-		'A Section with the name %s already exists' => 
-		'Ein Bereich mit dem Namen %s existiert bereits',
-
-		'A field with this handle already exists. All handle must be unique.' => 
-		'Ein Feld mit diesem Bezeichner existiert bereits. Bezeichner müssen eindeutig sein.',
-
-		'There is already a field of type %s. There can only be one per section.' => 
-		'Ein Feld vom Typ %s existiert bereits. Pro Bereich darf es nur eines geben.',
-
-		'Utility updated at %s.' => 
-		'Baustein um %s aktualisiert.',
-
-		'View all Utilities' => 
-		'Zeige alle Bausteine',
-
-		'Utility created at %s.' => 
-		'Baustein um %s erstellt.',
-
-		'Are you sure you want to delete this Utility?' => 
-		'Sind Sie sicher, dass Sie diesen Baustein löschen möchten?',
-
-		'Utility could not be written to disk.' => 
-		'Baustein konnte nicht gespeichert werden.',
-
-		'No username was entered.' => 
-		'Es wurde kein Benutzername eingegeben.',
-
-		'The supplied password was rejected.' => 
-		'Das eingegebene Passwort wurde nicht akzeptiert.',
-
-		'Retrieve password?' => 
-		'Passwort anfordern?',
-
-		'The Section you are looking for, %s, could not be found.' => 
-		'Der gesuchte Bereich, %s, konnte nicht gefunden werden.',
-
-		'Edit Section' => 
-		'Bereich bearbeiten',
-
-		'Edit Section Configuration' => 
-		'Bereichseinstellungen bearbeiten',
-
-		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
-		'Beim Anfordern gefilterter Einträge ist ein Fehler aufgetreten. Es werden daher alle Einträge angezeigt.',
-
-		'Are you sure you want to delete the selected entries?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Einträge löschen möchten?',
-
-		'Go to page …' => 
-		'Gehe zu Seite …',
-
-		'Fields must be added to this section before an entry can be created.' => 
-		'Bevor sie einen Eintrag erstellen können, müssen Sie dem Bereich Felder hinzufügen.',
-
-		'Add fields' => 
-		'Felder hinzufügen',
-
-		'Entry updated at %s.' => 
-		'Eintrag um %s aktualisiert.',
-
-		'View all Entries' => 
-		'Zeige alle Einträge',
-
-		'Entry created at %s.' => 
-		'Eintrag um %s erstellt.',
-
-		'Are you sure you want to delete this entry?' => 
-		'Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?',
-
-		'Create a new author' => 
-		'Neuen Autor erstellen',
-
-		'Email this author' => 
-		'Dieses Autor anschreiben',
-
-		'Unknown' => 
-		'Unbekannt',
-
-		'Are you sure you want to delete the selected authors?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Autoren löschen möchten?',
-
-		'Author updated at %s.' => 
-		'Autor um %s aktualisiert.',
-
-		'View all Authors' => 
-		'Zeige alle Autoren',
-
-		'Author created at %s.' => 
-		'Autor um %s erstellt.',
-
-		'%s Allow remote login via' => 
-		'%s Remotezugriff erlauben via',
-
-		'Sections Index' => 
-		'Bereichsübersicht',
-
-		'Are you sure you want to delete this author?' => 
-		'Sind Sie sicher, dass Sie diesen Autor löschen möchten?',
-
-		'Requires Symphony %s' => 
-		'Setzt Symphony %s voraus',
-
-		'New version %1$s, Requires Symphony %2$s' => 
-		'Neue Version %1$s, setzt Symphony %2$s voraus',
-
-		'Enable/Install' => 
-		'Aktivieren/Installieren',
-
-		'Are you sure you want to uninstall the selected extensions?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Erweiterungen deinstallieren möchten?',
-
-		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
-		'Die Symphony-Konfigurationsdatei, %s, ist nicht lesbar. Die Änderungen der Voreinstellungen werden nicht gespeichert.',
-
-		'Default Email Settings' => 
-		'Standard-E-Mail-Einstellungen',
-
-		'Gateway' => 
-		'Gateway',
-
-		'An extension requires updating.' => 
-		'Eine Erweiterung muss aktualisiert werden.',
-
-		'View extensions' => 
-		'Zeige Erweiterungen',
-
-		'An update has been found in your installation to upgrade Symphony to %s.' => 
-		'Eine Aktualisierung auf Symphony %s wurde für Ihre Installation gefunden.',
-
-		'View update.' => 
-		'Zeige Aktualisierung.',
-
-		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
-		'Ihre Symphony-Installation ist auf dem neusten Stand aber das Installationsskript ist noch vorhanden. Aus Sicherheitsgründen sollte es entfernt werden.',
-
-		'Remove installer?' => 
-		'Installationsskript entfernen?',
-
-		'An update script has been found in your installation.' => 
-		'Für Ihre Installation steht eine Aktualisierung zur Verfügung.',
-
-		'Invalid timezone %s' => 
-		'Ungültige Zeitzone %s',
-
-		'The page you requested, %s, does not exist.' => 
-		'Die aufgerufene Seite, %s, existiert nicht.',
-
-		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct.' => 
-		'Beim Versuch eine Datenbankverbindung herzustellen ist ein Problem aufgetreten. Bitte überprüfen Sie, ob die Verbindungsinformationen korrekt sind.',
-
-		'Log out' => 
-		'Abmelden',
-
-		'E-mail address is already taken' => 
-		'E-Mail-Adresse bereits in Verwendung',
-
-		'Could not find Data Source %s.' => 
-		'Konnte Datenquelle %s nicht finden.',
-
-		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Falls die Datenquelle von einer Erweiterung zur Verfügung gestellt wurde, stellen Sie sicher, dass diese aktiviert ist.',
-
-		'Sender Name can not contain carriage return or newlines.' => 
-		'Der Absender darf keine Zeilenumbrüche enthalten.',
-
-		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
-		'%1$s ist keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
-
-		'%s accepts strings only; arrays are not allowed.' => 
-		'%s akzeptiert ausschließlich Zeichenketten; Arrays sind nicht erlaubt.',
-
-		'The email address ‘%s’ is invalid.' => 
-		'Die E-Mail-Adresse „%s“ ist ungültig',
-
-		'The %1$s gateway does not support the use of %2$s' => 
-		'Das %1$s-Gateway überstützt die Verwednung von %2$s nicht',
-
-		'Could not find Email Gateway %s.' => 
-		'E-Mail-Gateway %s konnte nicht gefunden werden.',
-
-		'Could not find Event %s.' => 
-		'Ereignis %s konnte nicht gefunden werden.',
-
-		'The field ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'Das Feld ‚%s‘, das von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
-
-		'Please remove it from your sections prior to uninstalling or disabling.' => 
-		'Bitte entfernen Sie es von Ihren Bereichen bevor Sie es deinstallieren oder deaktivieren.',
-
-		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'Die Datenquelle ‚%s‘, die von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
-
-		'Please remove it from your pages prior to uninstalling or disabling.' => 
-		'Bitte entfernen Sie sie von Ihren Seiten bevor Sie es deinstallieren oder deaktivieren.',
-
-		'The Event ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'Das Ereignis ‚%s‘, das von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
-
-		'The Text Formatter ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'Der Textformatierer ‚%s‘, der von der Erweiterung ‚%s‘ bereitgestellt wird, ist zur Zeit in Verwendung.',
-
-		'Please remove it from your fields prior to uninstalling or disabling.' => 
-		'Bitte entfernen Sie ihn von Ihren Felder bevor Sie es deinstallieren oder deaktivieren.',
-
-		'Missing default namespace definition.' => 
-		'Standardnamensraumdefinition fehlt.',
-
-		'The %1$s file for the %2$s extension is not valid XML: %3$s' => 
-		'Die Datei %1$s für die Erweiterung %2$s enthält kein valides XML: %3$s',
-
-		'Could not find extension %s at location %s' => 
-		'Konnte die Erweiterung %s nicht unter %s finden',
-
-		'New Field' => 
-		'Neues Feld',
-
-		'%s Display in entries table' => 
-		'%s In tabellarischer Übersicht zeigen',
-
-		'%s Display relationship in entries table' => 
-		'%s Verbindungen in tabellarischer Übersicht zeigen',
-
-		'Invalid element name. Must be valid %s.' => 
-		'Ungültiger Elementname. Es muss valides %s sein.',
-
-		'‘%s’ is a required field.' => 
-		'‚%s‘ ist ein Pflichtfeld.',
-
-		'Data source output grouping is not supported by the %s field' => 
-		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
-
-		'Settings for field %s could not be found in table tbl_fields_%s.' => 
-		'Die Einstellungen für das Feld %s konnten nicht in der Tabelle tbl_fields_%s gefunden werden.',
-
-		'Could not find Field %1$s at %2$s.' => 
-		'Das Feld %1$s konnten nicht unter %2$s gefunden werden.',
-
-		'Please login to view this page.' => 
-		'Bitte melden Sie sich an, um diese Seite zu sehen.',
-
-		'Take me to the login page' => 
-		'Weiter zur Anmeldeseite',
-
-		'Unable to remove - %s' => 
-		'%s konnte nicht entfernt werden',
-
-		'Enforced type `%1$s` for argument `$%2$s` does not match any known variable types.' => 
-		'Erzwungener Typ `%1$s` für das Argument `$%2$s` enspricht keinem bekannten Variablentyp.',
-
-		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
-		'Das Argument ‚$%1$‘ entspricht nicht dem Typ ‚%2$‘, ‚%3$s‘ übergeben',
-
-		'No errors.' => 
-		'Keine Fehler.',
-
-		'Maximum stack depth exceeded.' => 
-		'Die maximale Stapeltiefe wurde überschritten.',
-
-		'Underflow or the modes mismatch.' => 
-		'Bereichsunterschreitung oder falsche Moduszuordnung.',
-
-		'Unexpected control character found.' => 
-		'Unerwartetes Steuerzeichen gefunden.',
-
-		'Syntax error, malformed JSON.' => 
-		'Syntaxfehler, fehlerhaftes JSON',
-
-		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
-		'Falsche UTF-8-Zeichen, wahrscheinlich fehlerhaft kodiert.',
-
-		'Unknown JSON error' => 
-		'Unbekannter JSON-Fehler',
-
-		'JSON not formatted correctly' => 
-		'JSON nicht richtig formatiert',
-
-		'MySQL Error (%1$s): %2$s in query: %3$s' => 
-		'MySQL-Fehler (%1$s): %2$s in Abfrage: %3$s',
-
-		'Unable to find a Manager class for this resource.' => 
-		'Manager-Klasse für die Resource konnte nicht gefunden werden.',
-
-		'Release Date' => 
-		'Veröffentlichungsdatum',
-
-		'Attach to Page' => 
-		'Seitenverknüpfung herstellen',
-
-		'Detach from Page' => 
-		'Seitenverknüpfung aufheben',
-
-		'All' => 
-		'Alle',
-
-		'Please check permissions on %s' => 
-		'Bitte überprüfen Sie die Zugriffsrechte für %s',
-
-		'Could not find Text Formatter %s.' => 
-		'Textformatierer %s konnte nicht gefunden werden.',
-
-		'Data returned is invalid.' => 
-		'Die Rückgabewerte sind ungültig.',
-
-		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
-		'Die Klasse %s konnte keine Sperre einrichten, überprüfen Sie, ob %s existiert und beschreibbar ist.',
-
-		'Transformed XML is invalid.' => 
-		'Das umgewandelte XML is ungültig.',
-
-		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
-		'Beim Erstellen das Feldobjekts mit der ID %1$d für die Filterung der Datenquelle %2$s ist ein Fehler aufgetreten. Überprüfen Sie, ob das Feld existiert.',
-
-		'The section associated with the data source %s could not be found.' => 
-		'Der Bereich, der mit der Datenquelle %s verknüpft ist, konnte nicht gefunden werden.',
-
-		'%s Pre-populate with current date' => 
-		'%s Mit heutigem Datum vorbelegen',
-
-		'The date specified in ‘%s’ is invalid.' => 
-		'Das angegebene Datum für ‚%s‘ ist ungültig.',
+		'‘%s’ contains invalid XML.' => 
+		'‚%s‘ enthält ungültiges XML.',
 
 		'‘%s’ contains invalid data. Please check the contents.' => 
 		'‚%s‘ enthält ungültige Werte. Bitte überprüfen Sie den Inhalt.',
 
-		'Available when using Dynamic Values' => 
-		'Verfügbar in Verbindung mit dynamischen Werten',
+		'‘%s’ is a required field.' => 
+		'‚%s‘ ist ein Pflichtfeld.',
 
-		'%s Sort all options alphabetically' => 
-		'%s Alle Optionen alphabetisch sortieren',
+		// Namespaced translations for Data Sources
 
-		'Number of default rows' => 
-		'Anzahl der Standardreihen',
-
-		'‘%s’ contains invalid XML.' => 
-		'‚%s‘ enthält ungültiges XML.',
-
-		'Directory %s does not exist.' => 
-		'Das Verzeichnis %s existiert nicht.',
-
-		'Destination folder is not writable.' => 
-		'Der Zielordner ist nicht beschreibbar.',
-
-		'The destination directory, %s, does not exist.' => 
-		'Der Zielordner %s existiert nicht.',
-
-		'File chosen in ‘%s’ does not match allowable file types for that field.' => 
-		'Die in ‚%s‘ gewählte Datei entspricht keinen zugelassenen Dateityp für dieses Feld.',
-
-		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s specified by your host.' => 
-		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Ihrem Host erlaubte Dateigröße von %2$s',
-
-		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
-		'Die in ‚%1$s‘ ausgewählte Datei überschreitet die maximal von Symphony erlaubte Dateigröße von %2$s',
-
-		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
-		'Die in ‚%s‘ ausgewählte Datei wurde aufgrund eines Fehlers nur teilweise hochgeladen.',
-
-		'Uploading ‘%s’ failed. Could not write temporary file to disk.' => 
-		'Das Hochladen von ‚%s‘ ist fehlgeschlagen. Es konnte keine temporäre Datei gespeichert werden.',
-
-		'Uploading ‘%s’ failed. File upload stopped by extension.' => 
-		'Das Hochladen von ‚%s‘ ist fehlgeschlagen. Der Vorgang wurde von einer Erweiterung gestoppt.',
-
-		'There was an error while trying to upload the file %1$s to the target directory %2$s.' => 
-		'Bei Hochladen der Datei %1$s in den Zielordner %2§s ist ein Fehler aufgetreten.',
-
-		'This page could not be rendered due to the following XSLT processing errors:' => 
-		'Aufgrund nachfolgender XSLT-Ausführungsfehler konnte die Seite nicht ausgegeben werden:',
-
-		'Show debug view' => 
-		'Debug-Ansicht öffnen',
-
-		'Debug' => 
-		'Debug',
-
-		'Show debug view for %s' => 
-		'Debug-Ansicht für %s öffnen',
-
-		'Show line %d in debug view' => 
-		'Zeile %s in der Debug-Ansicht anzeigen',
-				
-		// Namespaces
-
-		'/blueprints/pages' => array(
-		
-			'Create another?' => 
-			'Eine neue erstellen?',
-		
-		),
-		
 		'/blueprints/datasources' => array(
-		
+
 			'Create another?' => 
 			'Eine neue erstellen?',
-		
+
 		),
-		
+
+		// Namespaced translations for events
+
 		'/blueprints/events' => array(
-		
+
 			'Create another?' => 
 			'Ein neues erstellen?',
-		
+
 		),
 
+		// Namespaced translations for pages
+
+		'/blueprints/pages' => array(
+
+			'Create another?' => 
+			'Eine neue erstellen?',
+
+		)
 	);
 
 	/**
@@ -1948,10 +2005,6 @@
 	 	'№' => 'nummer',
 	 	'°' => 'grad',
 	 	'º' => null,
-
-		// Other characters
-		
-	
 	);
 	
 	$regexp = array(
@@ -1962,10 +2015,6 @@
 	 	'/^&(?!&)/' => 'und-',
 	 	'/&(?!&)&/' => '-und',
 	 	'/&(?!&)/' => '-und-',
-
-		// Other characters
-		
-	
 	);
 
 	$transliterations = array(
