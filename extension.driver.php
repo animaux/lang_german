@@ -45,7 +45,7 @@
 			Symphony::Configuration()->set('date_format', $date, 'lang-german-storage');
 			Symphony::Configuration()->set('time_format', $time, 'lang-german-storage');
 			Symphony::Configuration()->set('datetime_separator', $separator, 'lang-german-storage');
-			Administration::instance()->saveConfig();
+			Symphony::Configuration()->write();
 		}
 
 		/**
@@ -72,7 +72,7 @@
 
 			// Remove storage
 			Symphony::Configuration()->remove('lang-german-storage');
-			Administration::instance()->saveConfig();
+			Symphony::Configuration()->write();
 		}
 		
 		/**
@@ -84,7 +84,7 @@
 			Symphony::Configuration()->set('date_format', 'd. F Y', 'region');
 			Symphony::Configuration()->set('time_format', 'H:i', 'region');
 			Symphony::Configuration()->set('datetime_separator', ', ', 'region');			
-			Administration::instance()->saveConfig();
+			Symphony::Configuration()->write();
 		}
 		
 		/**
@@ -101,7 +101,7 @@
 			Symphony::Configuration()->set('date_format', $date, 'region');
 			Symphony::Configuration()->set('time_format', $time, 'region');
 			Symphony::Configuration()->set('datetime_separator', $separator, 'region');
-			Administration::instance()->saveConfig();
+			Symphony::Configuration()->write();
 		}
 
 	}
