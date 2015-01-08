@@ -3,11 +3,11 @@
 	$about = array(
 		'name' => 'Deutsch',
 		'author' => array(
-			'name' => 'Nils Hörrmann',
-			'email' => 'post@nilshoerrmann.de',
-			'website' => 'http://nilshoerrmann.de'
+			'name' => 'Büro für Web- und Textgestaltung',
+			'email' => 'buero@hananils.de',
+			'website' => 'http://hananils.de'
 		),
-		'release-date' => '2014-03-18'
+		'release-date' => '2015-01-08'
 	);
 
 	/**
@@ -24,62 +24,20 @@
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		'%1$s &ndash; %2$s &ndash; %3$s',
 
-		'%1$s Disable pagination and return all entries' => 
-		'%1$s Paginierung ausschalten und alle Einträge ausgeben',
-
 		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
 		'%1$s ist keine unterstützte Kodierungsart. Bitte verwenden Sie %2$s oder %3$s. Die Verwendung von %4$s überspringt die Kodierung.',
 
 		'%1$s released on %2$s' => 
 		'%1$s veröffentlicht am %2$s',
 
-		'%d entries' => 
-		'%d Einträge',
-
 		'%s Allow remote login via' => 
 		'%s Remotezugriff erlauben via',
-
-		'%s Allow selection of multiple authors' => 
-		'%s Erlaube Auswahl mehrerer Autoren.',
-
-		'%s Allow selection of multiple options' => 
-		'%s Erlaube Mehrfachauswahl.',
 
 		'%s Checked by default' => 
 		'%s Standardmäßig ausgewählt.',
 
-		'%s Display in entries table' => 
-		'%s In tabellarischer Übersicht zeigen',
-
-		'%s Display relationship in entries table %s' => 
-		'%s Zeige Verknüpfung in der Übersicht %s',
-
-		'%s HTML-encode text' => 
-		'%s Ausgabe HTML-konform kodieren.',
-
-		'%s Hide this section from the back-end menu' => 
-		'%s Diesen Bereich in der Navigation ausblenden',
-
-		'%s Include a count of entries in associated sections' => 
-		'%s Zeige Gesamtzahl der Einträge in verknüpften Bereichen',
-
-		'%s Make this a required field' => 
-		'%s Dieses Feld verpflichtend machen.',
-
-		'%s Pre-populate with current date' => 
-		'%s Mit heutigem Datum vorbelegen',
-
-		'%s Redirect to 404 page when no results are found' => 
-		'%s Auf 404-Fehlerseite umleiten, wenn keine Ergebnisse gefunden werden können.',
-
 		'%s Requires authentication' => 
 		'%s Autorisierung erforderlich',
-
-		'%s Select current user by default' => 
-		'%s Den aktuellen Benutzer vorauswählen',
-
-		'%s Sort all options alphabetically' => 
-		'%s Alle Optionen alphabetisch sortieren',
 
 		'%s accepts strings only; arrays are not allowed.' => 
 		'%s akzeptiert ausschließlich Zeichenketten; Arrays sind nicht erlaubt.',
@@ -101,9 +59,6 @@
 
 		'A Data source with the name %s already exists' => 
 		'Eine Datenquelle mit dem Namen %s existiert bereits',
-
-		'A Section with the name %s already exists' => 
-		'Ein Bereich mit dem Namen %s existiert bereits',
 
 		'A database error occurred while attempting to reorder.' => 
 		'Beim Neuordnen ist ein Datenbankfehler aufgetreten.',
@@ -146,9 +101,6 @@
 
 		'Add item' => 
 		'Hinzufügen',
-
-		'Add namespace' => 
-		'Namensraum hinzufügen',
 
 		'Admin Only' => 
 		'Nur Administratoren',
@@ -200,9 +152,6 @@
 
 		'Are you sure you want to delete all entries in the selected sections?' => 
 		'Sind Sie sicher, dass Sie alle Einträge in den ausgewählten Bereichen löschen möchten?',
-
-		'Are you sure you want to delete the selected authors?' => 
-		'Sind Sie sicher, dass Sie die ausgewählten Autoren löschen möchten?',
 
 		'Are you sure you want to delete the selected entries?' => 
 		'Sind Sie sicher, dass Sie die ausgewählten Einträge löschen möchten?',
@@ -285,12 +234,6 @@
 		'Blueprints' => 
 		'Blaupausen',
 
-		'Body' => 
-		'Daten',
-
-		'Cache Expiration' => 
-		'Ablauf des Zwischenspeichers',
-
 		'Can not call AUTH again.' => 
 		'AUTH darf nicht noch einmal aufgerufen werden.',
 
@@ -314,9 +257,6 @@
 
 		'Children' => 
 		'Kinder',
-
-		'Collapse all fields' => 
-		'Alle Felder ausblenden',
 
 		'Conditions' => 
 		'Bedingung',
@@ -411,14 +351,8 @@
 		'Data returned is invalid.' => 
 		'Die Rückgabewerte sind ungültig.',
 
-		'Data source created at %s.' => 
-		'Datenquelle um %s erstellt.',
-
 		'Data source output grouping is not supported by the %s field' => 
 		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
-
-		'Data source updated at %s.' => 
-		'Datenquelle um %s aktualisiert.',
 
 		'DataSource' => 
 		'Datenquelle',
@@ -495,9 +429,6 @@
 		'Dynamic Values' => 
 		'Dynamische Werte',
 
-		'Dynamic XML' => 
-		'Dynamisches XML',
-
 		'E-mail address entered is invalid' => 
 		'Die eingegebene E-Mail-Adresse ist ungültig',
 
@@ -509,12 +440,6 @@
 
 		'Edit' => 
 		'Bearbeiten',
-
-		'Edit Page' => 
-		'Seite bearbeiten',
-
-		'Edit Page Configuration' => 
-		'Seitenkonfiguration bearbeiten',
 
 		'Edit Section' => 
 		'Bereich bearbeiten',
@@ -620,9 +545,6 @@
 
 		'Existing Values' => 
 		'Existierende Werte',
-
-		'Expand all fields' => 
-		'Alle Felder einblenden',
 
 		'Extensions' => 
 		'Erweiterungen',
@@ -741,14 +663,8 @@
 		'Ignore?' => 
 		'Ignorieren?',
 
-		'In minutes' => 
-		'in Minuten',
-
 		'Included Elements' => 
 		'Eingebundene Elemente',
-
-		'Incompatible, requires Symphony %s' => 
-		'Inkompatibel, benötigt Symphony %s',
 
 		'Install' => 
 		'installieren',
@@ -867,14 +783,8 @@
 		'Monday' => 
 		'Montag',
 
-		'Must be a valid number' => 
-		'Muss eine gültige Zahl sein',
-
 		'Must be a valid number or parameter' => 
 		'Muss eine gültige Zahl oder ein gültiger Parameter sein',
-
-		'Must be greater than zero' => 
-		'Muss größer als Null sein',
 
 		'Must call EHLO (or HELO) before calling AUTH' => 
 		'EHLO (oder HELO) muss vor AUTH aufgerufen werden',
@@ -893,12 +803,6 @@
 
 		'Name' => 
 		'Name',
-
-		'Namespace' => 
-		'Namensraum',
-
-		'Namespace Declarations' => 
-		'Namensraumdeklarationen',
 
 		'Navigation' => 
 		'Navigation',
@@ -959,9 +863,6 @@
 
 		'Not installed' => 
 		'Nicht installiert',
-
-		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option' => 
-		'Bitte beachten Sie, dass Sie möglicherweise eine Mischung aus Fehler- und Erfolgsrückmeldungen erhalten, wenn Sie die Erstellung mehrerer Einträge zulassen.',
 
 		'Nov' => 
 		'Nov',
@@ -1080,9 +981,6 @@
 		'Port' => 
 		'Port',
 
-		'Predefined Values' => 
-		'Vordefinierte Werte',
-
 		'Preferences' => 
 		'Einstellungen',
 
@@ -1113,9 +1011,6 @@
 		'Remove item' => 
 		'Entfernen',
 
-		'Remove namespace' => 
-		'Namensraum entfernen',
-
 		'Rename folder' => 
 		'Verzeichnis umbenennen',
 
@@ -1133,12 +1028,6 @@
 
 		'Required Parameter' => 
 		'Zwingendes Parameter',
-
-		'Requires Symphony %s' => 
-		'Setzt Symphony %s voraus',
-
-		'Results Negated.' => 
-		'Ergebnisse ausgeschlossen.',
 
 		'Retrieve password?' => 
 		'Passwort anfordern?',
@@ -1317,9 +1206,6 @@
 		'System Modification Date' => 
 		'Systemveränderungsdatum',
 
-		'System Modified Date' => 
-		'Systemveränderungsdatum',
-
 		'TLS encryption' => 
 		'TLS-Verschlüsselung',
 
@@ -1479,9 +1365,6 @@
 		'Thursday' => 
 		'Donnerstag',
 
-		'Title' => 
-		'Titel',
-
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
 		'Um einen existierenden Eintrag zu bearbeiten, müssen Sie die Eintrags-ID im Formular einbinden. Dies geht am besten mit einem versteckten Textfeld:',
 
@@ -1500,17 +1383,8 @@
 		'Type' => 
 		'Typ',
 
-		'URI' => 
-		'URI',
-
 		'URL' => 
 		'URL',
-
-		'URL Handle' => 
-		'URL-Bezeichner',
-
-		'URL Parameters' => 
-		'URL-Parameter',
 
 		'Unable to connect via TLS' => 
 		'TLS-Verbindung nicht möglich',
@@ -1608,9 +1482,6 @@
 		'Use %s syntax to limit by page parameters.' => 
 		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
 
-		'Use %s syntax to specify dynamic portions of the URL.' => 
-		'Verwenden Sie %s, um dynamische Teile der URL festzulegen.',
-
 		'User Type' => 
 		'Benutzertyp',
 
@@ -1622,9 +1493,6 @@
 
 		'Username is required' => 
 		'Der Benutzername ist eine Pflichtangabe',
-
-		'Utilities' => 
-		'Bausteine',
 
 		'Utility' => 
 		'Baustein',
@@ -1653,9 +1521,6 @@
 		'View all Authors' => 
 		'Zeige alle Autoren',
 
-		'View all Data sources' => 
-		'Alle Datenquellen anzeigen',
-
 		'View all Entries' => 
 		'Zeige alle Einträge',
 
@@ -1682,9 +1547,6 @@
 
 		'Wednesday' => 
 		'Mittwoch',
-
-		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
-		'Wenn beim Speichern ein Fehler auftritt, weil Felder fehlen oder ungültig sind, wird nachfolgendes XML ausgeben',
 
 		'When saved successfully, the following XML will be returned:' => 
 		'Nach erfolgreicher Speicherung, wird nachfolgendes XML ausgegeben:',
@@ -1739,9 +1601,6 @@
 
 		'at' => 
 		'um',
-
-		'available when using Dynamic Values' => 
-		'verfügbar in Verbindung mit dynamischen Werten',
 
 		'day' => 
 		'Tag',
@@ -1830,9 +1689,6 @@
 		'previous' => 
 		'nächste(r|s)?',
 
-		'random' => 
-		'zufällig',
-
 		'read only' => 
 		'schreibgeschützt',
 
@@ -1887,9 +1743,6 @@
 		'weeks' => 
 		'Wochen',
 
-		'xPath Expression' => 
-		'xPath-Ausdruck',
-
 		'year' => 
 		'Jahr',
 
@@ -1910,6 +1763,186 @@
 
 		'‘%s’ is a required field.' => 
 		'‚%s‘ ist ein Pflichtfeld.',
+
+		'Expand all' => 
+		'Alle öffnen',
+
+		'Collapse all' => 
+		'Alle schließen',
+
+		'Please reset your password' => 
+		'Bitte setzen Sie Ihr Passwort zurück',
+
+		'required' => 
+		'verpflichtend',
+
+		'Click to select' => 
+		'Zum Auswählen klicken',
+
+		'Type to search' => 
+		'Tippen und suchen',
+
+		'Clear' => 
+		'Löschen',
+
+		'Search for {$item}' => 
+		'Suche nach {$item}',
+
+		'filtered' => 
+		'gefiltert',
+
+		'Clear filters' => 
+		'Filter löschen',
+
+		'Apply filters' => 
+		'Filter anwenden',
+
+		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned.' => 
+		false,
+
+		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option.' => 
+		false,
+
+		'Data Source updated at %s.' => 
+		false,
+
+		'Data Source created at %s.' => 
+		false,
+
+		'View all Data Sources' => 
+		false,
+
+		'Use %s syntax to order by page parameters.' => 
+		false,
+
+		'{$param}' => 
+		false,
+
+		'A Section with the handle %s already exists' => 
+		false,
+
+		'Options' => 
+		false,
+
+		'Filter Entries' => 
+		'Einträge filtern',
+
+		'Clear filter' => 
+		'Filter löschen',
+
+		'No filters applied yet.' => 
+		'Keine angelegten Filter.',
+
+		'Type and hit enter to apply filter…' => 
+		'Schreiben und mit Enter bestätigen …',
+
+		'Find values that are an exact match for the given string.' => 
+		false,
+
+		'Comparison mode' => 
+		'Vergleichsmodus',
+
+		'This request exceeds the maximum allowed request size of %s specified by your host.' => 
+		false,
+
+		'The Symphony configuration file, %s, is not writable. The sort order cannot be modified.' => 
+		false,
+
+		'filtered (%d of %d)' => 
+		'gefiltert (%d von %d)',
+
+		'Confirmation' => 
+		'Bestätigung',
+
+		'Please confirm changes to this author with your password.' => 
+		false,
+
+		'Your Password' => 
+		false,
+
+		'Please provide your own password to make changes to this author.' => 
+		false,
+
+		'Wrong password, please enter your own password to make changes to this author.' => 
+		false,
+
+		'Status unavailable' => 
+		false,
+
+		'requires Symphony %s' => 
+		false,
+
+		'Default Cache Settings' => 
+		false,
+
+		'Data source not executed, forbidden parameter was found.' => 
+		false,
+
+		'Association Interface' => 
+		false,
+
+		'Association Editor' => 
+		false,
+
+		'%s is a reserved name used by the system and is not allowed for a field handle. Try using %s instead.' => 
+		false,
+
+		'Validation rule is not a valid regular expression' => 
+		false,
+
+		'Find values that match the given <a href="%s">MySQL regular expressions</a>.' => 
+		false,
+
+		'Find values that do not match the given <a href="%s">MySQL regular expressions</a>.' => 
+		false,
+
+		'%s ' => 
+		false,
+
+		'Can not add the element itself as one of its child' => 
+		false,
+
+		'Request was rejected for having an invalid cross-site request forgery token.' => 
+		false,
+
+		'Please go back and try again.' => 
+		false,
+
+		'Data source not executed, required parameter is missing.' => 
+		false,
+
+		'Default date' => 
+		false,
+
+		'optional, accepts absolute or relative dates' => 
+		false,
+
+		'Static Values' => 
+		false,
+
+		'No Suggestions' => 
+		false,
+
+		'is' =>
+		'entspricht',
+
+		'contains' =>
+		'enthält',
+
+		'does not contain' =>
+		'enthält nicht',
+
+		'later than' =>
+		'später als',
+
+		'earlier than' =>
+		'früher als',
+
+		'equal to or later than' =>
+		'gleich oder später als',
+
+		'equal to or earlier than' =>
+		'gleich oder früher als',
 
 		// Namespaced translations for Data Sources
 
@@ -1936,7 +1969,8 @@
 			'Create another?' => 
 			'Eine neue erstellen?',
 
-		)
+		),
+
 	);
 
 	/**
@@ -2005,6 +2039,10 @@
 	 	'№' => 'nummer',
 	 	'°' => 'grad',
 	 	'º' => null,
+
+		// Other characters
+		
+	
 	);
 	
 	$regexp = array(
@@ -2015,6 +2053,10 @@
 	 	'/^&(?!&)/' => 'und-',
 	 	'/&(?!&)&/' => '-und',
 	 	'/&(?!&)/' => '-und-',
+
+		// Other characters
+		
+	
 	);
 
 	$transliterations = array(
