@@ -1798,31 +1798,31 @@
 		'Filter anwenden',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned.' => 
-		false,
+		'Wenn beim Speichern aufgrund eines fehlenden oder ungültigen Feldes ein Fehler auftritt, wird das nachfolgende XML ausgegeben.',
 
 		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option.' => 
-		false,
+		'Beachten Sie, das die Verwendungen der Option „Mehrfachauswahl“ zu einer Mischungaus Erfolgs- und Fehlermeldungen führen kann.',
 
 		'Data Source updated at %s.' => 
-		false,
+		'Datenquelle wurde um %s aktualisiert.',
 
 		'Data Source created at %s.' => 
-		false,
+		'Datenquelle wurde um %s erstellt.',
 
 		'View all Data Sources' => 
-		false,
+		'Zeige alle Datenquellen',
 
 		'Use %s syntax to order by page parameters.' => 
-		false,
+		'Verwenden Sie die %s-Syntax um nach Seitenparametern zu sortieren',
 
 		'{$param}' => 
-		false,
+		'{$param}',
 
 		'A Section with the handle %s already exists' => 
-		false,
+		'Ein Bereich mit der Bezeichnung %s existiert bereits',
 
 		'Options' => 
-		false,
+		'Optionen',
 
 		'Filter Entries' => 
 		'Einträge filtern',
@@ -1834,19 +1834,19 @@
 		'Keine angelegten Filter.',
 
 		'Type and hit enter to apply filter…' => 
-		'Schreiben und mit Enter bestätigen …',
+		'Filterwert mit Enter bestätigen …',
 
 		'Find values that are an exact match for the given string.' => 
-		false,
+		'Finde Werte, die einer gegebenen Zeichenkette exakt entsprechen.',
 
 		'Comparison mode' => 
 		'Vergleichsmodus',
 
 		'This request exceeds the maximum allowed request size of %s specified by your host.' => 
-		false,
+		'Diese Anfrage übersteigt die von Ihrem Host maximal erlaubte Größe von %s.',
 
 		'The Symphony configuration file, %s, is not writable. The sort order cannot be modified.' => 
-		false,
+		'Die Symphony-Konfigurationsdatei, %s, ist nicht schreibbar. Die Sortierreihenfolge kann nicht verändert werden.',
 
 		'filtered (%d of %d)' => 
 		'gefiltert (%d von %d)',
@@ -1855,73 +1855,73 @@
 		'Bestätigung',
 
 		'Please confirm changes to this author with your password.' => 
-		false,
+		'Bitte bestätigen Sie Änderungen an diesem Nutzer mit Ihrem Passwort.',
 
 		'Your Password' => 
-		false,
+		'Ihr Passwort',
 
 		'Please provide your own password to make changes to this author.' => 
-		false,
+		'Bitte geben Sie Ihr eigenes Passwort ein, um diesen Autor zu bearbeiten.',
 
 		'Wrong password, please enter your own password to make changes to this author.' => 
-		false,
+		'Falsches Passwort, bitte geben Sie Ihr eigenens Passwort ein, um diesen Autor zu bearbeiten.',
 
 		'Status unavailable' => 
-		false,
+		'Status nicht verfügbar',
 
 		'requires Symphony %s' => 
-		false,
+		'benötigt Symphony %s',
 
 		'Default Cache Settings' => 
-		false,
+		'Standardzwischenspeichereinstellungen',
 
 		'Data source not executed, forbidden parameter was found.' => 
-		false,
+		'Datenquelle wurde nicht ausgefüht, weil ein nicht erlaubtes Parameter verwendet wurde.',
 
 		'Association Interface' => 
-		false,
+		'Interface für Verknüpfungen',
 
 		'Association Editor' => 
-		false,
+		'Editor für Verknüpfungen',
 
 		'%s is a reserved name used by the system and is not allowed for a field handle. Try using %s instead.' => 
-		false,
+		'%s is ein reservierter Systemname, der nicht als Feldbezeichner erlaubt ist. Versuchen Sie %s anstelledessen.',
 
 		'Validation rule is not a valid regular expression' => 
-		false,
+		'Die Validierungsregel ist kein gültiger regulärer Ausdruck',
 
 		'Find values that match the given <a href="%s">MySQL regular expressions</a>.' => 
-		false,
+		'Finde Werte, die einem gegebenen <a href="%s">regulären MySQL-Ausdruck</a> entsprechen. ',
 
 		'Find values that do not match the given <a href="%s">MySQL regular expressions</a>.' => 
-		false,
+		'Finde Werte, die nicht einem gegebenen <a href="%s">regulären MySQL-Ausdruck</a> entsprechen. ',
 
 		'%s ' => 
-		false,
+		'%s ',
 
 		'Can not add the element itself as one of its child' => 
-		false,
+		'Das Element kann nichts als sein eigenes Kind hinzugefügt werden',
 
 		'Request was rejected for having an invalid cross-site request forgery token.' => 
-		false,
+		'Die Anfrage wurde aufgrund eines ungültigen Cross-Site-Request-Forgery-Tokens abgewiesen.',
 
 		'Please go back and try again.' => 
-		false,
+		'Bitte gehen Sie zurück und versuchen Sie es erneut.',
 
 		'Data source not executed, required parameter is missing.' => 
-		false,
+		'Datenquelle wurde nicht ausgeführt, weil ein Pflichtparameter nicht gesetzt ist.',
 
 		'Default date' => 
-		false,
+		'Standarddatum',
 
 		'optional, accepts absolute or relative dates' => 
-		false,
+		'optional, absolute und relative Datumsangaben möglich',
 
 		'Static Values' => 
-		false,
+		'Statische Werte',
 
 		'No Suggestions' => 
-		false,
+		'Keine Vorschläge',
 
 		'is' =>
 		'entspricht',
