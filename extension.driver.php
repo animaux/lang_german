@@ -81,7 +81,7 @@
 		private function __setGerman() {
 
 			// Set German date and time settings
-			Symphony::Configuration()->set('date_format', 'd. F Y', 'region');
+			Symphony::Configuration()->set('date_format', 'j. F Y', 'region');
 			Symphony::Configuration()->set('time_format', 'H:i', 'region');
 			Symphony::Configuration()->set('datetime_separator', ', ', 'region');
 			Symphony::Configuration()->write();
