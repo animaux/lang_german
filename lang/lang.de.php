@@ -433,7 +433,7 @@
 		'Standardzwischenspeichereinstellungen',
 
 		'Default Email Settings' => 
-		'E-Mail-Standard',
+		'E-Mail-Versand',
 
 		'Default date' => 
 		'Standarddatum',
