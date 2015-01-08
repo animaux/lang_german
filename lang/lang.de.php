@@ -682,7 +682,7 @@
 		'Verboten',
 
 		'Forbidden Parameter' => 
-		'Verbotenes Parameter',
+		'Ausschlussparameter',
 
 		'Formatting' => 
 		'Formatierung',
@@ -991,7 +991,7 @@
 		'Seite konnte nicht gefunden werden',
 
 		'Page Number' => 
-		'Seitennummer',
+		'Seitenzahl',
 
 		'Page Resources' => 
 		'Seitenbasis',
@@ -1129,7 +1129,7 @@
 		'Die Anfrage wurde aufgrund eines ungültigen Cross-Site-Request-Forgery-Tokens abgewiesen.',
 
 		'Required Parameter' => 
-		'Zwingendes Parameter',
+		'Pflichtparameter',
 
 		'Retrieve password?' => 
 		'Passwort anfordern?',
@@ -1961,13 +1961,13 @@
 		'Leite zur 404-Seite weiter, wenn das Ausschlussparameter gesetzt ist',
 
 		'Redirect to 404 page when no results are found' => 
-		'Leite zur 404-Seite, wenn keine Ergebnisse gefunden werden',
+		'Leite zur 404-Seite weiter, wenn keine Ergebnisse gefunden werden',
 
 		'Enable pagination' => 
 		'Aktiviere Paginierung',
 
 		'Include a count of entries in associated sections' => 
-		'Gebe die Zahl der Einträge in verknüpften Bereichen aus',
+		'Zahl verknüpfter Einträge ausgeben',
 
 		'HTML-encode text' => 
 		'HTML-kodierter Text',
