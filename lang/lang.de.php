@@ -30,6 +30,9 @@
 		'%1$s released on %2$s' => 
 		'%1$s veröffentlicht am %2$s',
 
+		'%s ' => 
+		'%s ',
+
 		'%s Allow remote login via' => 
 		'%s Remotezugriff erlauben via',
 
@@ -45,6 +48,9 @@
 		'%s has timed out' => 
 		'Zeitüberschreitung für %s',
 
+		'%s is a reserved name used by the system and is not allowed for a field handle. Try using %s instead.' => 
+		'%s is ein reservierter Systemname, der nicht als Feldbezeichner erlaubt ist. Versuchen Sie %s anstelledessen.',
+
 		'&larr; Previous' => 
 		'&larr; Vorherige',
 
@@ -59,6 +65,9 @@
 
 		'A Data source with the name %s already exists' => 
 		'Eine Datenquelle mit dem Namen %s existiert bereits',
+
+		'A Section with the handle %s already exists' => 
+		'Ein Bereich mit der Bezeichnung %s existiert bereits',
 
 		'A database error occurred while attempting to reorder.' => 
 		'Beim Neuordnen ist ein Datenbankfehler aufgetreten.',
@@ -144,6 +153,9 @@
 		'Apply' => 
 		'Anwenden',
 
+		'Apply filters' => 
+		'Filter anwenden',
+
 		'Apr' => 
 		'Apr',
 
@@ -188,6 +200,12 @@
 
 		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
 		'Das Argument ‚$%1$‘ entspricht nicht dem Typ ‚%2$‘, ‚%3$s‘ übergeben',
+
+		'Association Editor' => 
+		'Editor für Verknüpfungen',
+
+		'Association Interface' => 
+		'Interface für Verknüpfungen',
 
 		'At least one source must be specified, dynamic or static.' => 
 		'Mindestens eine Quelle, dynamisch oder statisch, muss festgelegt werden.',
@@ -234,6 +252,9 @@
 		'Blueprints' => 
 		'Blaupausen',
 
+		'Can not add the element itself as one of its child' => 
+		'Das Element kann nichts als sein eigenes Kind hinzugefügt werden',
+
 		'Can not call AUTH again.' => 
 		'AUTH darf nicht noch einmal aufgerufen werden.',
 
@@ -258,11 +279,32 @@
 		'Children' => 
 		'Kinder',
 
+		'Clear' => 
+		'Löschen',
+
+		'Clear filter' => 
+		'Filter löschen',
+
+		'Clear filters' => 
+		'Filter löschen',
+
+		'Click to select' => 
+		'Zum Auswählen klicken',
+
+		'Collapse all' => 
+		'Alle schließen',
+
+		'Comparison mode' => 
+		'Vergleichsmodus',
+
 		'Conditions' => 
 		'Bedingung',
 
 		'Confirm Password' => 
 		'Passwort wiederholen',
+
+		'Confirmation' => 
+		'Bestätigung',
 
 		'Content' => 
 		'Inhalte',
@@ -345,11 +387,23 @@
 		'Data Source' => 
 		'Datenquelle',
 
+		'Data Source created at %s.' => 
+		'Datenquelle wurde um %s erstellt.',
+
+		'Data Source updated at %s.' => 
+		'Datenquelle wurde um %s aktualisiert.',
+
 		'Data Sources' => 
 		'Datenquellen',
 
 		'Data returned is invalid.' => 
 		'Die Rückgabewerte sind ungültig.',
+
+		'Data source not executed, forbidden parameter was found.' => 
+		'Datenquelle wurde nicht ausgefüht, weil ein nicht erlaubtes Parameter verwendet wurde.',
+
+		'Data source not executed, required parameter is missing.' => 
+		'Datenquelle wurde nicht ausgeführt, weil ein Pflichtparameter nicht gesetzt ist.',
 
 		'Data source output grouping is not supported by the %s field' => 
 		'Die Gruppierung der Datenquellenausgabe wird vom Feld %s nicht unterstützt',
@@ -375,8 +429,14 @@
 		'Default Area' => 
 		'Standardbereich',
 
+		'Default Cache Settings' => 
+		'Standardzwischenspeichereinstellungen',
+
 		'Default Email Settings' => 
 		'Standard-E-Mail-Einstellungen',
+
+		'Default date' => 
+		'Standarddatum',
 
 		'Delete' => 
 		'Löschen',
@@ -546,6 +606,9 @@
 		'Existing Values' => 
 		'Existierende Werte',
 
+		'Expand all' => 
+		'Alle öffnen',
+
 		'Extensions' => 
 		'Erweiterungen',
 
@@ -588,8 +651,20 @@
 		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
 		'Die in ‚%s‘ ausgewählte Datei wurde aufgrund eines Fehlers nur teilweise hochgeladen.',
 
+		'Filter Entries' => 
+		'Einträge filtern',
+
 		'Filters' => 
 		'Filter',
+
+		'Find values that are an exact match for the given string.' => 
+		'Finde Werte, die einer gegebenen Zeichenkette exakt entsprechen.',
+
+		'Find values that do not match the given <a href="%s">MySQL regular expressions</a>.' => 
+		'Finde Werte, die nicht einem gegebenen <a href="%s">regulären MySQL-Ausdruck</a> entsprechen. ',
+
+		'Find values that match the given <a href="%s">MySQL regular expressions</a>.' => 
+		'Finde Werte, die einem gegebenen <a href="%s">regulären MySQL-Ausdruck</a> entsprechen. ',
 
 		'First' => 
 		'Erste',
@@ -825,6 +900,9 @@
 		'No' => 
 		'Nein',
 
+		'No Suggestions' => 
+		'Keine Vorschläge',
+
 		'No attachments or body text was set. Can not send empty email.' => 
 		'Weder Anhang noch Fließtext festgelegt. Leere E-Mails können nicht versendet werden.',
 
@@ -836,6 +914,9 @@
 
 		'No errors.' => 
 		'Keine Fehler.',
+
+		'No filters applied yet.' => 
+		'Keine angelegten Filter.',
 
 		'No links in %s' => 
 		'Keine Verknüpfungen für %s',
@@ -863,6 +944,9 @@
 
 		'Not installed' => 
 		'Nicht installiert',
+
+		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option.' => 
+		'Beachten Sie, das die Verwendungen der Option „Mehrfachauswahl“ zu einer Mischungaus Erfolgs- und Fehlermeldungen führen kann.',
 
 		'Nov' => 
 		'Nov',
@@ -893,6 +977,9 @@
 
 		'Optional' => 
 		'optional',
+
+		'Options' => 
+		'Optionen',
 
 		'Page %1$s of %2$s' => 
 		'Seite %1$s von %2$s',
@@ -960,14 +1047,23 @@
 		'Please check permissions on %s.' => 
 		'Bitte überprüfen Sie die Zugriffsrechte für %s.',
 
+		'Please confirm changes to this author with your password.' => 
+		'Bitte bestätigen Sie Änderungen an diesem Nutzer mit Ihrem Passwort.',
+
 		'Please ensure handle contains at least one Latin-based character.' => 
 		'Bitte stellen Sie sicher, dass der Bezeichner mindestens ein lateinisches Schriftzeichen enthält.',
 
 		'Please ensure name contains at least one Latin-based character.' => 
 		'Bitte stellen Sie sicher, dass der Name mindestens ein lateinisches Schriftzeichen enthält.',
 
+		'Please go back and try again.' => 
+		'Bitte gehen Sie zurück und versuchen Sie es erneut.',
+
 		'Please login to view this page.' => 
 		'Bitte melden Sie sich an, um diese Seite zu sehen.',
+
+		'Please provide your own password to make changes to this author.' => 
+		'Bitte geben Sie Ihr eigenes Passwort ein, um diesen Autor zu bearbeiten.',
 
 		'Please remove it from your fields prior to uninstalling or disabling.' => 
 		'Bitte entfernen Sie ihn von Ihren Felder bevor Sie es deinstallieren oder deaktivieren.',
@@ -977,6 +1073,9 @@
 
 		'Please remove it from your sections prior to uninstalling or disabling.' => 
 		'Bitte entfernen Sie es von Ihren Bereichen bevor Sie es deinstallieren oder deaktivieren.',
+
+		'Please reset your password' => 
+		'Bitte setzen Sie Ihr Passwort zurück',
 
 		'Port' => 
 		'Port',
@@ -1026,6 +1125,9 @@
 		'Request timed out. %d second limit reached.' => 
 		'Zeitüberschreitung bei Anfrage. %d-Sekunden-Limit erreicht.',
 
+		'Request was rejected for having an invalid cross-site request forgery token.' => 
+		'Die Anfrage wurde aufgrund eines ungültigen Cross-Site-Request-Forgery-Tokens abgewiesen.',
+
 		'Required Parameter' => 
 		'Zwingendes Parameter',
 
@@ -1046,6 +1148,9 @@
 
 		'Save Changes' => 
 		'Änderungen speichern',
+
+		'Search for {$item}' => 
+		'Suche nach {$item}',
 
 		'Section created at %s.' => 
 		'Bereich um %s erstellt.',
@@ -1155,11 +1260,17 @@
 		'Source' => 
 		'Quelle',
 
+		'Static Values' => 
+		'Statische Werte',
+
 		'Static XML' => 
 		'Statisches XML',
 
 		'Status' => 
 		'Status',
+
+		'Status unavailable' => 
+		'Status nicht verfügbar',
 
 		'Submit' => 
 		'Abschicken',
@@ -1260,6 +1371,9 @@
 		'The Symphony Team' => 
 		'Ihr Symphony-Team',
 
+		'The Symphony configuration file, %s, is not writable. The sort order cannot be modified.' => 
+		'Die Symphony-Konfigurationsdatei, %s, ist nicht schreibbar. Die Sortierreihenfolge kann nicht verändert werden.',
+
 		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
 		'Die Symphony-Konfigurationsdatei, %s, ist nicht lesbar. Die Änderungen der Voreinstellungen werden nicht gespeichert.',
 
@@ -1359,6 +1473,9 @@
 		'This page could not be rendered due to the following XSLT processing errors:' => 
 		'Aufgrund nachfolgender XSLT-Ausführungsfehler konnte die Seite nicht ausgegeben werden:',
 
+		'This request exceeds the maximum allowed request size of %s specified by your host.' => 
+		'Diese Anfrage übersteigt die von Ihrem Host maximal erlaubte Größe von %s.',
+
 		'Thu' => 
 		'Do',
 
@@ -1382,6 +1499,12 @@
 
 		'Type' => 
 		'Typ',
+
+		'Type and hit enter to apply filter…' => 
+		'Filterwert mit Enter bestätigen …',
+
+		'Type to search' => 
+		'Tippen und suchen',
 
 		'URL' => 
 		'URL',
@@ -1482,6 +1605,9 @@
 		'Use %s syntax to limit by page parameters.' => 
 		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
 
+		'Use %s syntax to order by page parameters.' => 
+		'Verwenden Sie die %s-Syntax um nach Seitenparametern zu sortieren',
+
 		'User Type' => 
 		'Benutzertyp',
 
@@ -1499,6 +1625,9 @@
 
 		'Validation Rule' => 
 		'Validierungsregel',
+
+		'Validation rule is not a valid regular expression' => 
+		'Die Validierungsregel ist kein gültiger regulärer Ausdruck',
 
 		'Value' => 
 		'Wert',
@@ -1520,6 +1649,9 @@
 
 		'View all Authors' => 
 		'Zeige alle Autoren',
+
+		'View all Data Sources' => 
+		'Zeige alle Datenquellen',
 
 		'View all Entries' => 
 		'Zeige alle Einträge',
@@ -1548,11 +1680,17 @@
 		'Wednesday' => 
 		'Mittwoch',
 
+		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned.' => 
+		'Wenn beim Speichern aufgrund eines fehlenden oder ungültigen Feldes ein Fehler auftritt, wird das nachfolgende XML ausgegeben.',
+
 		'When saved successfully, the following XML will be returned:' => 
 		'Nach erfolgreicher Speicherung, wird nachfolgendes XML ausgegeben:',
 
 		'With Selected...' => 
 		'Auswahl &#8230;',
+
+		'Wrong password, please enter your own password to make changes to this author.' => 
+		'Falsches Passwort, bitte geben Sie Ihr eigenens Passwort ein, um diesen Autor zu bearbeiten.',
 
 		'Wrong password. Enter old one to change email address.' => 
 		'Falsches Passwort. Geben Sie Ihr altes Passwort zum Ändern der E-Mail-Adresse ein.',
@@ -1580,6 +1718,9 @@
 
 		'You cannot remove yourself as you are the active Author.' => 
 		'Sie können sich nicht selbst entfernen, da Sie der aktive Nutzer sind.',
+
+		'Your Password' => 
+		'Ihr Passwort',
 
 		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
 		'Ihre Symphony-Installation ist auf dem neusten Stand aber das Installationsskript ist noch vorhanden. Aus Sicherheitsgründen sollte es entfernt werden.',
@@ -1622,6 +1763,12 @@
 
 		'fifth' => 
 		'fünfte(r|s)',
+
+		'filtered' => 
+		'gefiltert',
+
+		'filtered (%d of %d)' => 
+		'gefiltert (%d von %d)',
 
 		'first' => 
 		'erste(r|s)?',
@@ -1686,11 +1833,20 @@
 		'now' => 
 		'jetzt',
 
+		'optional, accepts absolute or relative dates' => 
+		'optional, absolute und relative Datumsangaben möglich',
+
 		'previous' => 
 		'nächste(r|s)?',
 
 		'read only' => 
 		'schreibgeschützt',
+
+		'required' => 
+		'verpflichtend',
+
+		'requires Symphony %s' => 
+		'benötigt Symphony %s',
 
 		'sec' => 
 		'Sek',
@@ -1755,6 +1911,9 @@
 		'{$minutes} minutes ago' => 
 		'vor {$minutes} Minuten',
 
+		'{$param}' => 
+		'{$param}',
+
 		'‘%s’ contains invalid XML.' => 
 		'‚%s‘ enthält ungültiges XML.',
 
@@ -1764,185 +1923,108 @@
 		'‘%s’ is a required field.' => 
 		'‚%s‘ ist ein Pflichtfeld.',
 
-		'Expand all' => 
-		'Alle öffnen',
+		// Obsolete
 
-		'Collapse all' => 
-		'Alle schließen',
-
-		'Please reset your password' => 
-		'Bitte setzen Sie Ihr Passwort zurück',
-
-		'required' => 
-		'verpflichtend',
-
-		'Click to select' => 
-		'Zum Auswählen klicken',
-
-		'Type to search' => 
-		'Tippen und suchen',
-
-		'Clear' => 
-		'Löschen',
-
-		'Search for {$item}' => 
-		'Suche nach {$item}',
-
-		'filtered' => 
-		'gefiltert',
-
-		'Clear filters' => 
-		'Filter löschen',
-
-		'Apply filters' => 
-		'Filter anwenden',
-
-		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned.' => 
-		'Wenn beim Speichern aufgrund eines fehlenden oder ungültigen Feldes ein Fehler auftritt, wird das nachfolgende XML ausgegeben.',
-
-		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option.' => 
-		'Beachten Sie, das die Verwendungen der Option „Mehrfachauswahl“ zu einer Mischungaus Erfolgs- und Fehlermeldungen führen kann.',
-
-		'Data Source updated at %s.' => 
-		'Datenquelle wurde um %s aktualisiert.',
-
-		'Data Source created at %s.' => 
-		'Datenquelle wurde um %s erstellt.',
-
-		'View all Data Sources' => 
-		'Zeige alle Datenquellen',
-
-		'Use %s syntax to order by page parameters.' => 
-		'Verwenden Sie die %s-Syntax um nach Seitenparametern zu sortieren',
-
-		'{$param}' => 
-		'{$param}',
-
-		'A Section with the handle %s already exists' => 
-		'Ein Bereich mit der Bezeichnung %s existiert bereits',
-
-		'Options' => 
-		'Optionen',
-
-		'Filter Entries' => 
-		'Einträge filtern',
-
-		'Clear filter' => 
-		'Filter löschen',
-
-		'No filters applied yet.' => 
-		'Keine angelegten Filter.',
-
-		'Type and hit enter to apply filter…' => 
-		'Filterwert mit Enter bestätigen …',
-
-		'Find values that are an exact match for the given string.' => 
-		'Finde Werte, die einer gegebenen Zeichenkette exakt entsprechen.',
-
-		'Comparison mode' => 
-		'Vergleichsmodus',
-
-		'This request exceeds the maximum allowed request size of %s specified by your host.' => 
-		'Diese Anfrage übersteigt die von Ihrem Host maximal erlaubte Größe von %s.',
-
-		'The Symphony configuration file, %s, is not writable. The sort order cannot be modified.' => 
-		'Die Symphony-Konfigurationsdatei, %s, ist nicht schreibbar. Die Sortierreihenfolge kann nicht verändert werden.',
-
-		'filtered (%d of %d)' => 
-		'gefiltert (%d von %d)',
-
-		'Confirmation' => 
-		'Bestätigung',
-
-		'Please confirm changes to this author with your password.' => 
-		'Bitte bestätigen Sie Änderungen an diesem Nutzer mit Ihrem Passwort.',
-
-		'Your Password' => 
-		'Ihr Passwort',
-
-		'Please provide your own password to make changes to this author.' => 
-		'Bitte geben Sie Ihr eigenes Passwort ein, um diesen Autor zu bearbeiten.',
-
-		'Wrong password, please enter your own password to make changes to this author.' => 
-		'Falsches Passwort, bitte geben Sie Ihr eigenens Passwort ein, um diesen Autor zu bearbeiten.',
-
-		'Status unavailable' => 
-		'Status nicht verfügbar',
-
-		'requires Symphony %s' => 
-		'benötigt Symphony %s',
-
-		'Default Cache Settings' => 
-		'Standardzwischenspeichereinstellungen',
-
-		'Data source not executed, forbidden parameter was found.' => 
-		'Datenquelle wurde nicht ausgefüht, weil ein nicht erlaubtes Parameter verwendet wurde.',
-
-		'Association Interface' => 
-		'Interface für Verknüpfungen',
-
-		'Association Editor' => 
-		'Editor für Verknüpfungen',
-
-		'%s is a reserved name used by the system and is not allowed for a field handle. Try using %s instead.' => 
-		'%s is ein reservierter Systemname, der nicht als Feldbezeichner erlaubt ist. Versuchen Sie %s anstelledessen.',
-
-		'Validation rule is not a valid regular expression' => 
-		'Die Validierungsregel ist kein gültiger regulärer Ausdruck',
-
-		'Find values that match the given <a href="%s">MySQL regular expressions</a>.' => 
-		'Finde Werte, die einem gegebenen <a href="%s">regulären MySQL-Ausdruck</a> entsprechen. ',
-
-		'Find values that do not match the given <a href="%s">MySQL regular expressions</a>.' => 
-		'Finde Werte, die nicht einem gegebenen <a href="%s">regulären MySQL-Ausdruck</a> entsprechen. ',
-
-		'%s ' => 
-		'%s ',
-
-		'Can not add the element itself as one of its child' => 
-		'Das Element kann nichts als sein eigenes Kind hinzugefügt werden',
-
-		'Request was rejected for having an invalid cross-site request forgery token.' => 
-		'Die Anfrage wurde aufgrund eines ungültigen Cross-Site-Request-Forgery-Tokens abgewiesen.',
-
-		'Please go back and try again.' => 
-		'Bitte gehen Sie zurück und versuchen Sie es erneut.',
-
-		'Data source not executed, required parameter is missing.' => 
-		'Datenquelle wurde nicht ausgeführt, weil ein Pflichtparameter nicht gesetzt ist.',
-
-		'Default date' => 
-		'Standarddatum',
-
-		'optional, accepts absolute or relative dates' => 
-		'optional, absolute und relative Datumsangaben möglich',
-
-		'Static Values' => 
-		'Statische Werte',
-
-		'No Suggestions' => 
-		'Keine Vorschläge',
-
-		'is' =>
-		'entspricht',
-
-		'contains' =>
+		'contains' => 
 		'enthält',
 
-		'does not contain' =>
+		'does not contain' => 
 		'enthält nicht',
 
-		'later than' =>
-		'später als',
-
-		'earlier than' =>
+		'earlier than' => 
 		'früher als',
 
-		'equal to or later than' =>
+		'equal to or earlier than' => 
+		'gleich oder früher als',
+
+		'equal to or later than' => 
 		'gleich oder später als',
 
-		'equal to or earlier than' =>
-		'gleich oder früher als',
+		'is' => 
+		'entspricht',
+
+		'later than' => 
+		'später als',
+
+		// Missing
+
+		'The Symphony calendar widget has been disabled because your system date format is currently not supported. Try one of the following instead or disable the calendar in the field settings:' => 
+		'Der Symphony-Kalendar wurde deaktiviert, weil Ihr Systemdatumsformat derzeit nicht unterstützt wird. Verwenden Sie eines der nachfolgenden oder deaktivieren Sie den Kalender in den Feldeinstellungen:',
+
+		'no leading zero' => 
+		'ohne führende Null',
+
+		'Redirect to 404 page when the required parameter is not present' => 
+		'Leite zur 404-Seite weiter, wenn das Pflichtparameter nicht gesetzt ist',
+
+		'Redirect to 404 page when the forbidden parameter is present' => 
+		'Leite zur 404-Seite weiter, wenn das Ausschlussparameter gesetzt ist',
+
+		'Redirect to 404 page when no results are found' => 
+		'Leite zur 404-Seite, wenn keine Ergebnisse gefunden werden',
+
+		'Enable pagination' => 
+		'Aktiviere Paginierung',
+
+		'Include a count of entries in associated sections' => 
+		'Gebe die Zahl der Einträge in verknüpften Bereichen aus',
+
+		'HTML-encode text' => 
+		'HTML-kodierter Text',
+
+		'Hide this section from the back-end menu' => 
+		'Verstecke diesen Bereich im Symphony-Menü',
+
+		'Allow filtering of section entries' => 
+		'Erlaube das Filtern der Bereichseinträge',
+
+		'GitHub' => 
+		'Github',
+
+		'Discuss' => 
+		'Diskussionen',
+
+		'Homepage' => 
+		'Homepage',
+
+		'Wiki' => 
+		'Wiki',
+
+		'Issues' => 
+		'Problemmeldungen',
+
+		'There was a problem rendering this page. Please check the activity log for more details.' => 
+		'Beim Rendering der Seite ist ein Fehler aufgetreten. Bitte überprüfen Sie das Aktivitätslog für weitere Details.',
+
+		'A message must be supplied unless the alert is of type Alert::ERROR' => 
+		'Eine Nachricht muss beigefügt werden sofern es sich nicht um einen Alert::ERROR handelt',
+
+		'Make this a required field' => 
+		'Dieses Feld verpflichtend machen',
+
+		'Display in entries table' => 
+		'In Eintragsübersicht anzeigen',
+
+		'Display associations in entries table' => 
+		'Zeige Verknüpfungen in Eintragsübersicht',
+
+		'Allow selection of multiple authors' => 
+		'Erlaube die Auswahl mehrerer Autoren',
+
+		'Select current user by default' => 
+		'Aktuellen Nutzer standardmäßig auswählen',
+
+		'Display time' => 
+		'Zeit anzeigen',
+
+		'Show calendar' => 
+		'Zeige Kalender',
+
+		'Allow selection of multiple options' => 
+		'Erlaube Mehrfachauswahl',
+
+		'Sort all options alphabetically' => 
+		'Sortiere alle Optionen alphabetisch',
 
 		// Namespaced translations for Data Sources
 
