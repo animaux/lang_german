@@ -433,7 +433,7 @@
 		'Standardzwischenspeichereinstellungen',
 
 		'Default Email Settings' => 
-		'Standard-E-Mail-Einstellungen',
+		'E-Mail-Standard',
 
 		'Default date' => 
 		'Standarddatum',
@@ -1973,10 +1973,10 @@
 		'HTML-kodierter Text',
 
 		'Hide this section from the back-end menu' => 
-		'Verstecke diesen Bereich im Symphony-Menü',
+		'Bereich im Menü verstecken',
 
 		'Allow filtering of section entries' => 
-		'Erlaube das Filtern der Bereichseinträge',
+		'Filtern der Einträge erlauben',
 
 		'GitHub' => 
 		'Github',
