@@ -2124,6 +2124,7 @@
 
 		// Other characters
 		
+		' ' => null,
 	
 	);
 	

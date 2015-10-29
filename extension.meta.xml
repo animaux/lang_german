@@ -2,7 +2,7 @@
 <extension id="lang_german" status="beta" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Language: German</name>
 	<description>German translation for Symphony</description>
-	<repo type="github">https://github.com/hananils/lang_german</repo>
+	<repo type="github">https://github.com/animaux/lang_german</repo>
 	<url type="discuss">http://symphony-cms.com/discuss/thread/632/</url>
 	<types>
 		<type>Translations</type>
@@ -18,6 +18,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="2.2.1" date="2015-10-29" min="2.6.0">
+			- Transliteration for non-breaking space
+		</release>
 		<release version="2.2.0" date="2015-07-21" min="2.6.0">
 			- Symphony 2.6 compatibility
 		</release>
