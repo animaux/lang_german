@@ -7,7 +7,7 @@
 			'email' => 'buero@hananils.de',
 			'website' => 'http://hananils.de'
 		),
-		'release-date' => '2015-01-08'
+		'release-date' => '2016-03-16'
 	);
 
 	/**
@@ -2114,7 +2114,8 @@
 	 	'“' => '"', 	'”' => '"', 	'—' => '-',
 	 	'¿' => null, 	'‽' => null, 	'¡' => null,
 	 	'©' => 'c', 	'«' => '"', 	'»' => '"',
-	 	'­' => null,
+	 	'­' => null,  '›' => null,  '‹' => null,
+    '‘' => null,  '‘' => null,  '‚' => null,
 
 		// Special characters
 		
