@@ -22,7 +22,7 @@
 		</author>
 	</authors>
 	<releases>
-	  <release version="2.2.5" date="2017-04-10" min="2.6.0" max="2.x.x">
+	  <release version="2.2.5" date="2017-04-10" min="2.6.0" max="4.x.x">
 			- Transliteration for zero-with-space (to null)
 		</release>
 	  <release version="2.2.4" date="2016-03-16" min="2.6.0" max="2.x.x">
