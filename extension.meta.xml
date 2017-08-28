@@ -13,27 +13,34 @@
 			<website>http://hananils.de</website>
 		</author>
 		<author>
+			<name github="nilshoerrmann" symphony="Nils">Nils Hörrmann</name>
+			<website>http://nilshoerrmann.de</website>
+		</author>
+		<author>
 			<name github="animaux" symphony="animaux">Alexander Rutz</name>
 			<website>http://animaux.de</website>
 		</author>
 	</authors>
 	<releases>
+	  <release version="2.2.7" date="2017-08-28" min="2.6.0" max="4.x.x">
+			- Additions for Symphony CMS 2.7.x in Datasource-Editor
+		</release>
 		<release version="2.2.6" date="2017-06-08" min="2.6.0" max="4.x.x">
 			- Fixed date and time display with missing preferences
 		</release>
 		<release version="2.2.5" date="2017-04-10" min="2.6.0" max="4.x.x">
 			- Transliteration for zero-with-space (to null)
 		</release>
-		<release version="2.2.4" date="2016-03-16" min="2.6.0" max="2.x.x">
+	  <release version="2.2.4" date="2016-03-16" min="2.6.0" max="2.x.x">
 			- Transliteration for single-guillemets and single-quotes (to null)
 		</release>
-		<release version="2.2.3" date="2016-03-03" min="2.6.0" max="2.x.x">
+	  <release version="2.2.3" date="2016-03-03" min="2.6.0" max="2.x.x">
 			- Transliteration for soft-hyphens
 		</release>
-		<release version="2.2.2" date="2016-02-17" min="2.6.0" max="2.x.x">
+	  <release version="2.2.2" date="2016-02-17" min="2.6.0" max="2.x.x">
 			- Version compatibility test
 		</release>
-		<release version="2.2.1" date="2015-10-29" min="2.6.0" max="2.x.x">
+	  <release version="2.2.1" date="2015-10-29" min="2.6.0" max="2.x.x">
 			- Transliteration for non-breaking space
 		</release>
 		<release version="2.2.0" date="2015-07-21" min="2.6.0">

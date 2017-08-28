@@ -413,6 +413,21 @@
 
 		'DataSource' =>
 		'Datenquelle',
+		
+		'Execution Conditions' =>
+		'Ausführungbedingungen',
+		
+		'Error Conditions' =>
+		'Fehlerbedingungen',
+		
+		'The required parameter is missing' =>
+		'Pflichtparameter ist nicht gesetzt',
+		
+		'The forbidden parameter is present' =>
+		'Ausschlussparameter ist vorhanden',
+		
+		'No results are found' =>
+		'Keine Ergebnisse vorhanden',
 
 		'Database Error' =>
 		'Datenbankfehler',
@@ -1614,8 +1629,8 @@
 		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' =>
 		'Sobald das Ereignis erfolgreich gespeichert wurde, wird diese Filteroption alle Einträge des Formulars per E-Mail an den ausgewählten Empfänger senden.',
 
-		'Use %s syntax to filter by page parameters.' =>
-		'Verwenden Sie %s, um mit Seitenparametern zu filtern.',
+		'Use %s syntax to filter by page parameters. A default value can be set using %s.' =>
+		'Verwenden Sie %s, um mit Seitenparametern zu filtern. Ein Standardwert kann mit %s gesetzt werden.',
 
 		'Use %s syntax to limit by page parameters.' =>
 		'Verwenden Sie %s, um mit Seitenparametern zu begrenzen',
@@ -1977,6 +1992,9 @@
 
 		'Redirect to 404 page when no results are found' =>
 		'Leite zur 404-Seite weiter, wenn keine Ergebnisse gefunden werden',
+		
+		'Meeting one of these conditions will cause a <code>404 Not Found</code> response.' =>
+		'Leite zur 404-Seite weiter wenn eine dieser Bedingungen erfüllt',
 
 		'Enable pagination' =>
 		'Aktiviere Paginierung',
