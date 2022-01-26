@@ -918,9 +918,6 @@
 		'Next &rarr;' =>
 		'Nächste &rarr;',
 
-		'No' =>
-		'Nein',
-
 		'No dependencies' =>
 		'Keine Abhängigkeiten',
 
@@ -1733,9 +1730,6 @@
 
 		'XSLT Processing Error' =>
 		'XSLT-Verarbeitungsfehler',
-
-		'Yes' =>
-		'Ja',
 
 		'You are not authorised to access this page.' =>
 		'Sie sind nicht berechtigt diese Seite zu besuchen.',
