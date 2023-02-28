@@ -2152,9 +2152,10 @@
 	 	'°' => 'grad',
 	 	'º' => null,
 
-		// Whitespace and uther characters
+		// Whitespace and other characters
 
 		' ' => '-',
+		'/' => '-',
 		'​' => '-',
 
 	);
