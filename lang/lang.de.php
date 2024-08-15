@@ -283,10 +283,10 @@
 		'Löschen',
 
 		'Clear filter' =>
-		'Filter löschen',
+		'diesen Filter löschen',
 
 		'Clear filters' =>
-		'Filter löschen',
+		'alle Filter löschen',
 
 		'Click to select' =>
 		'Zum Auswählen klicken',
