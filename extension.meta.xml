@@ -22,6 +22,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="2.3.4" date="2025-05-15" min="2.7.10" max="4.x.x">
+			- Transliterate »*« to »-«
+		</release>
 	  <release version="2.3.3" date="2024-08-15" min="2.7.10" max="4.x.x">
 			- Unmistakeable translation of »delete Filter« and »delete Filters«
 		</release>

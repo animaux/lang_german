@@ -2143,7 +2143,7 @@
 	 	'©' => 'c', 	'«' => '"', 	'»' => '"',
 	 	'­' => null,  '›' => null,  '‹' => null,
     '‘' => null,  '‘' => null,  '‚' => null,
-    '·' => null,
+    '·' => null,  '*' => '-',
 
 		// Special characters
 
